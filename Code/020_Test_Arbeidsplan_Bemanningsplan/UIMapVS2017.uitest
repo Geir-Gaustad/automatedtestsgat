@@ -1,0 +1,605 @@
+<?xml version="1.0"?>
+<UITest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="" Id="3efe829a-76df-439e-af0d-8d5c62727a1e" AssemblyVersion="10.0.21008.0" Version="1.0" xmlns="http://schemas.microsoft.com/VisualStudio/TeamTest/UITest/2010">
+  <Configuration>
+    <Group Name="IE">
+      <Setting Name="Version" Value="9.11.17134.0" WarningLevel="1" />
+      <Setting Name="InformationBar" WarningLevel="1" />
+      <Setting Name="AutoCompletePassword" WarningLevel="1" />
+      <Setting Name="AutoCompleteForm" WarningLevel="1" />
+      <Setting Name="DefaultBrowser" Value="IEXPLORE.EXE" WarningLevel="1" />
+      <Setting Name="PopupBlocker" Value="1" WarningLevel="1" />
+      <Setting Name="TabbedBrowsing" WarningLevel="2" />
+      <Setting Name="InternetZoneSecurity" Value="0" WarningLevel="2" />
+      <Setting Name="IntranetZoneSecurity" Value="69632" WarningLevel="2" />
+      <Setting Name="TrustedZoneSecurity" Value="70912" WarningLevel="2" />
+      <Setting Name="RestrictedZoneSecurity" Value="73728" WarningLevel="2" />
+      <Setting Name="PhishingFilter" WarningLevel="1" />
+      <Setting Name="EnhancedSecurityConfiguration" WarningLevel="1" />
+    </Group>
+    <Group Name="OS">
+      <Setting Name="Name" Value="Microsoft Windows 10 Enterprise" WarningLevel="2" />
+      <Setting Name="Version" Value="Microsoft Windows NT 10.0.17134.0" WarningLevel="2" />
+      <Setting Name="IsUserAdmin" Value="True" WarningLevel="2" />
+      <Setting Name="Is64BitOperatingSystem" Value="True" WarningLevel="2" />
+      <Setting Name="IsTerminalServerSession" Value="True" WarningLevel="2" />
+      <Setting Name="OSLanguage" Value="1033" WarningLevel="1" />
+      <Setting Name="UserLocale" Value="1044" WarningLevel="1" />
+      <Setting Name="DragFullWindows" Value="True" WarningLevel="2" />
+      <Setting Name="ScreenResolutionWidth" Value="1920" WarningLevel="2" />
+      <Setting Name="ScreenResolutionHeight" Value="1080" WarningLevel="2" />
+      <Setting Name="SystemDPIX" Value="96" WarningLevel="2" />
+      <Setting Name="SystemDPIY" Value="96" WarningLevel="2" />
+      <Setting Name="Aero" Value="1" WarningLevel="1" />
+      <Setting Name="UACEnabled" Value="1" WarningLevel="2" />
+      <Setting Name="UACPromptEnabled" Value="2" WarningLevel="1" />
+    </Group>
+    <Group Name="TechnologyManagers">
+      <Setting Name="Web" WarningLevel="1" />
+      <Setting Name="Web" WarningLevel="1" />
+      <Setting Name="UIA" WarningLevel="1" />
+    </Group>
+  </Configuration>
+  <InitializeActions />
+  <ExecuteActions>
+    <AssertAction UIObjectName="UIMapVS2017.UIBemanningsplanWindow.UIPaNavbarsPanelClient.UIGsMainControlNavBar.UINbgccSumScrollableControl.UITcGraphicsTabList.UITpHoursAndPositionsClient.UIPHoursAndPositionsPaClient.UIPMainPanelClient.UIPTopPanelClient.UIGcStaffingWeekHourSuTable.UIBoldTotaltCell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>{bold}Totalt</ExpectedValue>
+      <MessageOnValidationFailure>Feil Rad!</MessageOnValidationFailure>
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIBemanningsplanWindow.UIPaNavbarsPanelClient.UIGsMainControlNavBar.UINbgccSumScrollableControl.UITcGraphicsTabList.UITpHoursAndPositionsClient.UIPHoursAndPositionsPaClient.UIPMainPanelClient.UIPTopPanelClient.UIGcStaffingWeekHourSuTable.UIBold13393Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>{bold}133,93</ExpectedValue>
+      <MessageOnValidationFailure>Feil i rad 4(Timer)</MessageOnValidationFailure>
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIBemanningsplanWindow.UIPaNavbarsPanelClient.UIGsMainControlNavBar.UINbgccSumScrollableControl.UITcGraphicsTabList.UITpHoursAndPositionsClient.UIPHoursAndPositionsPaClient.UIPMainPanelClient.UIPTopPanelClient.UIGcStaffingWeekHourSuTable.UIBold32143Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>{bold}321,43</ExpectedValue>
+      <MessageOnValidationFailure>Feil i rad 4(O. Timer)</MessageOnValidationFailure>
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIBemanningsplanWindow.UIPaNavbarsPanelClient.UIGsMainControlNavBar.UINbgccSumScrollableControl.UITcGraphicsTabList.UITpHoursAndPositionsClient.UIPHoursAndPositionsPaClient.UIPMainPanelClient.UIPTopPanelClient.UIGcStaffingWeekHourSuTable.UIBold377Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>{bold}3,77</ExpectedValue>
+      <MessageOnValidationFailure>Feil i rad 4(Årsverk)</MessageOnValidationFailure>
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIBemanningsplanWindow.UIPaNavbarsPanelClient.UIGsMainControlNavBar.UINbgccSumScrollableControl.UITcGraphicsTabList.UITpHoursAndPositionsClient.UIPHoursAndPositionsPaClient.UIPMainPanelClient.UIPTopPanelClient.UIGcStaffingWeekHourSuTable.UIBold905Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>{bold}9,05</ExpectedValue>
+      <MessageOnValidationFailure>Feil i rad 4(O. Årsverk)</MessageOnValidationFailure>
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIBemanningsplanWindow.UIPaNavbarsPanelClient.UIGsMainControlNavBar.UINbgccSumScrollableControl.UITcGraphicsTabList.UITpHoursAndPositionsClient.UIPHoursAndPositionsPaClient.UIPMainPanelClient.UIPTopPanelClient.UIGcStaffingWeekHourSuTable.UIBold13393Cell1">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>{bold}133,93</ExpectedValue>
+      <MessageOnValidationFailure>Feil i rad 5(Timer)</MessageOnValidationFailure>
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIBemanningsplanWindow.UIPaNavbarsPanelClient.UIGsMainControlNavBar.UINbgccSumScrollableControl.UITcGraphicsTabList.UITpHoursAndPositionsClient.UIPHoursAndPositionsPaClient.UIPMainPanelClient.UIPTopPanelClient.UIGcStaffingWeekHourSuTable.UIBold32143Cell1">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>{bold}321,43</ExpectedValue>
+      <MessageOnValidationFailure>Feil i rad 5(O. Timer)</MessageOnValidationFailure>
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIBemanningsplanWindow.UIPaNavbarsPanelClient.UIGsMainControlNavBar.UINbgccSumScrollableControl.UITcGraphicsTabList.UITpHoursAndPositionsClient.UIPHoursAndPositionsPaClient.UIPMainPanelClient.UIPTopPanelClient.UIGcStaffingWeekHourSuTable.UIBold377Cell1">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>{bold}3,77</ExpectedValue>
+      <MessageOnValidationFailure>Feil i rad 5(Årsverk)</MessageOnValidationFailure>
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIBemanningsplanWindow.UIPaNavbarsPanelClient.UIGsMainControlNavBar.UINbgccSumScrollableControl.UITcGraphicsTabList.UITpHoursAndPositionsClient.UIPHoursAndPositionsPaClient.UIPMainPanelClient.UIPTopPanelClient.UIGcStaffingWeekHourSuTable.UIBold905Cell1">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>{bold}9,05</ExpectedValue>
+      <MessageOnValidationFailure>Feil i rad 5(O. Årsverk)</MessageOnValidationFailure>
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIBemanningsplanWindow.UIPaNavbarsPanelClient.UIGsMainControlNavBar.UINbgccSumScrollableControl.UITcGraphicsTabList.UITpHoursAndPositionsClient.UIPHoursAndPositionsPaClient.UIPMainPanelClient.UIPTopPanelClient.UIGcStaffingWeekHourSuTable.UIBold3495Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>{bold}349,5</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIBemanningsplanWindow.UIPaNavbarsPanelClient.UIGsMainControlNavBar.UINbgccSumScrollableControl.UITcGraphicsTabList.UITpHoursAndPositionsClient.UIPHoursAndPositionsPaClient.UIPMainPanelClient.UIPTopPanelClient.UIGcStaffingWeekHourSuTable.UIBold1049Cell">
+      <ParameterName />
+      <PropertyName>ClassName</PropertyName>
+      <ExpectedValue>GridControlCell</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIBemanningsplanWindow.UIPaNavbarsPanelClient.UIGsMainControlNavBar.UINbgccSumScrollableControl.UITcGraphicsTabList.UITpHoursAndPositionsClient.UIPHoursAndPositionsPaClient.UIPMainPanelClient.UIPTopPanelClient.UIGcStaffingWeekHourSuTable.UIBold1049Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>{bold}10,49</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIBemanningsplanWindow.UIPaNavbarsPanelClient.UIGsMainControlNavBar.UINbgccSumScrollableControl.UITcGraphicsTabList.UITpHoursAndPositionsClient.UIPHoursAndPositionsPaClient.UIPMainPanelClient.UIPTopPanelClient.UIGcStaffingWeekHourSuTable.UIBold3742Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>{bold}374,2</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIBemanningsplanWindow.UIPaNavbarsPanelClient.UIGsMainControlNavBar.UINbgccSumScrollableControl.UITcGraphicsTabList.UITpHoursAndPositionsClient.UIPHoursAndPositionsPaClient.UIPMainPanelClient.UIPTopPanelClient.UIGcStaffingWeekHourSuTable.UIBold98Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>{bold}9,8</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIBemanningsplanWindow.UIPaNavbarsPanelClient.UIGsMainControlNavBar.UINbgccSumScrollableControl.UITcGraphicsTabList.UITpHoursAndPositionsClient.UIPHoursAndPositionsPaClient.UIPMainPanelClient.UIPTopPanelClient.UIGcStaffingWeekHourSuTable.UIBold3495Cell1">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>{bold}349,5</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIBemanningsplanWindow.UIPaNavbarsPanelClient.UIGsMainControlNavBar.UINbgccSumScrollableControl.UITcGraphicsTabList.UITpHoursAndPositionsClient.UIPHoursAndPositionsPaClient.UIPMainPanelClient.UIPTopPanelClient.UIGcStaffingWeekHourSuTable.UIBold98Cell1">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>{bold}9,8</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIBemanningsplanWindow.UIPaNavbarsPanelClient.UIGsMainControlNavBar.UINbgccSumScrollableControl.UITcGraphicsTabList.UITpHoursAndPositionsClient.UIPHoursAndPositionsPaClient.UIPMainPanelClient.UIPTopPanelClient.UIGcStaffingWeekHourSuTable.UIBold3175Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>{bold}317,5</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIBemanningsplanWindow.UIPaNavbarsPanelClient.UIGsMainControlNavBar.UINbgccSumScrollableControl.UITcGraphicsTabList.UITpHoursAndPositionsClient.UIPHoursAndPositionsPaClient.UIPMainPanelClient.UIPTopPanelClient.UIGcStaffingWeekHourSuTable.UIBold3422Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>{bold}342,2</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIBemanningsplanWindow.UIPaNavbarsPanelClient.UIGsMainControlNavBar.UINbgccSumScrollableControl.UITcGraphicsTabList.UITpHoursAndPositionsClient.UIPHoursAndPositionsPaClient.UIPMainPanelClient.UIPTopPanelClient.UIGcStaffingWeekHourSuTable.UIBold894Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>{bold}8,94</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIBemanningsplanWindow.UIPaNavbarsPanelClient.UIGsMainControlNavBar.UINbgccSumScrollableControl.UITcGraphicsTabList.UITpHoursAndPositionsClient.UIPHoursAndPositionsPaClient.UIPMainPanelClient.UIPTopPanelClient.UIGcStaffingWeekHourSuTable.UIBold3175Cell1">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>{bold}317,5</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIBemanningsplanWindow.UIPaNavbarsPanelClient.UIGsMainControlNavBar.UINbgccSumScrollableControl.UITcGraphicsTabList.UITpHoursAndPositionsClient.UIPHoursAndPositionsPaClient.UIPMainPanelClient.UIPTopPanelClient.UIGcStaffingWeekHourSuTable.UIBold894Cell1">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>{bold}8,94</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="CheckValues_Step_27">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+  </ExecuteActions>
+  <CleanupActions />
+  <OnErrorActions />
+  <Maps>
+    <UIMap Id="UIMapVS2017">
+      <TopLevelWindows>
+        <TopLevelWindow ControlType="Window" Id="UIBemanningsplanWindow" FriendlyName="Bemanningsplan" SpecialControlType="None" SessionId="4000126">
+          <TechnologyName>DevExpress.v19.2</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>Bemanningsplan</WindowTitle>
+          </WindowTitles>
+          <AndCondition>
+            <PropertyCondition Name="Name">Bemanningsplan</PropertyCondition>
+            <PropertyCondition Name="ClassName" Operator="Contains">WindowsForms10.Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Client" Id="UIPaNavbarsPanelClient" FriendlyName="paNavbarsPanel" SpecialControlType="None">
+              <TechnologyName>DevExpress.v19.2</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Bemanningsplan</WindowTitle>
+              </WindowTitles>
+              <AndCondition>
+                <PropertyCondition Name="Name">paNavbarsPanel</PropertyCondition>
+                <PropertyCondition Name="ClassName">GSPanelControl</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="NavBar" Id="UIGsMainControlNavBar" FriendlyName="gsMainControl" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Bemanningsplan</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition>
+                    <PropertyCondition Name="Name">gsMainControl</PropertyCondition>
+                    <PropertyCondition Name="ClassName">GSNavBarControl</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="ScrollableControl" Id="UINbgccSumScrollableControl" FriendlyName="nbgccSum" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v19.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Bemanningsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">nbgccSum</PropertyCondition>
+                        <PropertyCondition Name="ClassName">NavBarGroupControlContainer</PropertyCondition>
+                        <PropertyCondition Name="HierarchyLevel">2</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="TabList" Id="UITcGraphicsTabList" FriendlyName="tcGraphics" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v19.2</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Bemanningsplan</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition>
+                            <PropertyCondition Name="Name">tcGraphics</PropertyCondition>
+                            <PropertyCondition Name="ClassName">GSTabControl</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="Client" Id="UITpHoursAndPositionsClient" FriendlyName="tpHoursAndPositions" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v19.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Bemanningsplan</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">tpHoursAndPositions</PropertyCondition>
+                                <PropertyCondition Name="ClassName">XtraTabPage</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants>
+                                <UIObject ControlType="Client" Id="UIPHoursAndPositionsPaClient" FriendlyName="pHoursAndPositionsPanel" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>Bemanningsplan</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">pHoursAndPositionsPanel</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">GSPanelControl</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants>
+                                    <UIObject ControlType="Client" Id="UIPMainPanelClient" FriendlyName="pMainPanel" SpecialControlType="None">
+                                      <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                      <WindowTitles>
+                                        <WindowTitle>Bemanningsplan</WindowTitle>
+                                      </WindowTitles>
+                                      <AndCondition>
+                                        <PropertyCondition Name="Name">pMainPanel</PropertyCondition>
+                                        <PropertyCondition Name="ClassName">GSPanelControl</PropertyCondition>
+                                        <PropertyCondition Name="HierarchyLevel">2</PropertyCondition>
+                                      </AndCondition>
+                                      <SupportLevel>0</SupportLevel>
+                                      <Descendants>
+                                        <UIObject ControlType="Client" Id="UIPTopPanelClient" FriendlyName="pTopPanel" SpecialControlType="None">
+                                          <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                          <WindowTitles>
+                                            <WindowTitle>Bemanningsplan</WindowTitle>
+                                          </WindowTitles>
+                                          <AndCondition>
+                                            <PropertyCondition Name="Name">pTopPanel</PropertyCondition>
+                                            <PropertyCondition Name="ClassName">GSPanelControl</PropertyCondition>
+                                          </AndCondition>
+                                          <SupportLevel>0</SupportLevel>
+                                          <Descendants>
+                                            <UIObject ControlType="Table" Id="UIGcStaffingWeekHourSuTable" FriendlyName="gcStaffingWeekHourSum" SpecialControlType="None">
+                                              <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                              <WindowTitles>
+                                                <WindowTitle>Bemanningsplan</WindowTitle>
+                                              </WindowTitles>
+                                              <AndCondition>
+                                                <PropertyCondition Name="Name">gcStaffingWeekHourSum</PropertyCondition>
+                                                <PropertyCondition Name="ClassName">GSGridControl</PropertyCondition>
+                                              </AndCondition>
+                                              <SupportLevel>0</SupportLevel>
+                                              <Descendants>
+                                                <UIObject ControlType="Cell" Id="UIBoldTotaltCell" FriendlyName="{bold}Totalt" SpecialControlType="None">
+                                                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                                  <WindowTitles>
+                                                    <WindowTitle>Bemanningsplan</WindowTitle>
+                                                  </WindowTitles>
+                                                  <AndCondition>
+                                                    <PropertyCondition Name="Name">gcStaffingWeekHourSumGridControlCell[View]gvSumWeekHourSum[Row]2[Column]HoursPerWeek</PropertyCondition>
+                                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                                  </AndCondition>
+                                                  <SupportLevel>0</SupportLevel>
+                                                  <Descendants />
+                                                </UIObject>
+                                                <UIObject ControlType="Cell" Id="UIBold13393Cell" FriendlyName="{bold}133,93" SpecialControlType="None">
+                                                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                                  <WindowTitles>
+                                                    <WindowTitle>Bemanningsplan</WindowTitle>
+                                                  </WindowTitles>
+                                                  <AndCondition>
+                                                    <PropertyCondition Name="Name">gcStaffingWeekHourSumGridControlCell[View]gvSumWeekHourSum[Row]2[Column]HourCol_4</PropertyCondition>
+                                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                                  </AndCondition>
+                                                  <SupportLevel>0</SupportLevel>
+                                                  <Descendants />
+                                                </UIObject>
+                                                <UIObject ControlType="Cell" Id="UIBold32143Cell" FriendlyName="{bold}321,43" SpecialControlType="None">
+                                                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                                  <WindowTitles>
+                                                    <WindowTitle>Bemanningsplan</WindowTitle>
+                                                  </WindowTitles>
+                                                  <AndCondition>
+                                                    <PropertyCondition Name="Name">gcStaffingWeekHourSumGridControlCell[View]gvSumWeekHourSum[Row]2[Column]CalculatedTimeHourCol_4</PropertyCondition>
+                                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                                  </AndCondition>
+                                                  <SupportLevel>0</SupportLevel>
+                                                  <Descendants />
+                                                </UIObject>
+                                                <UIObject ControlType="Cell" Id="UIBold377Cell" FriendlyName="{bold}3,77" SpecialControlType="None">
+                                                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                                  <WindowTitles>
+                                                    <WindowTitle>Bemanningsplan</WindowTitle>
+                                                  </WindowTitles>
+                                                  <AndCondition>
+                                                    <PropertyCondition Name="Name">gcStaffingWeekHourSumGridControlCell[View]gvSumWeekHourSum[Row]2[Column]PosCountCol_4</PropertyCondition>
+                                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                                  </AndCondition>
+                                                  <SupportLevel>0</SupportLevel>
+                                                  <Descendants />
+                                                </UIObject>
+                                                <UIObject ControlType="Cell" Id="UIBold905Cell" FriendlyName="{bold}9,05" SpecialControlType="None">
+                                                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                                  <WindowTitles>
+                                                    <WindowTitle>Bemanningsplan</WindowTitle>
+                                                  </WindowTitles>
+                                                  <AndCondition>
+                                                    <PropertyCondition Name="Name">gcStaffingWeekHourSumGridControlCell[View]gvSumWeekHourSum[Row]2[Column]CalculatedTimePosCountCol_4</PropertyCondition>
+                                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                                  </AndCondition>
+                                                  <SupportLevel>0</SupportLevel>
+                                                  <Descendants />
+                                                </UIObject>
+                                                <UIObject ControlType="Cell" Id="UIBold13393Cell1" FriendlyName="{bold}133,93" SpecialControlType="None">
+                                                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                                  <WindowTitles>
+                                                    <WindowTitle>Bemanningsplan</WindowTitle>
+                                                  </WindowTitles>
+                                                  <AndCondition>
+                                                    <PropertyCondition Name="Name">gcStaffingWeekHourSumGridControlCell[View]gvSumWeekHourSum[Row]2[Column]HourCol_5</PropertyCondition>
+                                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                                  </AndCondition>
+                                                  <SupportLevel>0</SupportLevel>
+                                                  <Descendants />
+                                                </UIObject>
+                                                <UIObject ControlType="Cell" Id="UIBold32143Cell1" FriendlyName="{bold}321,43" SpecialControlType="None">
+                                                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                                  <WindowTitles>
+                                                    <WindowTitle>Bemanningsplan</WindowTitle>
+                                                  </WindowTitles>
+                                                  <AndCondition>
+                                                    <PropertyCondition Name="Name">gcStaffingWeekHourSumGridControlCell[View]gvSumWeekHourSum[Row]2[Column]CalculatedTimeHourCol_5</PropertyCondition>
+                                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                                  </AndCondition>
+                                                  <SupportLevel>0</SupportLevel>
+                                                  <Descendants />
+                                                </UIObject>
+                                                <UIObject ControlType="Cell" Id="UIBold377Cell1" FriendlyName="{bold}3,77" SpecialControlType="None">
+                                                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                                  <WindowTitles>
+                                                    <WindowTitle>Bemanningsplan</WindowTitle>
+                                                  </WindowTitles>
+                                                  <AndCondition>
+                                                    <PropertyCondition Name="Name">gcStaffingWeekHourSumGridControlCell[View]gvSumWeekHourSum[Row]2[Column]PosCountCol_5</PropertyCondition>
+                                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                                  </AndCondition>
+                                                  <SupportLevel>0</SupportLevel>
+                                                  <Descendants />
+                                                </UIObject>
+                                                <UIObject ControlType="Cell" Id="UIBold905Cell1" FriendlyName="{bold}9,05" SpecialControlType="None">
+                                                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                                  <WindowTitles>
+                                                    <WindowTitle>Bemanningsplan</WindowTitle>
+                                                  </WindowTitles>
+                                                  <AndCondition>
+                                                    <PropertyCondition Name="Name">gcStaffingWeekHourSumGridControlCell[View]gvSumWeekHourSum[Row]2[Column]CalculatedTimePosCountCol_5</PropertyCondition>
+                                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                                  </AndCondition>
+                                                  <SupportLevel>0</SupportLevel>
+                                                  <Descendants />
+                                                </UIObject>
+                                                <UIObject ControlType="Cell" Id="UIBold3495Cell" FriendlyName="{bold}349,5" SpecialControlType="None">
+                                                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                                  <WindowTitles>
+                                                    <WindowTitle>Bemanningsplan</WindowTitle>
+                                                  </WindowTitles>
+                                                  <AndCondition>
+                                                    <PropertyCondition Name="Name">gcStaffingWeekHourSumGridControlCell[View]gvSumWeekHourSum[Row]2[Column]HourCol_1</PropertyCondition>
+                                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                                  </AndCondition>
+                                                  <SupportLevel>0</SupportLevel>
+                                                  <Descendants />
+                                                </UIObject>
+                                                <UIObject ControlType="Cell" Id="UIBold1049Cell" FriendlyName="{bold}10,49" SpecialControlType="None">
+                                                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                                  <WindowTitles>
+                                                    <WindowTitle>Bemanningsplan</WindowTitle>
+                                                  </WindowTitles>
+                                                  <AndCondition>
+                                                    <PropertyCondition Name="Name">gcStaffingWeekHourSumGridControlCell[View]gvSumWeekHourSum[Row]2[Column]CalculatedTimePosCountCol_1</PropertyCondition>
+                                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                                  </AndCondition>
+                                                  <SupportLevel>0</SupportLevel>
+                                                  <Descendants />
+                                                </UIObject>
+                                                <UIObject ControlType="Cell" Id="UIBold3742Cell" FriendlyName="{bold}374,2" SpecialControlType="None">
+                                                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                                  <WindowTitles>
+                                                    <WindowTitle>Bemanningsplan</WindowTitle>
+                                                  </WindowTitles>
+                                                  <AndCondition>
+                                                    <PropertyCondition Name="Name">gcStaffingWeekHourSumGridControlCell[View]gvSumWeekHourSum[Row]2[Column]CalculatedTimeHourCol_2</PropertyCondition>
+                                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                                  </AndCondition>
+                                                  <SupportLevel>0</SupportLevel>
+                                                  <Descendants />
+                                                </UIObject>
+                                                <UIObject ControlType="Cell" Id="UIBold98Cell" FriendlyName="{bold}9,8" SpecialControlType="None">
+                                                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                                  <WindowTitles>
+                                                    <WindowTitle>Bemanningsplan</WindowTitle>
+                                                  </WindowTitles>
+                                                  <AndCondition>
+                                                    <PropertyCondition Name="Name">gcStaffingWeekHourSumGridControlCell[View]gvSumWeekHourSum[Row]2[Column]PosCountCol_2</PropertyCondition>
+                                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                                  </AndCondition>
+                                                  <SupportLevel>0</SupportLevel>
+                                                  <Descendants />
+                                                </UIObject>
+                                                <UIObject ControlType="Cell" Id="UIBold3495Cell1" FriendlyName="{bold}349,5" SpecialControlType="None">
+                                                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                                  <WindowTitles>
+                                                    <WindowTitle>Bemanningsplan</WindowTitle>
+                                                  </WindowTitles>
+                                                  <AndCondition>
+                                                    <PropertyCondition Name="Name">gcStaffingWeekHourSumGridControlCell[View]gvSumWeekHourSum[Row]2[Column]HourCol_3</PropertyCondition>
+                                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                                  </AndCondition>
+                                                  <SupportLevel>0</SupportLevel>
+                                                  <Descendants />
+                                                </UIObject>
+                                                <UIObject ControlType="Cell" Id="UIBold98Cell1" FriendlyName="{bold}9,8" SpecialControlType="None">
+                                                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                                  <WindowTitles>
+                                                    <WindowTitle>Bemanningsplan</WindowTitle>
+                                                  </WindowTitles>
+                                                  <AndCondition>
+                                                    <PropertyCondition Name="Name">gcStaffingWeekHourSumGridControlCell[View]gvSumWeekHourSum[Row]2[Column]PosCountCol_3</PropertyCondition>
+                                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                                  </AndCondition>
+                                                  <SupportLevel>0</SupportLevel>
+                                                  <Descendants />
+                                                </UIObject>
+                                                <UIObject ControlType="Cell" Id="UIBold3175Cell" FriendlyName="{bold}317,5" SpecialControlType="None">
+                                                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                                  <WindowTitles>
+                                                    <WindowTitle>Bemanningsplan</WindowTitle>
+                                                  </WindowTitles>
+                                                  <AndCondition>
+                                                    <PropertyCondition Name="Name">gcStaffingWeekHourSumGridControlCell[View]gvSumWeekHourSum[Row]2[Column]HourCol_6</PropertyCondition>
+                                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                                  </AndCondition>
+                                                  <SupportLevel>0</SupportLevel>
+                                                  <Descendants />
+                                                </UIObject>
+                                                <UIObject ControlType="Cell" Id="UIBold3422Cell" FriendlyName="{bold}342,2" SpecialControlType="None">
+                                                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                                  <WindowTitles>
+                                                    <WindowTitle>Bemanningsplan</WindowTitle>
+                                                  </WindowTitles>
+                                                  <AndCondition>
+                                                    <PropertyCondition Name="Name">gcStaffingWeekHourSumGridControlCell[View]gvSumWeekHourSum[Row]2[Column]CalculatedTimeHourCol_7</PropertyCondition>
+                                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                                  </AndCondition>
+                                                  <SupportLevel>0</SupportLevel>
+                                                  <Descendants />
+                                                </UIObject>
+                                                <UIObject ControlType="Cell" Id="UIBold894Cell" FriendlyName="{bold}8,94" SpecialControlType="None">
+                                                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                                  <WindowTitles>
+                                                    <WindowTitle>Bemanningsplan</WindowTitle>
+                                                  </WindowTitles>
+                                                  <AndCondition>
+                                                    <PropertyCondition Name="Name">gcStaffingWeekHourSumGridControlCell[View]gvSumWeekHourSum[Row]2[Column]PosCountCol_8</PropertyCondition>
+                                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                                  </AndCondition>
+                                                  <SupportLevel>0</SupportLevel>
+                                                  <Descendants />
+                                                </UIObject>
+                                                <UIObject ControlType="Cell" Id="UIBold3175Cell1" FriendlyName="{bold}317,5" SpecialControlType="None">
+                                                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                                  <WindowTitles>
+                                                    <WindowTitle>Bemanningsplan</WindowTitle>
+                                                  </WindowTitles>
+                                                  <AndCondition>
+                                                    <PropertyCondition Name="Name">gcStaffingWeekHourSumGridControlCell[View]gvSumWeekHourSum[Row]2[Column]HourCol_12</PropertyCondition>
+                                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                                  </AndCondition>
+                                                  <SupportLevel>0</SupportLevel>
+                                                  <Descendants />
+                                                </UIObject>
+                                                <UIObject ControlType="Cell" Id="UIBold894Cell1" FriendlyName="{bold}8,94" SpecialControlType="None">
+                                                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                                  <WindowTitles>
+                                                    <WindowTitle>Bemanningsplan</WindowTitle>
+                                                  </WindowTitles>
+                                                  <AndCondition>
+                                                    <PropertyCondition Name="Name">gcStaffingWeekHourSumGridControlCell[View]gvSumWeekHourSum[Row]2[Column]PosCountCol_12</PropertyCondition>
+                                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                                  </AndCondition>
+                                                  <SupportLevel>0</SupportLevel>
+                                                  <Descendants />
+                                                </UIObject>
+                                              </Descendants>
+                                            </UIObject>
+                                          </Descendants>
+                                        </UIObject>
+                                      </Descendants>
+                                    </UIObject>
+                                  </Descendants>
+                                </UIObject>
+                              </Descendants>
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+      </TopLevelWindows>
+    </UIMap>
+  </Maps>
+  <ValueMap>
+    <ParameterList />
+  </ValueMap>
+</UITest>

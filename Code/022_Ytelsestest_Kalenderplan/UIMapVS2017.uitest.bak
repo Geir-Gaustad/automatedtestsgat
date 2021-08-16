@@ -1,0 +1,970 @@
+<?xml version="1.0"?>
+<UITest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="" Id="3efe829a-76df-439e-af0d-8d5c62727a1e" AssemblyVersion="10.0.21008.0" Version="1.0" xmlns="http://schemas.microsoft.com/VisualStudio/TeamTest/UITest/2010">
+  <Configuration>
+    <Group Name="IE">
+      <Setting Name="Version" Value="9.11.16299.0" WarningLevel="1" />
+      <Setting Name="InformationBar" WarningLevel="1" />
+      <Setting Name="AutoCompletePassword" WarningLevel="1" />
+      <Setting Name="AutoCompleteForm" WarningLevel="1" />
+      <Setting Name="DefaultBrowser" Value="IEXPLORE.EXE" WarningLevel="1" />
+      <Setting Name="PopupBlocker" Value="yes" WarningLevel="1" />
+      <Setting Name="TabbedBrowsing" WarningLevel="2" />
+      <Setting Name="InternetZoneSecurity" Value="66816" WarningLevel="2" />
+      <Setting Name="IntranetZoneSecurity" Value="69632" WarningLevel="2" />
+      <Setting Name="TrustedZoneSecurity" Value="70912" WarningLevel="2" />
+      <Setting Name="RestrictedZoneSecurity" Value="73728" WarningLevel="2" />
+      <Setting Name="PhishingFilter" WarningLevel="1" />
+      <Setting Name="EnhancedSecurityConfiguration" WarningLevel="1" />
+    </Group>
+    <Group Name="OS">
+      <Setting Name="Name" Value="Microsoft Windows 10 Pro" WarningLevel="2" />
+      <Setting Name="Version" Value="Microsoft Windows NT 10.0.16299.0" WarningLevel="2" />
+      <Setting Name="IsUserAdmin" Value="False" WarningLevel="2" />
+      <Setting Name="Is64BitOperatingSystem" Value="True" WarningLevel="2" />
+      <Setting Name="IsTerminalServerSession" Value="False" WarningLevel="2" />
+      <Setting Name="OSLanguage" Value="1033" WarningLevel="1" />
+      <Setting Name="UserLocale" Value="1044" WarningLevel="1" />
+      <Setting Name="DragFullWindows" Value="True" WarningLevel="2" />
+      <Setting Name="ScreenResolutionWidth" Value="1920" WarningLevel="2" />
+      <Setting Name="ScreenResolutionHeight" Value="1080" WarningLevel="2" />
+      <Setting Name="SystemDPIX" Value="96" WarningLevel="2" />
+      <Setting Name="SystemDPIY" Value="96" WarningLevel="2" />
+      <Setting Name="Aero" Value="1" WarningLevel="1" />
+      <Setting Name="UACEnabled" Value="1" WarningLevel="2" />
+      <Setting Name="UACPromptEnabled" Value="0" WarningLevel="1" />
+    </Group>
+    <Group Name="TechnologyManagers">
+      <Setting Name="Web" WarningLevel="1" />
+      <Setting Name="Web" WarningLevel="1" />
+      <Setting Name="DevExpress.v19.2" WarningLevel="1" />
+      <Setting Name="UIA" WarningLevel="1" />
+    </Group>
+  </Configuration>
+  <InitializeActions />
+  <ExecuteActions>
+    <DragDropAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIM1Cell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <TargetElementName>UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIItemCell</TargetElementName>
+      <MouseButton>Left</MouseButton>
+      <StartLocation X="14" Y="7" />
+      <StopLocation X="19" Y="8" />
+    </DragDropAction>
+    <SendKeysAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIRow0ColumnRosterCellEdit">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Text Encoded="false">m1{Tab}</Text>
+    </SendKeysAction>
+    <MouseAction UIObjectName="UIMapVS2017.UIGT4003InformasjonWindow.UIJAButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="1" Y="1" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <DragDropAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIItemCell1">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <TargetElementName>UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIItemCell2</TargetElementName>
+      <MouseButton>Left</MouseButton>
+      <StartLocation X="45" Y="9" />
+      <StopLocation X="15" Y="9" />
+    </DragDropAction>
+    <SendKeysAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIRow0ColumnRosterCellEdit1">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Text Encoded="false">m1{Tab}</Text>
+    </SendKeysAction>
+    <MouseAction UIObjectName="UIMapVS2017.UIGT4003InformasjonWindow.UIJAButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="1" Y="1" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="AddChesterShifts">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIDpnlVisualizationDockPanel.UIDockPanel3_ContainerCustom.UITcSubtabsTabList.UIViewTabPageClient.UIApprovalViewCustom.UILcMainCustom.UILayoutControlGroup1LayoutGroup.UILayoutControlItem2LayoutControlItem.UIGcApprovalTable.UINSFNorsksykepleierfoCell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="36" Y="8" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIDpnlVisualizationDockPanel.UIDockPanel3_ContainerCustom.UITcSubtabsTabList.UIViewTabPageClient.UIApprovalViewCustom.UILcMainCustom.UIGodkjennButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="1" Y="1" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMapVS2017.UIGT4006InformasjonWindow.UIJAButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="1" Y="1" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="ApproveChester">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIAnsatteiarbeidsplanWindow.UIPanelControlOuterClient.UIPanelControlLeftClient.UITreeListEmployeeTreeList.UINode118TreeListNode.UIItem119ChesterWinTreeListCell">
+      <ParameterName />
+      <PropertyName>ValueAsString</PropertyName>
+      <ExpectedValue>119. Chester, Win</ExpectedValue>
+      <MessageOnValidationFailure>Emp has wrong place in list</MessageOnValidationFailure>
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="CheckEmpAtBottomOfListStep_3">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIAnsatteiarbeidsplanWindow.UIPanelControlOuterClient.UIPanelControlLeftClient.UITreeListEmployeeTreeList.UINode0TreeListNode.UIItem1ChesterWinTreeListCell">
+      <ParameterName />
+      <PropertyName>ValueAsString</PropertyName>
+      <ExpectedValue>1. Chester, Win</ExpectedValue>
+      <MessageOnValidationFailure>Emp has wrong place in list</MessageOnValidationFailure>
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="CheckEmpAtTopOfListStep_3">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMapVS2017.UIAnsatteiarbeidsplanWindow.UIPanelControlOuterClient.UIPanelControlLeftClient.UITreeListEmployeeTreeList.UINode118TreeListNode.UIItem119ChesterWinTreeListCell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="50" Y="6" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMapVS2017.UIAnsatteiarbeidsplanWindow.UIPanelControlOuterClient.UIPanelControlLeftClient.UIFlyttoppButton.UIDropDownButtonArrowBButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="7" Y="9" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMapVS2017.UIItemWindow.UIPopupMenuBarControlMenu.UIFlytttiltoppenMenuBaseButtonItem">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="74" Y="9" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="MoveChesterToTopOfListStep_3">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIRosterPlanGrid1Custom.UIGcRosterPlanTable.UILundekvamClausCell1">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="130" Y="10" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Right</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="RightClickLundekvamClausCell">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIDpnlVisualizationDockPanel.UIDockPanel3_ContainerCustom.UITcSubtabsTabList.UIViewTabPageClient.UIApprovalViewCustom.UILcMainCustom.UILayoutControlGroup1LayoutGroup.UILayoutControlItem2LayoutControlItem.UIGcApprovalTable.UIGodkjennCell">
+      <ParameterName />
+      <PropertyName>ValueAsString</PropertyName>
+      <ExpectedValue>1</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIDpnlVisualizationDockPanel.UIDockPanel3_ContainerCustom.UITcSubtabsTabList.UIViewTabPageClient.UIApprovalViewCustom.UILcMainCustom.UILayoutControlGroup1LayoutGroup.UILayoutControlItem2LayoutControlItem.UIGcApprovalTable.UIGodkjennCell1">
+      <ParameterName />
+      <PropertyName>ValueAsString</PropertyName>
+      <ExpectedValue>1</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="CheckChesterApproved">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+  </ExecuteActions>
+  <CleanupActions />
+  <OnErrorActions />
+  <Maps>
+    <UIMap Id="UIMapVS2017">
+      <TopLevelWindows>
+        <TopLevelWindow ControlType="Window" Id="UIAnsatteiarbeidsplanWindow" FriendlyName="Ansatte i arbeidsplan" SpecialControlType="None" SessionId="1182362">
+          <TechnologyName>DevExpress.v19.2</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>Ansatte i arbeidsplan</WindowTitle>
+          </WindowTitles>
+          <AndCondition>
+            <PropertyCondition Name="Name">Ansatte i arbeidsplan</PropertyCondition>
+            <PropertyCondition Name="ClassName" Operator="Contains">WindowsForms10.Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Client" Id="UIPanelControlOuterClient" FriendlyName="panelControlOuter" SpecialControlType="None">
+              <TechnologyName>DevExpress.v19.2</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Ansatte i arbeidsplan</WindowTitle>
+              </WindowTitles>
+              <AndCondition>
+                <PropertyCondition Name="Name">panelControlOuter</PropertyCondition>
+                <PropertyCondition Name="ClassName">PanelControl</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Client" Id="UIPanelControlLeftClient" FriendlyName="panelControlLeft" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Ansatte i arbeidsplan</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition>
+                    <PropertyCondition Name="Name">panelControlLeft</PropertyCondition>
+                    <PropertyCondition Name="ClassName">PanelControl</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="TreeList" Id="UITreeListEmployeeTreeList" FriendlyName="treeListEmployee" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v19.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Ansatte i arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">treeListEmployee</PropertyCondition>
+                        <PropertyCondition Name="ClassName">TreeList</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="TreeListNode" Id="UINode118TreeListNode" FriendlyName="Node118" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v19.2</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Ansatte i arbeidsplan</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition>
+                            <PropertyCondition Name="Name">Node118</PropertyCondition>
+                            <PropertyCondition Name="ClassName">TreeListNode</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="TreeListCell" Id="UIItem119ChesterWinTreeListCell" FriendlyName="119. Chester, Win" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v19.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Ansatte i arbeidsplan</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">colNameMain</PropertyCondition>
+                                <PropertyCondition Name="ClassName">TreeListCell</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                        <UIObject ControlType="TreeListNode" Id="UINode0TreeListNode" FriendlyName="Node0" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v19.2</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Ansatte i arbeidsplan</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition>
+                            <PropertyCondition Name="Name">Node0</PropertyCondition>
+                            <PropertyCondition Name="ClassName">TreeListNode</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="TreeListCell" Id="UIItem1ChesterWinTreeListCell" FriendlyName="1. Chester, Win" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v19.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Ansatte i arbeidsplan</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">colNameMain</PropertyCondition>
+                                <PropertyCondition Name="ClassName">TreeListCell</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                    <UIObject ControlType="Button" Id="UIFlyttoppButton" FriendlyName="Flytt opp" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v19.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Ansatte i arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">buttonMoveUpwards</PropertyCondition>
+                        <PropertyCondition Name="ClassName">DropDownButton</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Button" Id="UIDropDownButtonArrowBButton" FriendlyName="DropDownButtonArrowButton" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v19.2</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Ansatte i arbeidsplan</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition>
+                            <PropertyCondition Name="Name">buttonMoveUpwardsArrowButton</PropertyCondition>
+                            <PropertyCondition Name="ClassName">DropDownButtonArrowButton</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UIItemWindow" FriendlyName="" SpecialControlType="None" SessionId="15204452">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles />
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="ClassName" Operator="Contains">WindowsForms10.Window</PropertyCondition>
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Menu" Id="UIPopupMenuBarControlMenu" FriendlyName="PopupMenuBarControl" SpecialControlType="None">
+              <TechnologyName>DevExpress.v19.2</TechnologyName>
+              <WindowTitles />
+              <AndCondition>
+                <PropertyCondition Name="Name">PopupMenuBarControl</PropertyCondition>
+                <PropertyCondition Name="ClassName">PopupMenuBarControl</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="MenuBaseButtonItem" Id="UIFlytttiltoppenMenuBaseButtonItem" FriendlyName="Flytt til toppen" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                  <WindowTitles />
+                  <AndCondition>
+                    <PropertyCondition Name="Name">bbiMoveToTop</PropertyCondition>
+                    <PropertyCondition Name="ClassName">MenuBaseButtonItem</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UIArbeidsplanWindow" FriendlyName="Arbeidsplan" SpecialControlType="None" SessionId="986328">
+          <TechnologyName>DevExpress.v19.2</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>Arbeidsplan</WindowTitle>
+          </WindowTitles>
+          <AndCondition>
+            <PropertyCondition Name="Name">Arbeidsplan</PropertyCondition>
+            <PropertyCondition Name="ClassName" Operator="Contains">WindowsForms10.Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Client" Id="UIPnlRosterPlanClient" FriendlyName="pnlRosterPlan" SpecialControlType="None">
+              <TechnologyName>DevExpress.v19.2</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Arbeidsplan</WindowTitle>
+              </WindowTitles>
+              <AndCondition>
+                <PropertyCondition Name="Name">pnlRosterPlan</PropertyCondition>
+                <PropertyCondition Name="ClassName">GSPanelControl</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Table" Id="UIGcRosterPlanTable" FriendlyName="gcRosterPlan" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Arbeidsplan</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition>
+                    <PropertyCondition Name="Name">gcRosterPlan</PropertyCondition>
+                    <PropertyCondition Name="ClassName">GSGridControl</PropertyCondition>
+                    <PropertyCondition Name="HierarchyLevel">2</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Cell" Id="UIM1Cell" FriendlyName="M1" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v19.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">gcRosterPlanGridControlCell[View]gvRosterPlan[Row]0[Column]RosterCell_0</PropertyCondition>
+                        <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                    <UIObject ControlType="Cell" Id="UIItemCell" FriendlyName="" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v19.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">gcRosterPlanGridControlCell[View]gvRosterPlan[Row]0[Column]RosterCell_4</PropertyCondition>
+                        <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                    <UIObject ControlType="Edit" Id="UIRow0ColumnRosterCellEdit" FriendlyName="[Row]0[Column]RosterCell_0" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v19.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">gcRosterPlanTextEdit[View]gvRosterPlan[Row]0[Column]RosterCell_0</PropertyCondition>
+                        <PropertyCondition Name="ClassName">TextEdit</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                    <UIObject ControlType="Cell" Id="UIItemCell1" FriendlyName="" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v19.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">gcRosterPlanGridControlCell[View]gvRosterPlan[Row]0[Column]RosterCell_7</PropertyCondition>
+                        <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                    <UIObject ControlType="Cell" Id="UIItemCell2" FriendlyName="" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v19.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">gcRosterPlanGridControlCell[View]gvRosterPlan[Row]0[Column]RosterCell_11</PropertyCondition>
+                        <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                    <UIObject ControlType="Edit" Id="UIRow0ColumnRosterCellEdit1" FriendlyName="[Row]0[Column]RosterCell_7" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v19.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">gcRosterPlanTextEdit[View]gvRosterPlan[Row]0[Column]RosterCell_7</PropertyCondition>
+                        <PropertyCondition Name="ClassName">TextEdit</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Custom" Id="UIRosterPlanGrid1Custom" FriendlyName="rosterPlanGrid1" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Arbeidsplan</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition>
+                    <PropertyCondition Name="Name">rosterPlanGrid1</PropertyCondition>
+                    <PropertyCondition Name="ClassName">RosterPlanGrid</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Table" Id="UIGcRosterPlanTable" FriendlyName="gcRosterPlan" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v19.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">gcRosterPlan</PropertyCondition>
+                        <PropertyCondition Name="ClassName">GSGridControl</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Cell" Id="UILundekvamClausCell" FriendlyName="Lundekvam, Claus" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v19.2</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Arbeidsplan</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition>
+                            <PropertyCondition Name="Name">gcRosterPlanGridControlCell[View]gvRosterPlan[Row]84[Column]ColumnHandle1</PropertyCondition>
+                            <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                        <UIObject ControlType="Cell" Id="UILundekvamClausCell1" FriendlyName="Lundekvam, Claus" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v18.2</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Arbeidsplan</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition>
+                            <PropertyCondition Name="Name">gcRosterPlanGridControlCell[View]gvRosterPlan[Row]84[Column]EmployeeName</PropertyCondition>
+                            <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="DockPanel" Id="UIDpnlVisualizationDockPanel" FriendlyName="dpnlVisualization" SpecialControlType="None">
+              <TechnologyName>DevExpress.v19.2</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Arbeidsplan</WindowTitle>
+              </WindowTitles>
+              <AndCondition>
+                <PropertyCondition Name="Name">dpnlVisualization</PropertyCondition>
+                <PropertyCondition Name="ClassName">DockPanel</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Custom" Id="UIDockPanel3_ContainerCustom" FriendlyName="dockPanel3_Container" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Arbeidsplan</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition>
+                    <PropertyCondition Name="Name">dockPanel3_Container</PropertyCondition>
+                    <PropertyCondition Name="ClassName">ControlContainer</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="TabList" Id="UITcVisualizationTabList" FriendlyName="tcVisualization" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v19.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">tcVisualization</PropertyCondition>
+                        <PropertyCondition Name="ClassName">GSTabControl</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="TabPage" Id="UIXtraTabControlHeaderTabPage" FriendlyName="XtraTabControlHeader" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v19.2</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Arbeidsplan</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition>
+                            <PropertyCondition Name="Name">tcVisualizationPageHeader10</PropertyCondition>
+                            <PropertyCondition Name="ClassName">XtraTabControlHeader</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                        <UIObject ControlType="Client" Id="UITpApprovalClient" FriendlyName="tpApproval" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v19.2</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Arbeidsplan</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition>
+                            <PropertyCondition Name="Name">tpApproval</PropertyCondition>
+                            <PropertyCondition Name="ClassName">XtraTabPage</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="Custom" Id="UILcMainCustom" FriendlyName="lcMain" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v19.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Arbeidsplan</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">lcMain</PropertyCondition>
+                                <PropertyCondition Name="ClassName">GSLayoutControl</PropertyCondition>
+                                <PropertyCondition Name="HierarchyLevel">2</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants>
+                                <UIObject ControlType="LayoutGroup" Id="UILayoutControlGroup1LayoutGroup" FriendlyName="layoutControlGroup1" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>Arbeidsplan</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">layoutControlGroup1</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">LayoutGroup</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants>
+                                    <UIObject ControlType="LayoutControlItem" Id="UILayoutControlItem2LayoutControlItem" FriendlyName="layoutControlItem2" SpecialControlType="None">
+                                      <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                      <WindowTitles>
+                                        <WindowTitle>Arbeidsplan</WindowTitle>
+                                      </WindowTitles>
+                                      <AndCondition>
+                                        <PropertyCondition Name="Name">layoutControlItem2</PropertyCondition>
+                                        <PropertyCondition Name="ClassName">LayoutControlItem</PropertyCondition>
+                                      </AndCondition>
+                                      <SupportLevel>0</SupportLevel>
+                                      <Descendants>
+                                        <UIObject ControlType="Table" Id="UIGcApprovalTable" FriendlyName="gcApproval" SpecialControlType="None">
+                                          <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                          <WindowTitles>
+                                            <WindowTitle>Arbeidsplan</WindowTitle>
+                                          </WindowTitles>
+                                          <AndCondition>
+                                            <PropertyCondition Name="Name">gcApproval</PropertyCondition>
+                                            <PropertyCondition Name="ClassName">GSGridControl</PropertyCondition>
+                                          </AndCondition>
+                                          <SupportLevel>0</SupportLevel>
+                                          <Descendants>
+                                            <UIObject ControlType="Cell" Id="UIChesterWinCell" FriendlyName="Chester, Win" SpecialControlType="None">
+                                              <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                              <WindowTitles>
+                                                <WindowTitle>Arbeidsplan</WindowTitle>
+                                              </WindowTitles>
+                                              <AndCondition>
+                                                <PropertyCondition Name="Name">gcApprovalGridControlCell[View]gvApproval[Row]0[Column]colName</PropertyCondition>
+                                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                              </AndCondition>
+                                              <SupportLevel>0</SupportLevel>
+                                              <Descendants />
+                                            </UIObject>
+                                            <UIObject ControlType="Cell" Id="UIItemCell" FriendlyName="" SpecialControlType="None">
+                                              <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                              <WindowTitles>
+                                                <WindowTitle>Arbeidsplan</WindowTitle>
+                                              </WindowTitles>
+                                              <AndCondition>
+                                                <PropertyCondition Name="Name">gcApprovalGridControlCell[View]gvApproval[Row]0[Column]reqColTillitsvalgt</PropertyCondition>
+                                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                              </AndCondition>
+                                              <SupportLevel>0</SupportLevel>
+                                              <Descendants />
+                                            </UIObject>
+                                            <UIObject ControlType="ComboBox" Id="UIRow0ColumnreqColTillComboBox" FriendlyName="[Row]0[Column]reqColTillitsvalgt" SpecialControlType="None">
+                                              <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                              <WindowTitles>
+                                                <WindowTitle>Arbeidsplan</WindowTitle>
+                                              </WindowTitles>
+                                              <AndCondition>
+                                                <PropertyCondition Name="Name">gcApprovalImageComboBoxEdit[View]gvApproval[Row]0[Column]reqColTillitsvalgt</PropertyCondition>
+                                                <PropertyCondition Name="ClassName">ImageComboBoxEdit</PropertyCondition>
+                                              </AndCondition>
+                                              <SupportLevel>0</SupportLevel>
+                                              <Descendants>
+                                                <UIObject ControlType="Window" Id="UIPopupImageComboBoxEdWindow" FriendlyName="PopupImageComboBoxEditListBoxForm" SpecialControlType="None">
+                                                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                                  <WindowTitles>
+                                                    <WindowTitle>Arbeidsplan</WindowTitle>
+                                                  </WindowTitles>
+                                                  <AndCondition>
+                                                    <PropertyCondition Name="Name">gcApprovalImageComboBoxEdit[View]gvApproval[Row]0[Column]reqColTillitsvalgtPopupForm</PropertyCondition>
+                                                    <PropertyCondition Name="ClassName">PopupImageComboBoxEditListBoxForm</PropertyCondition>
+                                                  </AndCondition>
+                                                  <SupportLevel>0</SupportLevel>
+                                                  <Descendants>
+                                                    <UIObject ControlType="List" Id="UIPopupImageComboBoxEdList" FriendlyName="PopupImageComboBoxEditListBox" SpecialControlType="None">
+                                                      <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                                      <WindowTitles>
+                                                        <WindowTitle>Arbeidsplan</WindowTitle>
+                                                      </WindowTitles>
+                                                      <AndCondition>
+                                                        <PropertyCondition Name="Name">gcApprovalImageComboBoxEdit[View]gvApproval[Row]0[Column]reqColTillitsvalgtPopupFormPopupImageComboBoxEditListBox[0]</PropertyCondition>
+                                                        <PropertyCondition Name="ClassName">PopupImageComboBoxEditListBox</PropertyCondition>
+                                                      </AndCondition>
+                                                      <SupportLevel>0</SupportLevel>
+                                                      <Descendants>
+                                                        <UIObject ControlType="ListItem" Id="UIGodkjennListItem" FriendlyName="Godkjenn" SpecialControlType="None">
+                                                          <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                                          <WindowTitles>
+                                                            <WindowTitle>Arbeidsplan</WindowTitle>
+                                                          </WindowTitles>
+                                                          <AndCondition>
+                                                            <PropertyCondition Name="Name">gcApprovalImageComboBoxEdit[View]gvApproval[Row]0[Column]reqColTillitsvalgtPopupFormPopupImageComboBoxEditListBox[0]Item[1]</PropertyCondition>
+                                                            <PropertyCondition Name="ClassName">PopupImageComboBoxEditListBoxItem</PropertyCondition>
+                                                          </AndCondition>
+                                                          <SupportLevel>0</SupportLevel>
+                                                          <Descendants />
+                                                        </UIObject>
+                                                      </Descendants>
+                                                    </UIObject>
+                                                  </Descendants>
+                                                </UIObject>
+                                              </Descendants>
+                                            </UIObject>
+                                          </Descendants>
+                                        </UIObject>
+                                      </Descendants>
+                                    </UIObject>
+                                  </Descendants>
+                                </UIObject>
+                              </Descendants>
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                    <UIObject ControlType="TabList" Id="UITcSubtabsTabList" FriendlyName="tcSubtabs" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">tcSubtabs</PropertyCondition>
+                        <PropertyCondition Name="ClassName">TabControlViewHost</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Client" Id="UIViewTabPageClient" FriendlyName="ViewTabPage" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v18.2</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Arbeidsplan</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition>
+                            <PropertyCondition Name="Name">tcSubtabsViewTabPage[8]</PropertyCondition>
+                            <PropertyCondition Name="ClassName">ViewTabPage</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="Custom" Id="UIApprovalViewCustom" FriendlyName="ApprovalView" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Arbeidsplan</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">ApprovalView</PropertyCondition>
+                                <PropertyCondition Name="ClassName">ApprovalView</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants>
+                                <UIObject ControlType="Custom" Id="UILcMainCustom" FriendlyName="lcMain" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>Arbeidsplan</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">lcMain</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">GSLayoutControl</PropertyCondition>
+                                    <PropertyCondition Name="HierarchyLevel">2</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants>
+                                    <UIObject ControlType="LayoutGroup" Id="UILayoutControlGroup1LayoutGroup" FriendlyName="layoutControlGroup1" SpecialControlType="None">
+                                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                      <WindowTitles>
+                                        <WindowTitle>Arbeidsplan</WindowTitle>
+                                      </WindowTitles>
+                                      <AndCondition>
+                                        <PropertyCondition Name="Name">layoutControlGroup1</PropertyCondition>
+                                        <PropertyCondition Name="ClassName">LayoutGroup</PropertyCondition>
+                                      </AndCondition>
+                                      <SupportLevel>0</SupportLevel>
+                                      <Descendants>
+                                        <UIObject ControlType="LayoutControlItem" Id="UILayoutControlItem2LayoutControlItem" FriendlyName="layoutControlItem2" SpecialControlType="None">
+                                          <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                          <WindowTitles>
+                                            <WindowTitle>Arbeidsplan</WindowTitle>
+                                          </WindowTitles>
+                                          <AndCondition>
+                                            <PropertyCondition Name="Name">layoutControlItem2</PropertyCondition>
+                                            <PropertyCondition Name="ClassName">LayoutControlItem</PropertyCondition>
+                                          </AndCondition>
+                                          <SupportLevel>0</SupportLevel>
+                                          <Descendants>
+                                            <UIObject ControlType="Table" Id="UIGcApprovalTable" FriendlyName="gcApproval" SpecialControlType="None">
+                                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                              <WindowTitles>
+                                                <WindowTitle>Arbeidsplan</WindowTitle>
+                                              </WindowTitles>
+                                              <AndCondition>
+                                                <PropertyCondition Name="Name">gcApproval</PropertyCondition>
+                                                <PropertyCondition Name="ClassName">GSGridControl</PropertyCondition>
+                                              </AndCondition>
+                                              <SupportLevel>0</SupportLevel>
+                                              <Descendants>
+                                                <UIObject ControlType="Cell" Id="UINSFNorsksykepleierfoCell" FriendlyName="NSF - Norsk sykepleierforbund" SpecialControlType="None">
+                                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                                  <WindowTitles>
+                                                    <WindowTitle>Arbeidsplan</WindowTitle>
+                                                  </WindowTitles>
+                                                  <AndCondition>
+                                                    <PropertyCondition Name="Name">gcApprovalGridControlCell[View]gvApproval[Row]0[Column]colUnion</PropertyCondition>
+                                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                                  </AndCondition>
+                                                  <SupportLevel>0</SupportLevel>
+                                                  <Descendants />
+                                                </UIObject>
+                                                <UIObject ControlType="Cell" Id="UIGodkjennCell" FriendlyName="Godkjenn" SpecialControlType="None">
+                                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                                  <WindowTitles>
+                                                    <WindowTitle>Arbeidsplan</WindowTitle>
+                                                  </WindowTitles>
+                                                  <AndCondition>
+                                                    <PropertyCondition Name="Name">gcApprovalGridControlCell[View]gvApproval[Row]0[Column]reqColTillitsvalgt</PropertyCondition>
+                                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                                  </AndCondition>
+                                                  <SupportLevel>0</SupportLevel>
+                                                  <Descendants />
+                                                </UIObject>
+                                                <UIObject ControlType="Cell" Id="UIGodkjennCell1" FriendlyName="Godkjenn" SpecialControlType="None">
+                                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                                  <WindowTitles>
+                                                    <WindowTitle>Arbeidsplan</WindowTitle>
+                                                  </WindowTitles>
+                                                  <AndCondition>
+                                                    <PropertyCondition Name="Name">gcApprovalGridControlCell[View]gvApproval[Row]0[Column]reqColLeder</PropertyCondition>
+                                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                                  </AndCondition>
+                                                  <SupportLevel>0</SupportLevel>
+                                                  <Descendants />
+                                                </UIObject>
+                                              </Descendants>
+                                            </UIObject>
+                                          </Descendants>
+                                        </UIObject>
+                                      </Descendants>
+                                    </UIObject>
+                                    <UIObject ControlType="Button" Id="UIGodkjennButton" FriendlyName="Godkjenn" SpecialControlType="None">
+                                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                      <WindowTitles>
+                                        <WindowTitle>Arbeidsplan</WindowTitle>
+                                      </WindowTitles>
+                                      <AndCondition>
+                                        <PropertyCondition Name="Name">btnApprove</PropertyCondition>
+                                        <PropertyCondition Name="ClassName">GSSimpleButton</PropertyCondition>
+                                        <PropertyCondition Name="HierarchyLevel">2</PropertyCondition>
+                                      </AndCondition>
+                                      <SupportLevel>0</SupportLevel>
+                                      <Descendants />
+                                    </UIObject>
+                                  </Descendants>
+                                </UIObject>
+                              </Descendants>
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UIGT4003InformasjonWindow" FriendlyName="GT-4003 - Informasjon" SpecialControlType="None" SessionId="8326534">
+          <TechnologyName>DevExpress.v19.2</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>GT-4003 - Informasjon</WindowTitle>
+          </WindowTitles>
+          <AndCondition>
+            <PropertyCondition Name="Name">GT-4003 - Informasjon</PropertyCondition>
+            <PropertyCondition Name="ClassName" Operator="Contains">WindowsForms10.Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Button" Id="UIJAButton" FriendlyName="&amp;Ja" SpecialControlType="None">
+              <TechnologyName>DevExpress.v19.2</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>GT-4003 - Informasjon</WindowTitle>
+              </WindowTitles>
+              <AndCondition>
+                <PropertyCondition Name="Name">btYes</PropertyCondition>
+                <PropertyCondition Name="ClassName">GSSimpleButton</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants />
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UIGT4006InformasjonWindow" FriendlyName="GT-4006 - Informasjon" SpecialControlType="None" SessionId="19857960">
+          <TechnologyName>DevExpress.v18.2</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>GT-4006 - Informasjon</WindowTitle>
+          </WindowTitles>
+          <AndCondition>
+            <PropertyCondition Name="Name">GT-4006 - Informasjon</PropertyCondition>
+            <PropertyCondition Name="ClassName" Operator="Contains">WindowsForms10.Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Button" Id="UIJAButton" FriendlyName="&amp;Ja" SpecialControlType="None">
+              <TechnologyName>DevExpress.v18.2</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>GT-4006 - Informasjon</WindowTitle>
+              </WindowTitles>
+              <AndCondition>
+                <PropertyCondition Name="Name">btYes</PropertyCondition>
+                <PropertyCondition Name="ClassName">GSSimpleButton</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants />
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+      </TopLevelWindows>
+    </UIMap>
+  </Maps>
+  <ValueMap>
+    <ParameterList />
+  </ValueMap>
+</UITest>

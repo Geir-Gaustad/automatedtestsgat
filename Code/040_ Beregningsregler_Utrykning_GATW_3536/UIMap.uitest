@@ -1,0 +1,1705 @@
+<?xml version="1.0"?>
+<UITest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="" Id="800ea0a4-d895-4b4a-8476-bd5ebaeb78f2" AssemblyVersion="15.0.26208.0" Version="1.0" xmlns="http://schemas.microsoft.com/VisualStudio/TeamTest/UITest/2010">
+  <Configuration>
+    <Group Name="IE">
+      <Setting Name="Version" Value="9.11.17134.0" WarningLevel="1" />
+      <Setting Name="InformationBar" WarningLevel="1" />
+      <Setting Name="AutoCompletePassword" WarningLevel="1" />
+      <Setting Name="AutoCompleteForm" WarningLevel="1" />
+      <Setting Name="DefaultBrowser" Value="IEXPLORE.EXE" WarningLevel="1" />
+      <Setting Name="PopupBlocker" Value="yes" WarningLevel="1" />
+      <Setting Name="TabbedBrowsing" WarningLevel="2" />
+      <Setting Name="InternetZoneSecurity" Value="66816" WarningLevel="2" />
+      <Setting Name="IntranetZoneSecurity" Value="69632" WarningLevel="2" />
+      <Setting Name="TrustedZoneSecurity" Value="70912" WarningLevel="2" />
+      <Setting Name="RestrictedZoneSecurity" Value="73728" WarningLevel="2" />
+      <Setting Name="PhishingFilter" WarningLevel="1" />
+      <Setting Name="EnhancedSecurityConfiguration" WarningLevel="1" />
+    </Group>
+    <Group Name="OS">
+      <Setting Name="Name" Value="Microsoft Windows 10 Pro" WarningLevel="2" />
+      <Setting Name="Version" Value="Microsoft Windows NT 10.0.17134.0" WarningLevel="2" />
+      <Setting Name="IsUserAdmin" Value="False" WarningLevel="2" />
+      <Setting Name="Is64BitOperatingSystem" Value="True" WarningLevel="2" />
+      <Setting Name="IsTerminalServerSession" Value="False" WarningLevel="2" />
+      <Setting Name="OSLanguage" Value="1033" WarningLevel="1" />
+      <Setting Name="UserLocale" Value="1044" WarningLevel="1" />
+      <Setting Name="DragFullWindows" Value="True" WarningLevel="2" />
+      <Setting Name="ScreenResolutionWidth" Value="1920" WarningLevel="2" />
+      <Setting Name="ScreenResolutionHeight" Value="1080" WarningLevel="2" />
+      <Setting Name="SystemDPIX" Value="96" WarningLevel="2" />
+      <Setting Name="SystemDPIY" Value="96" WarningLevel="2" />
+      <Setting Name="Aero" Value="1" WarningLevel="1" />
+      <Setting Name="UACEnabled" Value="1" WarningLevel="2" />
+      <Setting Name="UACPromptEnabled" Value="0" WarningLevel="1" />
+    </Group>
+    <Group Name="TechnologyManagers">
+      <Setting Name="Web" WarningLevel="1" />
+      <Setting Name="Web" WarningLevel="1" />
+      <Setting Name="DevExpress.v19.2" WarningLevel="1" />
+      <Setting Name="DevExpress.v19.2" WarningLevel="1" />
+      <Setting Name="UIA" WarningLevel="1" />
+      <Setting Name="Web" WarningLevel="1" />
+      <Setting Name="DevExpress.v19.2" WarningLevel="1" />
+    </Group>
+  </Configuration>
+  <InitializeActions />
+  <ExecuteActions>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem300Overtid50Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>300 - Overtid 50%</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem050Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>1,00</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem200TimelønnCell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>310komp - Avspasering Overtid 100%</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem050Cell1">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>1,00</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem300kompAvspaseriCell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>300komp - Avspasering Overtid 50%</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem000Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>2,00</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem000Cell1">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>0,00</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="CheckRecalcValuesStep12">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem300Overtid50Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>300 - Overtid 50%</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem050Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>2,00</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem200TimelønnCell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>310komp - Avspasering Overtid 100%</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem050Cell1">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>1,00</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem300kompAvspaseriCell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>300komp - Avspasering Overtid 50%</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem000Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>2,00</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem000Cell1">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>0,00</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="CheckValuesAfterChangeStep12">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem300Overtid50Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>300 - Overtid 50%</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem050Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>0,50</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="CheckValuesStep1">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <AssertAction UIObjectName="UIMap.UIMerarbeidovertidWindow.UIPanClientClient.UITcClientTabList.UITpMainClient.UITcExtraDetailTabList.UITpSalaryCalcClient.UIGcAccountingLinesTable.UIItem300Overtid50Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>300 - Overtid 50%</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIMerarbeidovertidWindow.UIPanClientClient.UITcClientTabList.UITpMainClient.UITcExtraDetailTabList.UITpSalaryCalcClient.UIGcAccountingLinesTable.UIItem400Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>4,00</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="CheckValuesStep10">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem300Overtid50Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>310 - Overtid 100%</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem050Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>0,50</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem200TimelønnCell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>300 - Overtid 50%</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem050Cell1">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>2,00</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem000Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>0,00</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="CheckValuesStep11">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem300Overtid50Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>310 - Overtid 100%</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem050Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>0,50</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem200TimelønnCell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>300 - Overtid 50%</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem050Cell1">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>2,00</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem000Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>0,00</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="CheckValuesStep13">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem300Overtid50Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>300 - Overtid 50%</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem050Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>0,50</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem200TimelønnCell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>200 - Timelønn</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem050Cell1">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>-0,50</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="CheckValuesStep2">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem300Overtid50Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>300 - Overtid 50%</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem050Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>1,50</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem050Cell1">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>0,00</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="CheckValuesStep3">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem300Overtid50Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>320 - Overtid 133%</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem050Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>1,00</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem050Cell1">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>0,00</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="CheckValuesStep4">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem300Overtid50Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>320 - Overtid 133%</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem050Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>1,00</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem200TimelønnCell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>200 - Timelønn</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem050Cell1">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>-1,00</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem000Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>0,00</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="CheckValuesStep5">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem300Overtid50Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>310 - Overtid 100%</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem050Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>1,00</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem200TimelønnCell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>300 - Overtid 50%</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem050Cell1">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>3,00</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="CheckValuesStep6">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem300Overtid50Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>300 - Overtid 50%</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem050Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>1,00</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem200TimelønnCell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>310komp - Avspasering Overtid 100%</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem050Cell1">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>1,00</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem300kompAvspaseriCell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>300komp - Avspasering Overtid 50%</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem000Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>2,00</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem000Cell1">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>0,00</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="CheckValuesStep7">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem300Overtid50Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>310 - Overtid 100%</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem050Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>2,00</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem200TimelønnCell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>300 - Overtid 50%</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem050Cell1">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>2,00</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem300kompAvspaseriCell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>320 - Overtid 133%</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem000Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>1,00</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem000Cell1">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>0,00</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="CheckValuesStep8">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem300Overtid50Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>300 - Overtid 50%</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem050Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>1,00</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem200TimelønnCell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>320 - Overtid 133%</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem050Cell1">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>1,00</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem300kompAvspaseriCell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>310komp - Avspasering Overtid 100%</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem000Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>2,00</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem300kompAvspaseriCell1">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>300komp - Avspasering Overtid 50%</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem000Cell1">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>1,00</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIUtrykningWindow.UI_layoutControlCustom.UIRootLayoutGroup.UILayoutControlItem5LayoutControlItem.UI_tcRightTabList.UI_tpCalloutDetailsClient.UI_tcMainTabList.UI_tpSalaryClient.UIGcLinesTable.UIItem000Cell2">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>0,00</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="CheckValuesStep9">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <DragDropAction UIObjectName="UIMap.UIGatWindow.UIViewHostCustom.UIPcViewClient.UICenterPanelDayDockPanel.UIControlContainerCustom.UICenterPanelDayWrappeDockPanel.UIAften00167770770FalsDockPanel.UIControlContainerCustom.UIGcDayColumnTable.UIItem16000100Cell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <TargetElementName>UIMap.UIGatWindow.UIViewHostCustom.UIPcViewClient.UIRibbonControlRibbon.UIRpMainMenuRibbonPage.UIGrpDevianceRibbonPageGroup.UIUtrykningRibbonBaseButtonItem</TargetElementName>
+      <MouseButton>Left</MouseButton>
+      <StartLocation X="5" Y="5" />
+      <StopLocation X="25" Y="23" />
+    </DragDropAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="DragHarryHoleToTurnoutStep1">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <DragDropAction UIObjectName="UIMap.UIGatWindow.UIViewHostCustom.UIPcViewClient.UICenterPanelDayDockPanel.UIControlContainerCustom.UICenterPanelDayWrappeDockPanel.UIAften00167770770FalsDockPanel.UIControlContainerCustom.UIGcDayColumnTable.UIItem16000100Cell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <TargetElementName>UIMap.UIGatWindow.UIViewHostCustom.UIPcViewClient.UIRibbonControlRibbon.UIRpMainMenuRibbonPage.UIGrpDevianceRibbonPageGroup.UIUtrykningRibbonBaseButtonItem</TargetElementName>
+      <MouseButton>Left</MouseButton>
+      <StartLocation X="16" Y="7" />
+      <StopLocation X="22" Y="24" />
+    </DragDropAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="DragHarryHoleToTurnoutStep2">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <DragDropAction UIObjectName="UIMap.UIGatWindow.UIViewHostCustom.UIPcViewClient.UICenterPanelDayDockPanel.UIControlContainerCustom.UICenterPanelDayWrappeDockPanel.UIAften00167770770FalsDockPanel.UIControlContainerCustom.UIGcDayColumnTable.UIItem16000100Cell1">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <TargetElementName>UIMap.UIGatWindow.UIViewHostCustom.UIPcViewClient.UIRibbonControlRibbon.UIRpMainMenuRibbonPage.UIGrpDevianceRibbonPageGroup.UIUtrykningRibbonBaseButtonItem</TargetElementName>
+      <MouseButton>Left</MouseButton>
+      <StartLocation X="54" Y="-10" />
+      <StopLocation X="24" Y="28" />
+    </DragDropAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="DragHarryHoleToTurnoutStep3">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <DragDropAction UIObjectName="UIMap.UIGatWindow.UIViewHostCustom.UIPcViewClient.UICenterPanelDayDockPanel.UIControlContainerCustom.UICenterPanelDayWrappeDockPanel.UINatttiltirsdag001677DockPanel.UIControlContainerCustom.UIGcDayColumnTable.UIItem01000700Cell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <TargetElementName>UIMap.UIGatWindow.UIViewHostCustom.UIPcViewClient.UIRibbonControlRibbon.UIRpMainMenuRibbonPage.UIGrpDevianceRibbonPageGroup.UIUtrykningRibbonBaseButtonItem</TargetElementName>
+      <MouseButton>Left</MouseButton>
+      <StartLocation X="48" Y="8" />
+      <StopLocation X="25" Y="19" />
+    </DragDropAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="DragHarryHoleToTurnoutStep4">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <DragDropAction UIObjectName="UIMap.UIGatWindow.UIViewHostCustom.UIPcViewClient.UICenterPanelDayDockPanel.UIControlContainerCustom.UICenterPanelDayWrappeDockPanel.UIFriVikar00167770770FDockPanel.UIControlContainerCustom.UIGcFreeColumnTable.UIVeumVargCell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <TargetElementName>UIMap.UIGatWindow.UIViewHostCustom.UIPcViewClient.UIRibbonControlRibbon.UIRpMainMenuRibbonPage.UIGrpDevianceRibbonPageGroup.UIEkstraRibbonBaseButtonItem</TargetElementName>
+      <MouseButton>Left</MouseButton>
+      <StartLocation X="-17" Y="4" />
+      <StopLocation X="20" Y="21" />
+    </DragDropAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="DragVargVeumToExtraStep10">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <DragDropAction UIObjectName="UIMap.UIGatWindow.UIViewHostCustom.UIPcViewClient.UICenterPanelDayDockPanel.UIControlContainerCustom.UICenterPanelDayWrappeDockPanel.UIAften00167770770FalsDockPanel.UIControlContainerCustom.UIGcDayColumnTable.UIItem22000800Cell2">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <TargetElementName>UIMap.UIGatWindow.UIViewHostCustom.UIPcViewClient.UIRibbonControlRibbon.UIRpMainMenuRibbonPage.UIGrpDevianceRibbonPageGroup.UIUtrykningRibbonBaseButtonItem</TargetElementName>
+      <MouseButton>Left</MouseButton>
+      <StartLocation X="29" Y="-14" />
+      <StopLocation X="25" Y="22" />
+    </DragDropAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="DragVargVeumToTurnoutStep11">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <DragDropAction UIObjectName="UIMap.UIGatWindow.UIViewHostCustom.UIPcViewClient.UICenterPanelDayDockPanel.UIControlContainerCustom.UICenterPanelDayWrappeDockPanel.UIAften00167770770FalsDockPanel.UIControlContainerCustom.UIGcDayColumnTable.UIItem22000800Cell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <TargetElementName>UIMap.UIGatWindow.UIViewHostCustom.UIPcViewClient.UIRibbonControlRibbon.UIRpMainMenuRibbonPage.UIGrpDevianceRibbonPageGroup.UIUtrykningRibbonBaseButtonItem</TargetElementName>
+      <MouseButton>Left</MouseButton>
+      <StartLocation X="57" Y="-18" />
+      <StopLocation X="25" Y="20" />
+    </DragDropAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="DragVargVeumToTurnoutStep12">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <DragDropAction UIObjectName="UIMap.UIGatWindow.UIViewHostCustom.UIPcViewClient.UICenterPanelDayDockPanel.UIControlContainerCustom.UICenterPanelDayWrappeDockPanel.UIAften00167770770FalsDockPanel.UIControlContainerCustom.UIGcDayColumnTable.UIItem23000300Cell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <TargetElementName>UIMap.UIGatWindow.UIViewHostCustom.UIPcViewClient.UIRibbonControlRibbon.UIRpMainMenuRibbonPage.UIGrpDevianceRibbonPageGroup.UIUtrykningRibbonBaseButtonItem</TargetElementName>
+      <MouseButton>Left</MouseButton>
+      <StartLocation X="44" Y="-13" />
+      <StopLocation X="27" Y="25" />
+    </DragDropAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="DragVargVeumToTurnoutStep13">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <DragDropAction UIObjectName="UIMap.UIGatWindow.UIViewHostCustom.UIPcViewClient.UICenterPanelDayDockPanel.UIControlContainerCustom.UICenterPanelDayWrappeDockPanel.UIAften00167770770FalsDockPanel.UIControlContainerCustom.UIGcDayColumnTable.UIItem22000800Cell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <TargetElementName>UIMap.UIGatWindow.UIViewHostCustom.UIPcViewClient.UIRibbonControlRibbon.UIRpMainMenuRibbonPage.UIGrpDevianceRibbonPageGroup.UIUtrykningRibbonBaseButtonItem</TargetElementName>
+      <MouseButton>Left</MouseButton>
+      <StartLocation X="64" Y="-5" />
+      <StopLocation X="28" Y="27" />
+    </DragDropAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="DragVargVeumToTurnoutStep6">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <DragDropAction UIObjectName="UIMap.UIGatWindow.UIViewHostCustom.UIPcViewClient.UICenterPanelDayDockPanel.UIControlContainerCustom.UICenterPanelDayWrappeDockPanel.UIAften00167770770FalsDockPanel.UIControlContainerCustom.UIGcDayColumnTable.UIItem23000300Cell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <TargetElementName>UIMap.UIGatWindow.UIViewHostCustom.UIPcViewClient.UIRibbonControlRibbon.UIRpMainMenuRibbonPage.UIGrpDevianceRibbonPageGroup.UIUtrykningRibbonBaseButtonItem</TargetElementName>
+      <MouseButton>Left</MouseButton>
+      <StartLocation X="70" Y="-13" />
+      <StopLocation X="31" Y="22" />
+    </DragDropAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="DragVargVeumToTurnoutStep7">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <DragDropAction UIObjectName="UIMap.UIGatWindow.UIViewHostCustom.UIPcViewClient.UICenterPanelDayDockPanel.UIControlContainerCustom.UICenterPanelDayWrappeDockPanel.UIAften00167770770FalsDockPanel.UIControlContainerCustom.UIGcDayColumnTable.UIItem22000800Cell1">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <TargetElementName>UIMap.UIGatWindow.UIViewHostCustom.UIPcViewClient.UIRibbonControlRibbon.UIRpMainMenuRibbonPage.UIGrpDevianceRibbonPageGroup.UIUtrykningRibbonBaseButtonItem</TargetElementName>
+      <MouseButton>Left</MouseButton>
+      <StartLocation X="25" Y="-6" />
+      <StopLocation X="27" Y="27" />
+    </DragDropAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="DragVargVeumToTurnoutStep8">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <DragDropAction UIObjectName="UIMap.UIGatWindow.UIViewHostCustom.UIPcViewClient.UICenterPanelDayDockPanel.UIControlContainerCustom.UICenterPanelDayWrappeDockPanel.UIAften00167770770FalsDockPanel.UIControlContainerCustom.UIGcDayColumnTable.UIItem23000400Cell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <TargetElementName>UIMap.UIGatWindow.UIViewHostCustom.UIPcViewClient.UIRibbonControlRibbon.UIRpMainMenuRibbonPage.UIGrpDevianceRibbonPageGroup.UIUtrykningRibbonBaseButtonItem</TargetElementName>
+      <MouseButton>Left</MouseButton>
+      <StartLocation X="63" Y="-4" />
+      <StopLocation X="23" Y="28" />
+    </DragDropAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="DragVargVeumToTurnoutStep9">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+  </ExecuteActions>
+  <CleanupActions />
+  <OnErrorActions />
+  <Maps>
+    <UIMap Id="UIMap">
+      <TopLevelWindows>
+        <TopLevelWindow ControlType="Window" Id="UIGatWindow" FriendlyName="Gat" SpecialControlType="None" SessionId="13763598">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>Gat</WindowTitle>
+          </WindowTitles>
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="Name">Gat</PropertyCondition>
+            <PropertyCondition Name="ClassName">TfrmMain</PropertyCondition>
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>1</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Custom" Id="UIViewHostCustom" FriendlyName="ViewHost" SpecialControlType="None">
+              <TechnologyName>DevExpress.v19.2</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Gat</WindowTitle>
+              </WindowTitles>
+              <AndCondition>
+                <PropertyCondition Name="Name">ViewHost</PropertyCondition>
+                <PropertyCondition Name="ClassName">ViewHost</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Client" Id="UIPcViewClient" FriendlyName="pcView" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Gat</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition>
+                    <PropertyCondition Name="Name">pcView</PropertyCondition>
+                    <PropertyCondition Name="ClassName">PanelControl</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Ribbon" Id="UIRibbonControlRibbon" FriendlyName="ribbonControl" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v19.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Gat</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">ribbonControl</PropertyCondition>
+                        <PropertyCondition Name="ClassName">RibbonControl</PropertyCondition>
+                        <PropertyCondition Name="HierarchyLevel">2</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="RibbonPage" Id="UIRpMainMenuRibbonPage" FriendlyName="rpMainMenu" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v19.2</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Gat</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition>
+                            <PropertyCondition Name="Name">rpMainMenu</PropertyCondition>
+                            <PropertyCondition Name="ClassName">RibbonPage</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="RibbonPageGroup" Id="UIGrpDevianceRibbonPageGroup" FriendlyName="grpDeviance" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v19.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Gat</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">grpDeviance</PropertyCondition>
+                                <PropertyCondition Name="ClassName">RibbonPageGroup</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants>
+                                <UIObject ControlType="RibbonBaseButtonItem" Id="UIUtrykningRibbonBaseButtonItem" FriendlyName="Utrykning" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>Gat</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">btnTurnOut</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">RibbonBaseButtonItem</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants />
+                                </UIObject>
+                                <UIObject ControlType="RibbonBaseButtonItem" Id="UIEkstraRibbonBaseButtonItem" FriendlyName="Ekstra" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>Gat</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">btnExtra</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">RibbonBaseButtonItem</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants />
+                                </UIObject>
+                              </Descendants>
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                    <UIObject ControlType="DockPanel" Id="UICenterPanelDayDockPanel" FriendlyName="CenterPanelDay" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v19.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Gat</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">CenterPanelDay</PropertyCondition>
+                        <PropertyCondition Name="ClassName">WorkScheduleDockPanel</PropertyCondition>
+                        <PropertyCondition Name="HierarchyLevel">2</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Custom" Id="UIControlContainerCustom" FriendlyName="ControlContainer" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v19.2</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Gat</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition>
+                            <PropertyCondition Name="Name">CenterPanelDayControlContainer[0]</PropertyCondition>
+                            <PropertyCondition Name="ClassName">ControlContainer</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="DockPanel" Id="UICenterPanelDayWrappeDockPanel" FriendlyName="CenterPanelDayWrapper" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v19.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Gat</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">CenterPanelDayWrapper</PropertyCondition>
+                                <PropertyCondition Name="ClassName">WorkScheduleDockPanel</PropertyCondition>
+                                <PropertyCondition Name="HierarchyLevel">2</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants>
+                                <UIObject ControlType="DockPanel" Id="UIAften00167770770FalsDockPanel" FriendlyName=";Aften;0;0;-16777077;0;False" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>Gat</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">;Aften;0;0;-16777077;0;False</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">WorkScheduleDockPanel</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants>
+                                    <UIObject ControlType="Custom" Id="UIControlContainerCustom" FriendlyName="ControlContainer" SpecialControlType="None">
+                                      <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                      <WindowTitles>
+                                        <WindowTitle>Gat</WindowTitle>
+                                      </WindowTitles>
+                                      <AndCondition>
+                                        <PropertyCondition Name="Name">;Aften;0;0;-16777077;0;FalseControlContainer[0]</PropertyCondition>
+                                        <PropertyCondition Name="ClassName">ControlContainer</PropertyCondition>
+                                      </AndCondition>
+                                      <SupportLevel>0</SupportLevel>
+                                      <Descendants>
+                                        <UIObject ControlType="Table" Id="UIGcDayColumnTable" FriendlyName="gcDayColumn" SpecialControlType="None">
+                                          <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                          <WindowTitles>
+                                            <WindowTitle>Gat</WindowTitle>
+                                          </WindowTitles>
+                                          <AndCondition>
+                                            <PropertyCondition Name="Name">gcDayColumn</PropertyCondition>
+                                            <PropertyCondition Name="ClassName">GSGridControl</PropertyCondition>
+                                            <PropertyCondition Name="HierarchyLevel">2</PropertyCondition>
+                                          </AndCondition>
+                                          <SupportLevel>0</SupportLevel>
+                                          <Descendants>
+                                            <UIObject ControlType="Cell" Id="UIItem16000100Cell" FriendlyName="16:00 - 01:00" SpecialControlType="None">
+                                              <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                              <WindowTitles>
+                                                <WindowTitle>Gat</WindowTitle>
+                                              </WindowTitles>
+                                              <AndCondition>
+                                                <PropertyCondition Name="Name">gcDayColumnGridControlCell[View]gvDayColumn[Row]7[Column]colWorkPeriod</PropertyCondition>
+                                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                              </AndCondition>
+                                              <SupportLevel>0</SupportLevel>
+                                              <Descendants />
+                                            </UIObject>
+                                            <UIObject ControlType="Cell" Id="UIItem16000100Cell1" FriendlyName="16:00 - 01:00" SpecialControlType="None">
+                                              <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                              <WindowTitles>
+                                                <WindowTitle>Gat</WindowTitle>
+                                              </WindowTitles>
+                                              <AndCondition>
+                                                <PropertyCondition Name="Name">gcDayColumnGridControlCell[View]gvDayColumn[Row]8[Column]colWorkPeriod</PropertyCondition>
+                                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                              </AndCondition>
+                                              <SupportLevel>0</SupportLevel>
+                                              <Descendants />
+                                            </UIObject>
+                                            <UIObject ControlType="Cell" Id="UIItem22000800Cell" FriendlyName="22:00 - 08:00" SpecialControlType="None">
+                                              <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                              <WindowTitles>
+                                                <WindowTitle>Gat</WindowTitle>
+                                              </WindowTitles>
+                                              <AndCondition>
+                                                <PropertyCondition Name="Name">gcDayColumnGridControlCell[View]gvDayColumn[Row]11[Column]colWorkPeriod</PropertyCondition>
+                                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                              </AndCondition>
+                                              <SupportLevel>0</SupportLevel>
+                                              <Descendants />
+                                            </UIObject>
+                                            <UIObject ControlType="Cell" Id="UIItem23000300Cell" FriendlyName="23:00 - 03:00" SpecialControlType="None">
+                                              <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                              <WindowTitles>
+                                                <WindowTitle>Gat</WindowTitle>
+                                              </WindowTitles>
+                                              <AndCondition>
+                                                <PropertyCondition Name="Name">gcDayColumnGridControlCell[View]gvDayColumn[Row]10[Column]colWorkPeriod</PropertyCondition>
+                                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                              </AndCondition>
+                                              <SupportLevel>0</SupportLevel>
+                                              <Descendants />
+                                            </UIObject>
+                                            <UIObject ControlType="Cell" Id="UIItem22000800Cell1" FriendlyName="22:00 - 08:00" SpecialControlType="None">
+                                              <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                              <WindowTitles>
+                                                <WindowTitle>Gat</WindowTitle>
+                                              </WindowTitles>
+                                              <AndCondition>
+                                                <PropertyCondition Name="Name">gcDayColumnGridControlCell[View]gvDayColumn[Row]5[Column]colWorkPeriod</PropertyCondition>
+                                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                              </AndCondition>
+                                              <SupportLevel>0</SupportLevel>
+                                              <Descendants />
+                                            </UIObject>
+                                            <UIObject ControlType="Cell" Id="UIItem23000400Cell" FriendlyName="23:00 - 04:00" SpecialControlType="None">
+                                              <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                              <WindowTitles>
+                                                <WindowTitle>Gat</WindowTitle>
+                                              </WindowTitles>
+                                              <AndCondition>
+                                                <PropertyCondition Name="Name">gcDayColumnGridControlCell[View]gvDayColumn[Row]4[Column]colWorkPeriod</PropertyCondition>
+                                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                              </AndCondition>
+                                              <SupportLevel>0</SupportLevel>
+                                              <Descendants />
+                                            </UIObject>
+                                            <UIObject ControlType="Cell" Id="UIItem22000800Cell2" FriendlyName="22:00 - 08:00" SpecialControlType="None">
+                                              <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                              <WindowTitles>
+                                                <WindowTitle>Gat</WindowTitle>
+                                              </WindowTitles>
+                                              <AndCondition>
+                                                <PropertyCondition Name="Name">gcDayColumnGridControlCell[View]gvDayColumn[Row]12[Column]colWorkPeriod</PropertyCondition>
+                                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                              </AndCondition>
+                                              <SupportLevel>0</SupportLevel>
+                                              <Descendants />
+                                            </UIObject>
+                                          </Descendants>
+                                        </UIObject>
+                                      </Descendants>
+                                    </UIObject>
+                                  </Descendants>
+                                </UIObject>
+                                <UIObject ControlType="DockPanel" Id="UINatttiltirsdag001677DockPanel" FriendlyName=";Natt til tirsdag;0;0;-16777077;0;False" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>Gat</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">;Natt til tirsdag;0;0;-16777077;0;False</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">WorkScheduleDockPanel</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants>
+                                    <UIObject ControlType="Custom" Id="UIControlContainerCustom" FriendlyName="ControlContainer" SpecialControlType="None">
+                                      <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                      <WindowTitles>
+                                        <WindowTitle>Gat</WindowTitle>
+                                      </WindowTitles>
+                                      <AndCondition>
+                                        <PropertyCondition Name="Name">;Natt til tirsdag;0;0;-16777077;0;FalseControlContainer[0]</PropertyCondition>
+                                        <PropertyCondition Name="ClassName">ControlContainer</PropertyCondition>
+                                      </AndCondition>
+                                      <SupportLevel>0</SupportLevel>
+                                      <Descendants>
+                                        <UIObject ControlType="Table" Id="UIGcDayColumnTable" FriendlyName="gcDayColumn" SpecialControlType="None">
+                                          <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                          <WindowTitles>
+                                            <WindowTitle>Gat</WindowTitle>
+                                          </WindowTitles>
+                                          <AndCondition>
+                                            <PropertyCondition Name="Name">gcDayColumn</PropertyCondition>
+                                            <PropertyCondition Name="ClassName">GSGridControl</PropertyCondition>
+                                            <PropertyCondition Name="HierarchyLevel">2</PropertyCondition>
+                                          </AndCondition>
+                                          <SupportLevel>0</SupportLevel>
+                                          <Descendants>
+                                            <UIObject ControlType="Cell" Id="UIItem01000700Cell" FriendlyName="01:00 - 07:00" SpecialControlType="None">
+                                              <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                              <WindowTitles>
+                                                <WindowTitle>Gat</WindowTitle>
+                                              </WindowTitles>
+                                              <AndCondition>
+                                                <PropertyCondition Name="Name">gcDayColumnGridControlCell[View]gvDayColumn[Row]2[Column]colWorkPeriod</PropertyCondition>
+                                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                              </AndCondition>
+                                              <SupportLevel>0</SupportLevel>
+                                              <Descendants />
+                                            </UIObject>
+                                          </Descendants>
+                                        </UIObject>
+                                      </Descendants>
+                                    </UIObject>
+                                  </Descendants>
+                                </UIObject>
+                                <UIObject ControlType="DockPanel" Id="UIFriVikar00167770770FDockPanel" FriendlyName=";Fri / Vikar;0;0;-16777077;0;False" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>Gat</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">;Fri / Vikar;0;0;-16777077;0;False</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">WorkScheduleDockPanel</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants>
+                                    <UIObject ControlType="Custom" Id="UIControlContainerCustom" FriendlyName="ControlContainer" SpecialControlType="None">
+                                      <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                      <WindowTitles>
+                                        <WindowTitle>Gat</WindowTitle>
+                                      </WindowTitles>
+                                      <AndCondition>
+                                        <PropertyCondition Name="Name">;Fri / Vikar;0;0;-16777077;0;FalseControlContainer[0]</PropertyCondition>
+                                        <PropertyCondition Name="ClassName">ControlContainer</PropertyCondition>
+                                      </AndCondition>
+                                      <SupportLevel>0</SupportLevel>
+                                      <Descendants>
+                                        <UIObject ControlType="Table" Id="UIGcFreeColumnTable" FriendlyName="gcFreeColumn" SpecialControlType="None">
+                                          <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                          <WindowTitles>
+                                            <WindowTitle>Gat</WindowTitle>
+                                          </WindowTitles>
+                                          <AndCondition>
+                                            <PropertyCondition Name="Name">gcFreeColumn</PropertyCondition>
+                                            <PropertyCondition Name="ClassName">GSGridControl</PropertyCondition>
+                                            <PropertyCondition Name="HierarchyLevel">2</PropertyCondition>
+                                          </AndCondition>
+                                          <SupportLevel>0</SupportLevel>
+                                          <Descendants>
+                                            <UIObject ControlType="Cell" Id="UIVeumVargCell" FriendlyName="Veum, Varg" SpecialControlType="None">
+                                              <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                              <WindowTitles>
+                                                <WindowTitle>Gat</WindowTitle>
+                                              </WindowTitles>
+                                              <AndCondition>
+                                                <PropertyCondition Name="Name">gcFreeColumnGridControlCell[View]gvFreeColumn[Row]6[Column]colEmployeeName</PropertyCondition>
+                                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                              </AndCondition>
+                                              <SupportLevel>0</SupportLevel>
+                                              <Descendants />
+                                            </UIObject>
+                                          </Descendants>
+                                        </UIObject>
+                                      </Descendants>
+                                    </UIObject>
+                                  </Descendants>
+                                </UIObject>
+                              </Descendants>
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UIUtrykningWindow" FriendlyName="Utrykning" SpecialControlType="None" SessionId="4131766">
+          <TechnologyName>DevExpress.v19.2</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>Utrykning</WindowTitle>
+          </WindowTitles>
+          <AndCondition>
+            <PropertyCondition Name="Name">Utrykning</PropertyCondition>
+            <PropertyCondition Name="ClassName" Operator="Contains">WindowsForms10.Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Custom" Id="UI_layoutControlCustom" FriendlyName="_layoutControl" SpecialControlType="None">
+              <TechnologyName>DevExpress.v19.2</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Utrykning</WindowTitle>
+              </WindowTitles>
+              <AndCondition>
+                <PropertyCondition Name="Name">_layoutControl</PropertyCondition>
+                <PropertyCondition Name="ClassName">GSLayoutControl</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="LayoutGroup" Id="UIRootLayoutGroup" FriendlyName="Root" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Utrykning</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition>
+                    <PropertyCondition Name="Name">Root</PropertyCondition>
+                    <PropertyCondition Name="ClassName">LayoutGroup</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="LayoutControlItem" Id="UILayoutControlItem5LayoutControlItem" FriendlyName="layoutControlItem5" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v19.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Utrykning</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">layoutControlItem5</PropertyCondition>
+                        <PropertyCondition Name="ClassName">LayoutControlItem</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="TabList" Id="UI_tcRightTabList" FriendlyName="_tcRight" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v19.2</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Utrykning</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition>
+                            <PropertyCondition Name="Name">_tcRight</PropertyCondition>
+                            <PropertyCondition Name="ClassName">GSTabControl</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="Client" Id="UI_tpCalloutDetailsClient" FriendlyName="_tpCalloutDetails" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v19.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Utrykning</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">_tpCalloutDetails</PropertyCondition>
+                                <PropertyCondition Name="ClassName">XtraTabPage</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants>
+                                <UIObject ControlType="Custom" Id="UI_periodCreatorCustom" FriendlyName="_periodCreator" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>Utrykning</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">_periodCreator</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">TwoStepPeriodCreator</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants>
+                                    <UIObject ControlType="CheckBox" Id="UIItem27augusttirCheckBox" FriendlyName="27. august (tir.)" SpecialControlType="None">
+                                      <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                      <WindowTitles>
+                                        <WindowTitle>Utrykning</WindowTitle>
+                                      </WindowTitles>
+                                      <AndCondition>
+                                        <PropertyCondition Name="Name">_periodCreatorCheckEdit[0]</PropertyCondition>
+                                        <PropertyCondition Name="ClassName">CheckEdit</PropertyCondition>
+                                      </AndCondition>
+                                      <SupportLevel>0</SupportLevel>
+                                      <Descendants />
+                                    </UIObject>
+                                  </Descendants>
+                                </UIObject>
+                                <UIObject ControlType="TabList" Id="UI_tcMainTabList" FriendlyName="_tcMain" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>Utrykning</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">_tcMain</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">XtraTabControl</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants>
+                                    <UIObject ControlType="Client" Id="UI_tpSalaryClient" FriendlyName="_tpSalary" SpecialControlType="None">
+                                      <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                      <WindowTitles>
+                                        <WindowTitle>Utrykning</WindowTitle>
+                                      </WindowTitles>
+                                      <AndCondition>
+                                        <PropertyCondition Name="Name">_tpSalary</PropertyCondition>
+                                        <PropertyCondition Name="ClassName">XtraTabPage</PropertyCondition>
+                                      </AndCondition>
+                                      <SupportLevel>0</SupportLevel>
+                                      <Descendants>
+                                        <UIObject ControlType="Table" Id="UIGcLinesTable" FriendlyName="gcLines" SpecialControlType="None">
+                                          <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                          <WindowTitles>
+                                            <WindowTitle>Utrykning</WindowTitle>
+                                          </WindowTitles>
+                                          <AndCondition>
+                                            <PropertyCondition Name="Name">gcLines</PropertyCondition>
+                                            <PropertyCondition Name="ClassName">GSGridControl</PropertyCondition>
+                                            <PropertyCondition Name="HierarchyLevel">2</PropertyCondition>
+                                          </AndCondition>
+                                          <SupportLevel>0</SupportLevel>
+                                          <Descendants>
+                                            <UIObject ControlType="Cell" Id="UIItem300Overtid50Cell" FriendlyName="300 - Overtid 50%" SpecialControlType="None">
+                                              <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                              <WindowTitles>
+                                                <WindowTitle>Utrykning</WindowTitle>
+                                              </WindowTitles>
+                                              <AndCondition>
+                                                <PropertyCondition Name="Name">gcLinesGridControlCell[View]gvLines[Row]0[Column]colCostType</PropertyCondition>
+                                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                              </AndCondition>
+                                              <SupportLevel>0</SupportLevel>
+                                              <Descendants />
+                                            </UIObject>
+                                            <UIObject ControlType="Cell" Id="UIItem050Cell" FriendlyName="0,50" SpecialControlType="None">
+                                              <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                              <WindowTitles>
+                                                <WindowTitle>Utrykning</WindowTitle>
+                                              </WindowTitles>
+                                              <AndCondition>
+                                                <PropertyCondition Name="Name">gcLinesGridControlCell[View]gvLines[Row]0[Column]colAmount</PropertyCondition>
+                                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                              </AndCondition>
+                                              <SupportLevel>0</SupportLevel>
+                                              <Descendants />
+                                            </UIObject>
+                                            <UIObject ControlType="Cell" Id="UIItem200TimelønnCell" FriendlyName="200 - Timelønn" SpecialControlType="None">
+                                              <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                              <WindowTitles>
+                                                <WindowTitle>Utrykning</WindowTitle>
+                                              </WindowTitles>
+                                              <AndCondition>
+                                                <PropertyCondition Name="Name">gcLinesGridControlCell[View]gvLines[Row]1[Column]colCostType</PropertyCondition>
+                                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                              </AndCondition>
+                                              <SupportLevel>0</SupportLevel>
+                                              <Descendants />
+                                            </UIObject>
+                                            <UIObject ControlType="Cell" Id="UIItem050Cell1" FriendlyName="-0,50" SpecialControlType="None">
+                                              <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                              <WindowTitles>
+                                                <WindowTitle>Utrykning</WindowTitle>
+                                              </WindowTitles>
+                                              <AndCondition>
+                                                <PropertyCondition Name="Name">gcLinesGridControlCell[View]gvLines[Row]1[Column]colAmount</PropertyCondition>
+                                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                              </AndCondition>
+                                              <SupportLevel>0</SupportLevel>
+                                              <Descendants />
+                                            </UIObject>
+                                            <UIObject ControlType="Cell" Id="UIItem000Cell" FriendlyName="0,00" SpecialControlType="None">
+                                              <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                              <WindowTitles>
+                                                <WindowTitle>Utrykning</WindowTitle>
+                                              </WindowTitles>
+                                              <AndCondition>
+                                                <PropertyCondition Name="Name">gcLinesGridControlCell[View]gvLines[Row]2[Column]colAmount</PropertyCondition>
+                                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                              </AndCondition>
+                                              <SupportLevel>0</SupportLevel>
+                                              <Descendants />
+                                            </UIObject>
+                                            <UIObject ControlType="Cell" Id="UIItem300kompAvspaseriCell" FriendlyName="300komp - Avspasering Overtid 50%" SpecialControlType="None">
+                                              <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                              <WindowTitles>
+                                                <WindowTitle>Utrykning</WindowTitle>
+                                              </WindowTitles>
+                                              <AndCondition>
+                                                <PropertyCondition Name="Name">gcLinesGridControlCell[View]gvLines[Row]2[Column]colCostType</PropertyCondition>
+                                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                              </AndCondition>
+                                              <SupportLevel>0</SupportLevel>
+                                              <Descendants />
+                                            </UIObject>
+                                            <UIObject ControlType="Cell" Id="UIItem000Cell1" FriendlyName="0,00" SpecialControlType="None">
+                                              <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                              <WindowTitles>
+                                                <WindowTitle>Utrykning</WindowTitle>
+                                              </WindowTitles>
+                                              <AndCondition>
+                                                <PropertyCondition Name="Name">gcLinesGridControlCell[View]gvLines[Row]3[Column]colAmount</PropertyCondition>
+                                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                              </AndCondition>
+                                              <SupportLevel>0</SupportLevel>
+                                              <Descendants />
+                                            </UIObject>
+                                            <UIObject ControlType="Cell" Id="UIItem300kompAvspaseriCell1" FriendlyName="300komp - Avspasering Overtid 50%" SpecialControlType="None">
+                                              <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                              <WindowTitles>
+                                                <WindowTitle>Utrykning</WindowTitle>
+                                              </WindowTitles>
+                                              <AndCondition>
+                                                <PropertyCondition Name="Name">gcLinesGridControlCell[View]gvLines[Row]3[Column]colCostType</PropertyCondition>
+                                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                              </AndCondition>
+                                              <SupportLevel>0</SupportLevel>
+                                              <Descendants />
+                                            </UIObject>
+                                            <UIObject ControlType="Cell" Id="UIItem000Cell2" FriendlyName="0,00" SpecialControlType="None">
+                                              <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                              <WindowTitles>
+                                                <WindowTitle>Utrykning</WindowTitle>
+                                              </WindowTitles>
+                                              <AndCondition>
+                                                <PropertyCondition Name="Name">gcLinesGridControlCell[View]gvLines[Row]4[Column]colAmount</PropertyCondition>
+                                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                              </AndCondition>
+                                              <SupportLevel>0</SupportLevel>
+                                              <Descendants />
+                                            </UIObject>
+                                          </Descendants>
+                                        </UIObject>
+                                      </Descendants>
+                                    </UIObject>
+                                  </Descendants>
+                                </UIObject>
+                              </Descendants>
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UIMerarbeidovertidWindow" FriendlyName="Merarbeid / overtid" SpecialControlType="None" SessionId="462454">
+          <TechnologyName>DevExpress.v19.2</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>Merarbeid / overtid</WindowTitle>
+          </WindowTitles>
+          <AndCondition>
+            <PropertyCondition Name="Name">Merarbeid / overtid</PropertyCondition>
+            <PropertyCondition Name="ClassName" Operator="Contains">WindowsForms10.Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Client" Id="UIPanClientClient" FriendlyName="panClient" SpecialControlType="None">
+              <TechnologyName>DevExpress.v19.2</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Merarbeid / overtid</WindowTitle>
+              </WindowTitles>
+              <AndCondition>
+                <PropertyCondition Name="Name">panClient</PropertyCondition>
+                <PropertyCondition Name="ClassName">GSPanelControl</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="TabList" Id="UITcClientTabList" FriendlyName="tcClient" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Merarbeid / overtid</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition>
+                    <PropertyCondition Name="Name">tcClient</PropertyCondition>
+                    <PropertyCondition Name="ClassName">GSTabControl</PropertyCondition>
+                    <PropertyCondition Name="HierarchyLevel">3</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Client" Id="UITpMainClient" FriendlyName="tpMain" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v19.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Merarbeid / overtid</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">tpMain</PropertyCondition>
+                        <PropertyCondition Name="ClassName">XtraTabPage</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="TabList" Id="UITcExtraDetailTabList" FriendlyName="tcExtraDetail" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v19.2</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Merarbeid / overtid</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition>
+                            <PropertyCondition Name="Name">tcExtraDetail</PropertyCondition>
+                            <PropertyCondition Name="ClassName">GSTabControl</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="Client" Id="UITpSalaryCalcClient" FriendlyName="tpSalaryCalc" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v19.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Merarbeid / overtid</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">tpSalaryCalc</PropertyCondition>
+                                <PropertyCondition Name="ClassName">XtraTabPage</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants>
+                                <UIObject ControlType="Table" Id="UIGcAccountingLinesTable" FriendlyName="gcAccountingLines" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>Merarbeid / overtid</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">gcAccountingLines</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">GSGridControl</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants>
+                                    <UIObject ControlType="Cell" Id="UIItem300Overtid50Cell" FriendlyName="300 - Overtid 50%" SpecialControlType="None">
+                                      <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                      <WindowTitles>
+                                        <WindowTitle>Merarbeid / overtid</WindowTitle>
+                                      </WindowTitles>
+                                      <AndCondition>
+                                        <PropertyCondition Name="Name">gcAccountingLinesGridControlCell[View]gvAccountingLines[Row]0[Column]colCostType</PropertyCondition>
+                                        <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                      </AndCondition>
+                                      <SupportLevel>0</SupportLevel>
+                                      <Descendants />
+                                    </UIObject>
+                                    <UIObject ControlType="Cell" Id="UIItem400Cell" FriendlyName="4,00" SpecialControlType="None">
+                                      <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                      <WindowTitles>
+                                        <WindowTitle>Merarbeid / overtid</WindowTitle>
+                                      </WindowTitles>
+                                      <AndCondition>
+                                        <PropertyCondition Name="Name">gcAccountingLinesGridControlCell[View]gvAccountingLines[Row]0[Column]colAmount</PropertyCondition>
+                                        <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                      </AndCondition>
+                                      <SupportLevel>0</SupportLevel>
+                                      <Descendants />
+                                    </UIObject>
+                                  </Descendants>
+                                </UIObject>
+                              </Descendants>
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+      </TopLevelWindows>
+    </UIMap>
+  </Maps>
+  <ValueMap>
+    <ParameterList />
+  </ValueMap>
+</UITest>

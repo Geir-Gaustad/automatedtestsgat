@@ -1,0 +1,406 @@
+﻿namespace _025_Ytelsestest_Arbeidsplan
+{
+    using Microsoft.VisualStudio.TestTools.UITesting.WinControls;
+    using System;
+    using System.Collections.Generic;
+    using System.CodeDom.Compiler;
+    using Microsoft.VisualStudio.TestTools.UITest.Extension;
+    using Microsoft.VisualStudio.TestTools.UITesting;
+    using Microsoft.VisualStudio.TestTools.UnitTesting;
+    using Keyboard = Microsoft.VisualStudio.TestTools.UITesting.Keyboard;
+    using Mouse = Microsoft.VisualStudio.TestTools.UITesting.Mouse;
+    using MouseButtons = System.Windows.Forms.MouseButtons;
+    using System.Drawing;
+    using System.Windows.Input;
+    using System.Text.RegularExpressions;
+    using CommonTestData;
+    using System.Diagnostics;
+    using DevExpress.CodedUIExtension.DXTestControls.v18_2;
+    using System.Threading;
+    using System.Globalization;
+    using System.IO;
+
+    public partial class UIMap
+    {
+        #region Fields
+        private CommonUIFunctions.UIMap UICommon;
+        private TestContext TestContext;
+        private string ConfigFilePath;
+        #endregion
+
+        public UIMap(TestContext testContext)
+        {
+            TestContext = testContext;
+            Thread.CurrentThread.CurrentCulture = new CultureInfo("nb-NO");
+            ConfigFilePath = Path.Combine(TestData.GetWorkingDirectory, @"Config");
+
+            UICommon = new CommonUIFunctions.UIMap(TestContext, true);
+        }
+        public bool RestoreDatabase()
+        {
+            return UICommon.RestoreDatabase(true);
+        }
+        public void StartGat()
+        {
+            UICommon.LaunchGatturnus(false);
+            UICommon.LoginGatAndSelectDepartment(UICommon.DepYtelse);
+        }
+        
+        public string ReadPhysicalMemoryUsage()
+        {
+            return LoadBalanceTesting.ReadMemoryData(LoadBalanceTesting.MemoryType.WorkingSet64);
+        }
+        public string ReadPagedMemorySize64()
+        {
+            return LoadBalanceTesting.ReadMemoryData(LoadBalanceTesting.MemoryType.PagedMemorySize64);
+        }
+        public List<string> TimeLapseInSeconds(DateTime timeBefore, DateTime timeAfter, string text, int bottonLimit, int upperLimit)
+        {
+            return LoadBalanceTesting.TimeLapseInSeconds(timeBefore, timeAfter, text, TestContext, bottonLimit, upperLimit);
+        }
+
+        private void SelectRosterplanTab(int delay = 0)
+        {
+            Playback.Wait(delay * 1000);
+            UICommon.SelectMainWindowTab(SupportFunctions.MainWindowTabs.Rosterplan);
+        }
+        private List<string> SelectRosterPlan(string planName)
+        {
+            Playback.Wait(1000);
+            var timeBefore = DateTime.Now;
+            UICommon.SelectRosterPlan(planName);
+
+            var timeAfter = DateTime.Now;
+            return TimeLapseInSeconds(timeBefore, timeAfter, "Tidsforbruk ved åpning av plan", 35, 60);
+        }
+        public List<string> OpenPlan(string planName)
+        {
+            Playback.Wait(1500);
+            SelectRosterplanTab();
+            Playback.Wait(3000);
+            return SelectRosterPlan(planName);
+        }
+
+
+        public List<string> EffectuateFullplan(bool selectPlanTab, bool closePlan, bool revolving = true, int highLimit = 130, bool helpPlan = false)
+        {
+            var errorList = new List<string>();
+            UICommon.EffectuateFullRosterplan(selectPlanTab);
+
+            var timeBeforeOpenEffectuationWindow = DateTime.Now;
+            if (UICommon.EffectuationWindowExists())
+            {
+                var timeAfterOpenEffectuationWindow = DateTime.Now;
+                errorList.AddRange(TimeLapseInSeconds(timeBeforeOpenEffectuationWindow, timeAfterOpenEffectuationWindow, "Tidsforbruk ved åpning av iverksettingsvindu", 15, 40));
+            }
+
+            UICommon.EffectuateRosterplanLines(revolving);
+            var timeBeforeEffectuation = DateTime.Now;
+
+            if (UICommon.SalaryCalculationsWindowExists())
+            {
+                var timeAfterEffectuation = DateTime.Now;
+                errorList.AddRange(TimeLapseInSeconds(timeBeforeEffectuation, timeAfterEffectuation, "Tidsforbruk ved iverksetting av plan", 20, highLimit));
+            }
+
+            UICommon.CloseSalaryCalculationsWindow();
+            var timeWhenClosingSalaryCalcWindow = DateTime.Now;
+
+            if (helpPlan)
+            {
+                if (!UICommon.CheckDeleteEffectuationHelpPlanButtonEnabled(true))
+                    errorList.Add("error checking DeleteEffectuationButton");
+            }
+            else
+            {
+                if (!UICommon.CheckDeleteEffectuationButtonEnabled(true))
+                    errorList.Add("error checking DeleteEffectuationButton");
+            }
+
+            var timePlanReady = DateTime.Now;
+            errorList.AddRange(TimeLapseInSeconds(timeWhenClosingSalaryCalcWindow, timePlanReady, "Tidsforbruk ved lasting av plan etter iverksetting", 3, 45));
+
+            if (closePlan)
+                CloseRosterplan();
+
+            return errorList;
+        }
+
+        public List<string> DeleteEffectuationFullplan()
+        {
+            var errorList = new List<string>();
+
+            UICommon.DeleteEffectuationRosterplan();
+
+            var timeBeforeSelectAll = DateTime.Now;
+            UICommon.SelectAllAndWaitForDeleteEffectuationWindowReady();
+
+            var timeAfterSelectAll = DateTime.Now;
+            errorList.AddRange(TimeLapseInSeconds(timeBeforeSelectAll, timeAfterSelectAll, "Tidsforbruk før Slette iverksetting vindu er klart", 20, 30));
+
+            var timeBeforeEffectuation = DateTime.Now;
+            UICommon.DeleteEffectuatedLines();
+            UICommon.CloseDeleteEffectuationOkWindow();
+
+            var timeAfterEffectuation = DateTime.Now;
+            errorList.AddRange(TimeLapseInSeconds(timeBeforeEffectuation, timeAfterEffectuation, "Tidsforbruk ved sletting av iverksetting(plan)", 35, 55));
+            
+            try
+            {
+                Playback.Wait(3000);
+                UICommon.CheckDeleteEffectuationButtonEnabled(false);
+            }
+            catch (Exception e)
+            {
+                errorList.Add(e.Message);
+            }
+
+            var timePlanReady = DateTime.Now;
+            errorList.AddRange(TimeLapseInSeconds(timeAfterEffectuation, timePlanReady, "Tidsforbruk ved lasting av plan etter sletting av iverksetting", 1, 6));
+
+            return errorList;
+        }
+
+        public List<string> AddAndConfigureEmployeesToPlan()
+        {
+            var errorList = new List<string>();
+
+            UICommon.ClickEmployeesButtonRosterplan();
+            UICommon.ClickEmployeesButtonInEmployeeWindow();
+            UICommon.SelectAllEmployeesAddEmployeesWindow();
+            UICommon.ClickOkAddEmployeesWindow();
+
+            Select4EmpsInEmployeeWindow();
+            SelectCauseCodeF();
+            CheckCauseCodeF();
+            Select4RemainingEmpsInEmployeeWindow();
+
+            UICommon.SetRevolvingFromDate();
+            UICommon.SetRevolvingToDate();
+
+            CheckRevolvingPeriod();
+
+            var timeBeforeAddingEmployees = DateTime.Now;
+            UICommon.ClickOkEmployeesWindow();
+            try
+            {
+                CheckEmployeesAddedToPlan();
+            }
+            catch (Exception e)
+            {
+                errorList.Add(e.Message);
+            }
+            var timeAfterAddingEmployees = DateTime.Now;
+
+            errorList.AddRange(TimeLapseInSeconds(timeBeforeAddingEmployees, timeAfterAddingEmployees, "Tidsforbruk ved å legge ansatte til i planen", 10, 20));
+
+            return errorList;
+        }
+
+        public void EditViewDateForPlan()
+        {
+            UICommon.OpenRosterplanSettings();
+            ChangeViewdate();
+        }
+
+        public void EditValidToDateForPlan()
+        {
+            #region Variable Declarations
+            DXButton uIGSSimpleButtonButton = this.UIItemWindow.UIPaBottomClient.UIGSSimpleButtonButton;
+            #endregion
+
+            UICommon.OpenRosterplanSettings();
+            UICommon.SetValidToDateRosterplan(new DateTime(2023, 01, 01));
+
+            Mouse.Click(uIGSSimpleButtonButton);
+        }
+
+        public List<string> EditRosterplanShifts()
+        {
+            var errorList = new List<string>();
+
+            Playback.Wait(3000);
+            UICommon.SelectRosterplanPlanTab();
+            UICommon.ClickEditRosterPlanFromPlantab();
+
+            SelectAndCopyShifts();
+            var timeBeforeInsertingShifts = DateTime.Now;
+            InsertCopiedShifts();
+            UICommon.ClickOKEditRosterPlanFromPlantab();
+            var timeAfterInsertingShifts = DateTime.Now;
+
+            errorList.AddRange(TimeLapseInSeconds(timeBeforeInsertingShifts, timeAfterInsertingShifts, "Tidsforbruk ved å lime inn kopierte vakter i planen", 5, 12));
+
+            return errorList;
+        }
+
+        public List<string> CreateHelpPlan()
+        {
+            var errorList = new List<string>();
+            //Hjelpeplan for YTELSE - Arbeidsplan.
+            UICommon.SelectNewHelpplan();
+
+            UICommon.SetStartDateNewHelpplan(new DateTime(2022, 06, 27));
+
+            Playback.Wait(1000);
+
+            UICommon.SetHelpPlanWeeks("8");
+            var timeBeforeOk = DateTime.Now;
+            UICommon.ClickOkCreateHelpPlan();
+            var timeAfterOk = DateTime.Now;
+
+            errorList.AddRange(TimeLapseInSeconds(timeBeforeOk, timeAfterOk, "Tidsforbruk før bekreftelse på oppretting av hjelpeplan vises", 8, 15));
+
+            return errorList;
+        }
+
+        public void EditHelpPlanShifts()
+        {
+            UICommon.SelectRosterplanPlanTab();
+            UICommon.ClickEditRosterPlanFromPlantab();
+
+            MarkThreeWeeksAndRightClick();
+
+            UICommon.ClickOKEditRosterPlanFromPlantab();
+            CloseRosterplan();
+        }
+
+
+        /// <summary>
+        /// MarkThreeWeeksAndRightClick
+        /// </summary>
+        public void MarkThreeWeeksAndRightClick()
+        {
+            #region Variable Declarations
+            var rowList = new List<string> { "47", "45", "43", "41", "39", "37", "35", "33", "31", "29", "27", "25", "23", "21", "15", "13", "11", "9", "7", "3", "1" };//{"1", "3", "7", "9", "11", "13", "15", "21", "23", "25", "27", "29", "31", "33" };
+            var startCell = this.UIArbeidsplanHjelpeplaWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIItemCell;
+            var stopCell = this.UIArbeidsplanHjelpeplaWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIItemCell1;
+            #endregion
+
+            foreach (var row in rowList)
+            {
+                startCell.SearchProperties[DXTestControl.PropertyNames.Name] = "gcRosterPlanGridControlCell[View]gvRosterPlan[Row]" + row + "[Column]RosterCell_7";
+                stopCell.SearchProperties[DXTestControl.PropertyNames.Name] = "gcRosterPlanGridControlCell[View]gvRosterPlan[Row]" + row + "[Column]RosterCell_27";
+                // Move cell to cell
+
+                startCell.EnsureClickable(new Point(15, 10));
+                Mouse.StartDragging(startCell, new Point(15, 10));
+                Mouse.StopDragging(stopCell, new Point(15, 10));
+
+                // Right-Click cell
+                Mouse.Click(stopCell, MouseButtons.Right);
+                UICommon.SelectAbsenceCode("45B", "7");
+            }
+        }
+
+        /// <summary>
+        /// SelectAndCopyShifts
+        /// </summary>
+        public void SelectAndCopyShifts()
+        {
+            #region Variable Declarations
+            DXCell uIDCell = this.UIArbeidsplanYTELSEArbWindow1.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIDCell;
+            DXCell uIF1Cell = this.UIArbeidsplanYTELSEArbWindow1.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIF1Cell;
+            DXMenuBaseButtonItem copyNotInEditMode = this.UIItemWindow1.UIPopupMenuBarControlMenu.UIBarButtonItemLink10MenuBaseButtonItem;
+            DXMenuBaseButtonItem copyInEditMode = this.UIItemWindow1.UIPopupMenuBarControlMenu.UIKopierMenuBaseButtonItem;
+            #endregion
+
+            uIDCell.EnsureClickable();
+            Mouse.StartDragging(uIDCell);
+            Mouse.StopDragging(uIF1Cell);
+
+            // Right-Click 'F1' cell
+            Mouse.Click(uIF1Cell, MouseButtons.Right);
+            Playback.Wait(500);
+
+            // Click 'BarButtonItemLink[10]' MenuBaseButtonItem
+            Mouse.Click(copyInEditMode);
+        }
+        
+        /// <summary>
+        /// CheckEmployeesAddedToPlan - Use 'CheckEmployeesAddedToPlanExpectedValues' to pass parameters into this method.
+        /// </summary>
+        public void CheckEmployeesAddedToPlan()
+        {
+            UIArbeidsplanWindow.WaitForControlExist(600000);
+
+            var tbl = UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable;
+            var tblRows = tbl.Views[0].RowCount;
+            Assert.AreEqual(106, tblRows, "Feil antall ansatte i plan(step 17)");
+        }
+
+        public void ReplaceInifile(bool effectuated, bool insertOrgIniFile = false)
+        {
+            if (insertOrgIniFile)
+            {
+                SupportFunctions.FileCopy("GATTURNUS.ini", ConfigFilePath + @"\no", ConfigFilePath + @"\CurrentIni", TestContext);
+                return;
+            }
+
+            if (effectuated)
+                SupportFunctions.FileCopy("GATTURNUS.ini", ConfigFilePath + @"\Test_022\2", ConfigFilePath + @"\CurrentIni", TestContext);
+            else
+                SupportFunctions.FileCopy("GATTURNUS.ini", ConfigFilePath + @"\Test_022\1", ConfigFilePath + @"\CurrentIni", TestContext);
+        }
+
+        public void CloseRosterplan()
+        {
+            try
+            {
+                Playback.Wait(1000);
+                UICommon.XcloseRosterplan();
+            }
+            catch (Exception e)
+            {
+                TestContext.WriteLine(e.Message);
+            }
+
+            Playback.Wait(1000);
+        }
+
+        public void CloseGat()
+        {
+            try
+            {
+                UICommon.CloseGat();
+            }
+            catch (Exception)
+            {
+                SupportFunctions.KillGatProcess(TestContext);
+            }
+        }
+        
+        public void AssertResults(List<string> errorList)
+        {
+            UICommon.AssertResults(errorList);
+        }
+        
+        public virtual CheckEmployeesAddedToPlanExpectedValues CheckEmployeesAddedToPlanExpectedValues
+        {
+            get
+            {
+                if ((this.mCheckEmployeesAddedToPlanExpectedValues == null))
+                {
+                    this.mCheckEmployeesAddedToPlanExpectedValues = new CheckEmployeesAddedToPlanExpectedValues();
+                }
+                return this.mCheckEmployeesAddedToPlanExpectedValues;
+            }
+        }
+
+        private CheckEmployeesAddedToPlanExpectedValues mCheckEmployeesAddedToPlanExpectedValues;
+    }
+    /// <summary>
+    /// Parameters to be passed into 'CheckEmployeesAddedToPlan'
+    /// </summary>
+    [GeneratedCode("Coded UITest Builder", "14.0.23107.0")]
+    public class CheckEmployeesAddedToPlanExpectedValues
+    {
+
+        #region Fields
+        /// <summary>
+        /// Verify that the 'ValueAsString' property of 'Riseth, Vidar' cell equals 'Riseth, Vidar'
+        /// </summary>
+        public string UIRisethVidarCellValueAsString = "Riseth, Vidar";
+        #endregion
+    }
+}

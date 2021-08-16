@@ -1,0 +1,2038 @@
+<?xml version="1.0"?>
+<UITest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="" Id="a50c4277-bdac-4ef8-ba99-c1e7b0628cbb" AssemblyVersion="15.0.26208.0" Version="1.0" xmlns="http://schemas.microsoft.com/VisualStudio/TeamTest/UITest/2010">
+  <Configuration>
+    <Group Name="IE">
+      <Setting Name="Version" Value="9.11.17134.0" WarningLevel="1" />
+      <Setting Name="InformationBar" WarningLevel="1" />
+      <Setting Name="AutoCompletePassword" WarningLevel="1" />
+      <Setting Name="AutoCompleteForm" WarningLevel="1" />
+      <Setting Name="DefaultBrowser" Value="IEXPLORE.EXE" WarningLevel="1" />
+      <Setting Name="PopupBlocker" Value="yes" WarningLevel="1" />
+      <Setting Name="TabbedBrowsing" WarningLevel="2" />
+      <Setting Name="InternetZoneSecurity" Value="0" WarningLevel="2" />
+      <Setting Name="IntranetZoneSecurity" Value="69632" WarningLevel="2" />
+      <Setting Name="TrustedZoneSecurity" Value="70912" WarningLevel="2" />
+      <Setting Name="RestrictedZoneSecurity" Value="73728" WarningLevel="2" />
+      <Setting Name="PhishingFilter" WarningLevel="1" />
+      <Setting Name="EnhancedSecurityConfiguration" WarningLevel="1" />
+    </Group>
+    <Group Name="OS">
+      <Setting Name="Name" Value="Microsoft Windows 10 Pro" WarningLevel="2" />
+      <Setting Name="Version" Value="Microsoft Windows NT 10.0.17134.0" WarningLevel="2" />
+      <Setting Name="IsUserAdmin" Value="True" WarningLevel="2" />
+      <Setting Name="Is64BitOperatingSystem" Value="True" WarningLevel="2" />
+      <Setting Name="IsTerminalServerSession" Value="False" WarningLevel="2" />
+      <Setting Name="OSLanguage" Value="1033" WarningLevel="1" />
+      <Setting Name="UserLocale" Value="1044" WarningLevel="1" />
+      <Setting Name="DragFullWindows" Value="True" WarningLevel="2" />
+      <Setting Name="ScreenResolutionWidth" Value="1920" WarningLevel="2" />
+      <Setting Name="ScreenResolutionHeight" Value="1080" WarningLevel="2" />
+      <Setting Name="SystemDPIX" Value="96" WarningLevel="2" />
+      <Setting Name="SystemDPIY" Value="96" WarningLevel="2" />
+      <Setting Name="Aero" Value="1" WarningLevel="1" />
+      <Setting Name="UACEnabled" Value="1" WarningLevel="2" />
+      <Setting Name="UACPromptEnabled" Value="2" WarningLevel="1" />
+    </Group>
+    <Group Name="TechnologyManagers">
+      <Setting Name="Web" WarningLevel="1" />
+      <Setting Name="DevExpress.v19.2" WarningLevel="1" />
+      <Setting Name="Web" WarningLevel="1" />
+      <Setting Name="DevExpress.v19.2" WarningLevel="1" />
+      <Setting Name="Web" WarningLevel="1" />
+      <Setting Name="UIA" WarningLevel="1" />
+    </Group>
+  </Configuration>
+  <InitializeActions />
+  <ExecuteActions>
+    <AssertAction UIObjectName="UIMap.UIFraværsregistreringWindow.UIPnlShiftManagementClient.UISccShiftManagementSplitContainerControl.UISplitGroupPanelClient.UIGrcShiftsClient.UITcShiftsTabList.UIXtpShiftsGridClient.UIGcShiftsTable.UIItem2Cell">
+      <ParameterName />
+      <PropertyName>ErrorText</PropertyName>
+      <ExpectedValue>Meldinger:
+ - Vakten blir en del av dette fraværet ved lagring</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="CheckAbsenceStep44">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <AssertAction UIObjectName="UIMap.UIGatWindow.UIViewHostCustom.UIPcViewClient.UILeftPanelDockPanel.UIDashboardDockPanel.UIControlContainerCustom.UIDashboardControlCustom.UINavBarControlNavBar.UITimeregistrering00NavBarGroup">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>Timeregistrering (0/0)</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIGatWindow.UIViewHostCustom.UIPcViewClient.UILeftPanelDockPanel.UIDashboardDockPanel.UIControlContainerCustom.UIDashboardControlCustom.UINavBarControlNavBar.UIBank1NavBarGroup">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>Bank (1)</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIGatWindow.UIViewHostCustom.UIPcViewClient.UILeftPanelDockPanel.UIDashboardDockPanel.UIControlContainerCustom.UIDashboardControlCustom.UINavBarControlNavBar.UIStillinger1NavBarGroup">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>Stillinger (1)</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIGatWindow.UIViewHostCustom.UIPcViewClient.UILeftPanelDockPanel.UIDashboardDockPanel.UIControlContainerCustom.UIDashboardControlCustom.UINavBarControlNavBar.UINbcTimeRegScrollableControl.UIScTimeRegSplitContainerControl.UISplitGroupPanelClient.UIPnlGraphUnitLeaderClient.UIChartControlUnitLeadClient">
+      <ParameterName />
+      <PropertyName>ControlName</PropertyName>
+      <ExpectedValue>chartControlUnitLeader</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="CheckAbsInDashStep48">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <AssertAction UIObjectName="UIMap.UIGatWindow.UIViewHostCustom.UIPcViewClient.UILeftPanelDockPanel.UIDashboardDockPanel.UIControlContainerCustom.UIDashboardControlCustom.UINavBarControlNavBar.UINgcAbsenceScrollableControl.UIGcAbsenceTable.UIItem2PersonCell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>2, Person</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIGatWindow.UIViewHostCustom.UIPcViewClient.UILeftPanelDockPanel.UIDashboardDockPanel.UIControlContainerCustom.UIDashboardControlCustom.UINavBarControlNavBar.UINgcAbsenceScrollableControl.UIGcAbsenceTable.UIFerie5dgrukeheleukerCell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>Ferie 5 dgr/uke - hele uker</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIGatWindow.UIViewHostCustom.UIPcViewClient.UILeftPanelDockPanel.UIDashboardDockPanel.UIControlContainerCustom.UIDashboardControlCustom.UINavBarControlNavBar.UINgcAbsenceScrollableControl.UIGcAbsenceTable.UIItem0801Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>08.01</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="CheckAbsInDashStep50">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <AssertAction UIObjectName="UIMap.UIGatWindow.UIViewHostCustom.UIPcViewClient.UICenterPanelPeriodDockPanel.UIControlContainerCustom.UIPeriodScheduleControCustom.UILayoutPanelSplitContainerControl.UITopPanelClient.UIXtraScrollableControScrollableControl.UIPeriodScheduleListBoList.UIItem45B2PersonListItem">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>45B - 2, Person</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIGatWindow.UIViewHostCustom.UIPcViewClient.UICenterPanelPeriodDockPanel.UIControlContainerCustom.UIPeriodScheduleControCustom.UILayoutPanelSplitContainerControl.UITopPanelClient.UIXtraScrollableControScrollableControl.UIPeriodScheduleListBoList1.UIItem45B2PersonListItem">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>45B - 2, Person</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIGatWindow.UIViewHostCustom.UIPcViewClient.UICenterPanelPeriodDockPanel.UIControlContainerCustom.UIPeriodScheduleControCustom.UILayoutPanelSplitContainerControl.UITopPanelClient.UIXtraScrollableControScrollableControl.UIPeriodScheduleListBoList2.UIItem45B2PersonListItem">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>45B - 2, Person</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIGatWindow.UIViewHostCustom.UIPcViewClient.UICenterPanelPeriodDockPanel.UIControlContainerCustom.UIPeriodScheduleControCustom.UILayoutPanelSplitContainerControl.UITopPanelClient.UIXtraScrollableControScrollableControl.UIPeriodScheduleListBoList3.UIItem45B2PersonListItem">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>45B - 2, Person</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIGatWindow.UIViewHostCustom.UIPcViewClient.UICenterPanelPeriodDockPanel.UIControlContainerCustom.UIPeriodScheduleControCustom.UILayoutPanelSplitContainerControl.UITopPanelClient.UIXtraScrollableControScrollableControl.UIPeriodScheduleListBoList4.UIItem45B2PersonListItem">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>45B - 2, Person</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIGatWindow.UIViewHostCustom.UIPcViewClient.UICenterPanelPeriodDockPanel.UIControlContainerCustom.UIPeriodScheduleControCustom.UILayoutPanelSplitContainerControl.UITopPanelClient.UIXtraScrollableControScrollableControl.UIPeriodScheduleListBoList5.UIItem45B2PersonListItem">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>45B - 2, Person</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIGatWindow.UIViewHostCustom.UIPcViewClient.UICenterPanelPeriodDockPanel.UIControlContainerCustom.UIPeriodScheduleControCustom.UILayoutPanelSplitContainerControl.UITopPanelClient.UIXtraScrollableControScrollableControl.UIPeriodScheduleListBoList6.UIItem45B2PersonListItem">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>45B - 2, Person</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="CheckAbsStep50">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <AssertAction UIObjectName="UIMap.UIOverlappendevakterWindow.UIOverlappendevakterWindowTitleBar">
+      <ParameterName />
+      <PropertyName>FriendlyName</PropertyName>
+      <ExpectedValue>Overlappende vakter</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="CheckMessageStep">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <AssertAction UIObjectName="UIMap.UIGatWindow.UIViewHostCustom.UIPcViewClient.UILeftPanelDockPanel.UIDashboardDockPanel.UIControlContainerCustom.UIDashboardControlCustom.UINavBarControlNavBar.UIFravær1NavBarGroup">
+      <ParameterName />
+      <PropertyName>Visible</PropertyName>
+      <ExpectedValue>False</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIGatWindow.UIViewHostCustom.UIPcViewClient.UILeftPanelDockPanel.UIDashboardDockPanel.UIControlContainerCustom.UIDashboardControlCustom.UINavBarControlNavBar.UIFravær1NavBarGroup">
+      <ParameterName />
+      <PropertyName>Exists</PropertyName>
+      <ExpectedValue>False</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="CheckNoAbsInDashStep48">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <AssertAction UIObjectName="UIMap.UILønnsberegningvediveWindow.UIPcReceiptPanelClient.UIGcReceiptTable.UIItemCell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue />
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UILønnsberegningvediveWindow.UIPcReceiptPanelClient.UIGcReceiptTable.UIPaymentCell_NoneColumnHeader">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>&lt;Ingen lønnsberegning&gt;</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="CheckNoPaymentCalculation">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <AssertAction UIObjectName="UIMap.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIRosterPlanGrid1Custom.UIGcRosterPlanTable.UIItem2Cell">
+      <ParameterName />
+      <PropertyName>ValueAsString</PropertyName>
+      <ExpectedValue>PlanShift (2)</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="CheckPlanStep">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <AssertAction UIObjectName="UIMap.UIRegistreringsstatusWindow.UILcMessagesCustom.UILcgMessagesLayoutGroup.UILciMessagesLayoutControlItem.UIGMessagesTable.UILinje212PersonFraværCell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>Linje 2 - 1 - 2, Person - Fravær må håndteres manuelt.</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMap.UIRegistreringsstatusWindow.UILcMessagesCustom.UILcgMessagesLayoutGroup.UILciMessagesLayoutControlItem.UIGMessagesTable.UIDetfinnesfraværivaktCell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>Det finnes fravær i vaktboken i perioden som iverksettes. Disse må manuelt oppdateres etter iverksetting for å få korrekte verdier.</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="CheckRegStatusStep46">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap.UIOverlappendevakterWindow.UIPanelControl1Client.UILukkButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="1" Y="1" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="CloseOverlapWarningDialog">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap.UIGatWindow.UIViewHostCustom.UIPcViewClient.UIBottomPanelDockPanel.UIFraværDockPanel.UIControlContainerCustom.UIGcAbsenceColumnTable.UIItem0301202416Kl1200Cell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="11" Y="6" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>DoubleClick</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="OpenAbsenceStep44">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIRosterPlanGrid1Custom.UIGcRosterPlanTable.UIItem1PersonCell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="70" Y="9" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Right</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIItemWindow.UIPopupMenuBarControlMenu.UIBarButtonItemLink4MenuBaseButtonItem">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="108" Y="9" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="OpenEffLine1">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIRosterPlanGrid1Custom.UIGcRosterPlanTable.UIItem2PersonCell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="85" Y="7" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Right</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIItemWindow.UIPopupMenuBarControlMenu.UIBarButtonItemLink4MenuBaseButtonItem">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="97" Y="10" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="OpenEffLine2">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIRosterPlanGrid1Custom.UIGcRosterPlanTable.UIItem3PersonCell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="80" Y="11" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Right</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIItemWindow.UIPopupMenuBarControlMenu.UIBarButtonItemLink4MenuBaseButtonItem">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="105" Y="10" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="OpenEffLine3">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIRosterPlanGrid1Custom.UIGcRosterPlanTable.UIItem4PersonCell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="86" Y="10" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Right</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIItemWindow.UIPopupMenuBarControlMenu.UIBarButtonItemLink4MenuBaseButtonItem">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="87" Y="9" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="OpenEffLine4">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIRosterPlanGrid1Custom.UIGcRosterPlanTable.UIItem5PersonCell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="85" Y="9" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Right</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIItemWindow.UIPopupMenuBarControlMenu.UIBarButtonItemLink4MenuBaseButtonItem">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="89" Y="11" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="OpenEffLine5">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIRosterPlanGrid1Custom.UIGcRosterPlanTable.UIItem6PersonCell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="79" Y="6" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Right</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIItemWindow.UIPopupMenuBarControlMenu.UIBarButtonItemLink4MenuBaseButtonItem">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="101" Y="12" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="OpenEffLine6">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIRosterPlanGrid1Custom.UIGcRosterPlanTable.UIItem7PersonCell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="77" Y="10" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Right</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIItemWindow.UIPopupMenuBarControlMenu.UIBarButtonItemLink4MenuBaseButtonItem">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="104" Y="9" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="OpenEffLine7">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap.UIGatWindow.UIViewHostCustom.UIPcViewClient.UILeftPanelDockPanel.UIDashboardDockPanel.UIControlContainerCustom.UIDashboardControlCustom.UINavBarControlNavBar.UINgcAbsenceScrollableControl.UIGcAbsenceTable.UIItem2PersonCell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="63" Y="6" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>DoubleClick</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="OpenEmp2AbsenceStep48">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap.UIFraværsregistreringWindow.UIPnlShiftManagementClient.UISccShiftManagementSplitContainerControl.UISplitGroupPanelClient.UIGrcShiftsClient.UITcShiftsTabList.UIXtpShiftsGridClient.UIGcShiftsTable.UIValgtCell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="15" Y="8" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="SelectAbsRadioButtonStep44">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap.UIFraværsregistreringWindow.UIPnlShiftManagementClient.UISccShiftManagementSplitContainerControl.UISplitGroupPanelClient.UIGrcShiftsClient.UITcShiftsTabList.UIXtpShiftsGridClient.UIGcShiftsTable.UIValgtCell1">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="15" Y="8" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="SelectTSCheckBoxStep44">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap.UIFraværsregistreringWindow.UIPnlShiftManagementClient1.UISccShiftManagementSplitContainerControl.UISplitGroupPanelClient.UIGrcShiftsClient.UITcShiftsTabList.UIXtpShiftsGridClient.UIGcShiftsTable.UIValgtCell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="13" Y="8" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="SelectTSCheckBoxStep44New">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+  </ExecuteActions>
+  <CleanupActions />
+  <OnErrorActions />
+  <Maps>
+    <UIMap Id="UIMap">
+      <TopLevelWindows>
+        <TopLevelWindow ControlType="Window" Id="UIArbeidsplanWindow" FriendlyName="Arbeidsplan" SpecialControlType="None" SessionId="54398198">
+          <TechnologyName>DevExpress.v19.2</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>Arbeidsplan</WindowTitle>
+          </WindowTitles>
+          <AndCondition>
+            <PropertyCondition Name="Name">Arbeidsplan</PropertyCondition>
+            <PropertyCondition Name="ClassName" Operator="Contains">WindowsForms10.Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Client" Id="UIPnlRosterPlanClient" FriendlyName="pnlRosterPlan" SpecialControlType="None">
+              <TechnologyName>DevExpress.v19.2</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Arbeidsplan</WindowTitle>
+              </WindowTitles>
+              <AndCondition>
+                <PropertyCondition Name="Name">pnlRosterPlan</PropertyCondition>
+                <PropertyCondition Name="ClassName">GSPanelControl</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Custom" Id="UIRosterPlanGrid1Custom" FriendlyName="rosterPlanGrid1" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Arbeidsplan</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition>
+                    <PropertyCondition Name="Name">rosterPlanGrid1</PropertyCondition>
+                    <PropertyCondition Name="ClassName">RosterPlanGrid</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Table" Id="UIGcRosterPlanTable" FriendlyName="gcRosterPlan" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v19.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">gcRosterPlan</PropertyCondition>
+                        <PropertyCondition Name="ClassName">GSGridControl</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Cell" Id="UIItem1PersonCell" FriendlyName="1, Person" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v19.2</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Arbeidsplan</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition>
+                            <PropertyCondition Name="Name">gcRosterPlanGridControlCell[View]gvRosterPlan[Row]0[Column]EmployeeName</PropertyCondition>
+                            <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                        <UIObject ControlType="Cell" Id="UIItem3PersonCell" FriendlyName="3, Person" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v19.2</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Arbeidsplan</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition>
+                            <PropertyCondition Name="Name">gcRosterPlanGridControlCell[View]gvRosterPlan[Row]2[Column]EmployeeName</PropertyCondition>
+                            <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                        <UIObject ControlType="Cell" Id="UIItem2Cell" FriendlyName="2" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v19.2</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Arbeidsplan</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition>
+                            <PropertyCondition Name="Name">gcRosterPlanGridControlCell[View]gvRosterPlan[Row]0[Column]RosterCell_0</PropertyCondition>
+                            <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                        <UIObject ControlType="Cell" Id="UIItem4PersonCell" FriendlyName="4, Person" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v18.2</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Arbeidsplan</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition>
+                            <PropertyCondition Name="Name">gcRosterPlanGridControlCell[View]gvRosterPlan[Row]3[Column]EmployeeName</PropertyCondition>
+                            <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                        <UIObject ControlType="Cell" Id="UIItem5PersonCell" FriendlyName="5, Person" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v18.2</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Arbeidsplan</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition>
+                            <PropertyCondition Name="Name">gcRosterPlanGridControlCell[View]gvRosterPlan[Row]4[Column]EmployeeName</PropertyCondition>
+                            <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                        <UIObject ControlType="Cell" Id="UIItem6PersonCell" FriendlyName="6, Person" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v18.2</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Arbeidsplan</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition>
+                            <PropertyCondition Name="Name">gcRosterPlanGridControlCell[View]gvRosterPlan[Row]5[Column]EmployeeName</PropertyCondition>
+                            <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                        <UIObject ControlType="Cell" Id="UIItem7PersonCell" FriendlyName="7, Person" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v18.2</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Arbeidsplan</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition>
+                            <PropertyCondition Name="Name">gcRosterPlanGridControlCell[View]gvRosterPlan[Row]6[Column]EmployeeName</PropertyCondition>
+                            <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                        <UIObject ControlType="Cell" Id="UIItem2PersonCell" FriendlyName="2, Person" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v18.2</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Arbeidsplan</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition>
+                            <PropertyCondition Name="Name">gcRosterPlanGridControlCell[View]gvRosterPlan[Row]1[Column]EmployeeName</PropertyCondition>
+                            <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UIItemWindow" FriendlyName="" SpecialControlType="None" SessionId="65552">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles />
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="AccessibleName">Desktop 1</PropertyCondition>
+            <PropertyCondition Name="ClassName">#32769</PropertyCondition>
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Menu" Id="UIPopupMenuBarControlMenu" FriendlyName="PopupMenuBarControl" SpecialControlType="None">
+              <TechnologyName>DevExpress.v19.2</TechnologyName>
+              <WindowTitles />
+              <AndCondition>
+                <PropertyCondition Name="Name">PopupMenuBarControl</PropertyCondition>
+                <PropertyCondition Name="ClassName">PopupMenuBarControl</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="MenuBaseButtonItem" Id="UIBarButtonItemLink4MenuBaseButtonItem" FriendlyName="BarButtonItemLink[4]" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                  <WindowTitles />
+                  <AndCondition>
+                    <PropertyCondition Name="Name">BarButtonItemLink[3]</PropertyCondition>
+                    <PropertyCondition Name="ClassName">MenuBaseButtonItem</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UIOverlappendevakterWindow" FriendlyName="Overlappende vakter" SpecialControlType="None" SessionId="15532406">
+          <TechnologyName>DevExpress.v19.2</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>Overlappende vakter</WindowTitle>
+          </WindowTitles>
+          <AndCondition>
+            <PropertyCondition Name="Name">Overlappende vakter</PropertyCondition>
+            <PropertyCondition Name="ClassName" Operator="Contains">WindowsForms10.Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="WindowTitleBar" Id="UIOverlappendevakterWindowTitleBar" FriendlyName="Overlappende vakter" SpecialControlType="None">
+              <TechnologyName>DevExpress.v19.2</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Overlappende vakter</WindowTitle>
+              </WindowTitles>
+              <AndCondition>
+                <PropertyCondition Name="Name">WindowTitleBar</PropertyCondition>
+                <PropertyCondition Name="ClassName">WindowTitleBar</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants />
+            </UIObject>
+            <UIObject ControlType="Client" Id="UIPanelControl1Client" FriendlyName="panelControl1" SpecialControlType="None">
+              <TechnologyName>DevExpress.v19.2</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Overlappende vakter</WindowTitle>
+              </WindowTitles>
+              <AndCondition>
+                <PropertyCondition Name="Name">panelControl1</PropertyCondition>
+                <PropertyCondition Name="ClassName">PanelControl</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Button" Id="UILukkButton" FriendlyName="Lukk" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Overlappende vakter</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition>
+                    <PropertyCondition Name="Name">btnOk</PropertyCondition>
+                    <PropertyCondition Name="ClassName">SimpleButton</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UILønnsberegningvediveWindow" FriendlyName="Lønnsberegning ved iverksetting" SpecialControlType="None" SessionId="2231214">
+          <TechnologyName>DevExpress.v18.2</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>Lønnsberegning ved iverksetting</WindowTitle>
+          </WindowTitles>
+          <AndCondition>
+            <PropertyCondition Name="Name">Lønnsberegning ved iverksetting</PropertyCondition>
+            <PropertyCondition Name="ClassName" Operator="Contains">WindowsForms10.Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Client" Id="UIPcReceiptPanelClient" FriendlyName="pcReceiptPanel" SpecialControlType="None">
+              <TechnologyName>DevExpress.v18.2</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Lønnsberegning ved iverksetting</WindowTitle>
+              </WindowTitles>
+              <AndCondition>
+                <PropertyCondition Name="Name">pcReceiptPanel</PropertyCondition>
+                <PropertyCondition Name="ClassName">GSPanelControl</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Table" Id="UIGcReceiptTable" FriendlyName="gcReceipt" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Lønnsberegning ved iverksetting</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition>
+                    <PropertyCondition Name="Name">gcReceipt</PropertyCondition>
+                    <PropertyCondition Name="ClassName">GSGridControl</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Cell" Id="UIItemCell" FriendlyName="" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Lønnsberegning ved iverksetting</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">gcReceiptGridControlCell[View]gvReceipt[Row]0[Column]PaymentCell_None</PropertyCondition>
+                        <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                    <UIObject ControlType="ColumnHeader" Id="UIPaymentCell_NoneColumnHeader" FriendlyName="PaymentCell_None" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Lønnsberegning ved iverksetting</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">gcReceiptGridControlColumnHeader[View]gvReceipt[Column]PaymentCell_None</PropertyCondition>
+                        <PropertyCondition Name="ClassName">GridControlColumnHeader</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UIGatWindow" FriendlyName="Gat" SpecialControlType="None" SessionId="33427276">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>Gat</WindowTitle>
+          </WindowTitles>
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="Name">Gat</PropertyCondition>
+            <PropertyCondition Name="ClassName">TfrmMain</PropertyCondition>
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Custom" Id="UIViewHostCustom" FriendlyName="ViewHost" SpecialControlType="None">
+              <TechnologyName>DevExpress.v18.2</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Gat</WindowTitle>
+              </WindowTitles>
+              <AndCondition>
+                <PropertyCondition Name="Name">ViewHost</PropertyCondition>
+                <PropertyCondition Name="ClassName">ViewHost</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Client" Id="UIPcViewClient" FriendlyName="pcView" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Gat</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition>
+                    <PropertyCondition Name="Name">pcView</PropertyCondition>
+                    <PropertyCondition Name="ClassName">PanelControl</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="DockPanel" Id="UIBottomPanelDockPanel" FriendlyName="BottomPanel" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Gat</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">BottomPanel</PropertyCondition>
+                        <PropertyCondition Name="ClassName">WorkScheduleDockPanel</PropertyCondition>
+                        <PropertyCondition Name="HierarchyLevel">2</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="DockPanel" Id="UIFraværDockPanel" FriendlyName="Fravær" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v18.2</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Gat</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition>
+                            <PropertyCondition Name="Name">Fravær</PropertyCondition>
+                            <PropertyCondition Name="ClassName">WorkScheduleDockPanel</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="Custom" Id="UIControlContainerCustom" FriendlyName="ControlContainer" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Gat</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">FraværControlContainer[0]</PropertyCondition>
+                                <PropertyCondition Name="ClassName">ControlContainer</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants>
+                                <UIObject ControlType="Table" Id="UIGcAbsenceColumnTable" FriendlyName="gcAbsenceColumn" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>Gat</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">gcAbsenceColumn</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">GSGridControl</PropertyCondition>
+                                    <PropertyCondition Name="HierarchyLevel">2</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants>
+                                    <UIObject ControlType="Cell" Id="UIItem0301202416Kl1200Cell" FriendlyName="03.01.2024  16 Kl: 12:00-15:00" SpecialControlType="None">
+                                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                      <WindowTitles>
+                                        <WindowTitle>Gat</WindowTitle>
+                                      </WindowTitles>
+                                      <AndCondition>
+                                        <PropertyCondition Name="Name">gcAbsenceColumnGridControlCell[View]gvAbsenceColumn[Row]0[Column]gccAbsencePeriod</PropertyCondition>
+                                        <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                      </AndCondition>
+                                      <SupportLevel>0</SupportLevel>
+                                      <Descendants />
+                                    </UIObject>
+                                  </Descendants>
+                                </UIObject>
+                              </Descendants>
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                    <UIObject ControlType="DockPanel" Id="UILeftPanelDockPanel" FriendlyName="LeftPanel" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Gat</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">LeftPanel</PropertyCondition>
+                        <PropertyCondition Name="ClassName">WorkScheduleDockPanel</PropertyCondition>
+                        <PropertyCondition Name="HierarchyLevel">2</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="DockPanel" Id="UIDashboardDockPanel" FriendlyName="Dashboard" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v18.2</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Gat</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition>
+                            <PropertyCondition Name="Name">Dashboard</PropertyCondition>
+                            <PropertyCondition Name="ClassName">WorkScheduleDockPanel</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="Custom" Id="UIControlContainerCustom" FriendlyName="ControlContainer" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Gat</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">DashboardControlContainer[0]</PropertyCondition>
+                                <PropertyCondition Name="ClassName">ControlContainer</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants>
+                                <UIObject ControlType="Custom" Id="UIDashboardControlCustom" FriendlyName="DashboardControl" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>Gat</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">DashboardControl</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">DashboardControl</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants>
+                                    <UIObject ControlType="NavBar" Id="UINavBarControlNavBar" FriendlyName="navBarControl" SpecialControlType="None">
+                                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                      <WindowTitles>
+                                        <WindowTitle>Gat</WindowTitle>
+                                      </WindowTitles>
+                                      <AndCondition>
+                                        <PropertyCondition Name="Name">navBarControl</PropertyCondition>
+                                        <PropertyCondition Name="ClassName">GSNavBarControl</PropertyCondition>
+                                      </AndCondition>
+                                      <SupportLevel>0</SupportLevel>
+                                      <Descendants>
+                                        <UIObject ControlType="ScrollableControl" Id="UINgcAbsenceScrollableControl" FriendlyName="ngcAbsence" SpecialControlType="None">
+                                          <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                          <WindowTitles>
+                                            <WindowTitle>Gat</WindowTitle>
+                                          </WindowTitles>
+                                          <AndCondition>
+                                            <PropertyCondition Name="Name">ngcAbsence</PropertyCondition>
+                                            <PropertyCondition Name="ClassName">NavBarGroupControlContainer</PropertyCondition>
+                                            <PropertyCondition Name="HierarchyLevel">2</PropertyCondition>
+                                          </AndCondition>
+                                          <SupportLevel>0</SupportLevel>
+                                          <Descendants>
+                                            <UIObject ControlType="Table" Id="UIGcAbsenceTable" FriendlyName="gcAbsence" SpecialControlType="None">
+                                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                              <WindowTitles>
+                                                <WindowTitle>Gat</WindowTitle>
+                                              </WindowTitles>
+                                              <AndCondition>
+                                                <PropertyCondition Name="Name">gcAbsence</PropertyCondition>
+                                                <PropertyCondition Name="ClassName">GSGridControl</PropertyCondition>
+                                              </AndCondition>
+                                              <SupportLevel>0</SupportLevel>
+                                              <Descendants>
+                                                <UIObject ControlType="Cell" Id="UIItem2PersonCell" FriendlyName="2, Person" SpecialControlType="None">
+                                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                                  <WindowTitles>
+                                                    <WindowTitle>Gat</WindowTitle>
+                                                  </WindowTitles>
+                                                  <AndCondition>
+                                                    <PropertyCondition Name="Name">gcAbsenceGridControlCell[View]gvAbsence[Row]0[Column]clmAbsenceName</PropertyCondition>
+                                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                                  </AndCondition>
+                                                  <SupportLevel>0</SupportLevel>
+                                                  <Descendants />
+                                                </UIObject>
+                                                <UIObject ControlType="Cell" Id="UIFerie5dgrukeheleukerCell" FriendlyName="Ferie 5 dgr/uke - hele uker" SpecialControlType="None">
+                                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                                  <WindowTitles>
+                                                    <WindowTitle>Gat</WindowTitle>
+                                                  </WindowTitles>
+                                                  <AndCondition>
+                                                    <PropertyCondition Name="Name">gcAbsenceGridControlCell[View]gvAbsence[Row]0[Column]clmAbsenceInfoText</PropertyCondition>
+                                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                                  </AndCondition>
+                                                  <SupportLevel>0</SupportLevel>
+                                                  <Descendants />
+                                                </UIObject>
+                                                <UIObject ControlType="Cell" Id="UIItem0801Cell" FriendlyName="08.01" SpecialControlType="None">
+                                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                                  <WindowTitles>
+                                                    <WindowTitle>Gat</WindowTitle>
+                                                  </WindowTitles>
+                                                  <AndCondition>
+                                                    <PropertyCondition Name="Name">gcAbsenceGridControlCell[View]gvAbsence[Row]0[Column]clmAbsenceDate</PropertyCondition>
+                                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                                  </AndCondition>
+                                                  <SupportLevel>0</SupportLevel>
+                                                  <Descendants />
+                                                </UIObject>
+                                              </Descendants>
+                                            </UIObject>
+                                          </Descendants>
+                                        </UIObject>
+                                        <UIObject ControlType="NavBarGroup" Id="UITimeregistrering00NavBarGroup" FriendlyName="Timeregistrering (0/0)" SpecialControlType="None">
+                                          <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                          <WindowTitles>
+                                            <WindowTitle>Gat</WindowTitle>
+                                          </WindowTitles>
+                                          <AndCondition>
+                                            <PropertyCondition Name="Name">Timeregistrering (0/0)</PropertyCondition>
+                                            <PropertyCondition Name="ClassName">NavBarGroup</PropertyCondition>
+                                          </AndCondition>
+                                          <SupportLevel>0</SupportLevel>
+                                          <Descendants />
+                                        </UIObject>
+                                        <UIObject ControlType="NavBarGroup" Id="UIBank1NavBarGroup" FriendlyName="Bank (1)" SpecialControlType="None">
+                                          <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                          <WindowTitles>
+                                            <WindowTitle>Gat</WindowTitle>
+                                          </WindowTitles>
+                                          <AndCondition>
+                                            <PropertyCondition Name="Name">Bank (1)</PropertyCondition>
+                                            <PropertyCondition Name="ClassName">NavBarGroup</PropertyCondition>
+                                          </AndCondition>
+                                          <SupportLevel>0</SupportLevel>
+                                          <Descendants />
+                                        </UIObject>
+                                        <UIObject ControlType="NavBarGroup" Id="UIStillinger1NavBarGroup" FriendlyName="Stillinger (1)" SpecialControlType="None">
+                                          <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                          <WindowTitles>
+                                            <WindowTitle>Gat</WindowTitle>
+                                          </WindowTitles>
+                                          <AndCondition>
+                                            <PropertyCondition Name="Name">Stillinger (1)</PropertyCondition>
+                                            <PropertyCondition Name="ClassName">NavBarGroup</PropertyCondition>
+                                          </AndCondition>
+                                          <SupportLevel>0</SupportLevel>
+                                          <Descendants />
+                                        </UIObject>
+                                        <UIObject ControlType="ScrollableControl" Id="UINbcTimeRegScrollableControl" FriendlyName="nbcTimeReg" SpecialControlType="None">
+                                          <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                          <WindowTitles>
+                                            <WindowTitle>Gat</WindowTitle>
+                                          </WindowTitles>
+                                          <AndCondition>
+                                            <PropertyCondition Name="Name">nbcTimeReg</PropertyCondition>
+                                            <PropertyCondition Name="ClassName">NavBarGroupControlContainer</PropertyCondition>
+                                            <PropertyCondition Name="HierarchyLevel">2</PropertyCondition>
+                                          </AndCondition>
+                                          <SupportLevel>0</SupportLevel>
+                                          <Descendants>
+                                            <UIObject ControlType="SplitContainerControl" Id="UIScTimeRegSplitContainerControl" FriendlyName="scTimeReg" SpecialControlType="None">
+                                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                              <WindowTitles>
+                                                <WindowTitle>Gat</WindowTitle>
+                                              </WindowTitles>
+                                              <AndCondition>
+                                                <PropertyCondition Name="Name">scTimeReg</PropertyCondition>
+                                                <PropertyCondition Name="ClassName">GSSplitContainerControl</PropertyCondition>
+                                              </AndCondition>
+                                              <SupportLevel>0</SupportLevel>
+                                              <Descendants>
+                                                <UIObject ControlType="Client" Id="UISplitGroupPanelClient" FriendlyName="SplitGroupPanel" SpecialControlType="None">
+                                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                                  <WindowTitles>
+                                                    <WindowTitle>Gat</WindowTitle>
+                                                  </WindowTitles>
+                                                  <AndCondition>
+                                                    <PropertyCondition Name="Name">scTimeRegSplitGroupPanel[0]</PropertyCondition>
+                                                    <PropertyCondition Name="ClassName">SplitGroupPanel</PropertyCondition>
+                                                  </AndCondition>
+                                                  <SupportLevel>0</SupportLevel>
+                                                  <Descendants>
+                                                    <UIObject ControlType="Client" Id="UIPnlGraphUnitLeaderClient" FriendlyName="pnlGraphUnitLeader" SpecialControlType="None">
+                                                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                                      <WindowTitles>
+                                                        <WindowTitle>Gat</WindowTitle>
+                                                      </WindowTitles>
+                                                      <AndCondition>
+                                                        <PropertyCondition Name="Name">pnlGraphUnitLeader</PropertyCondition>
+                                                        <PropertyCondition Name="ClassName">GSPanelControl</PropertyCondition>
+                                                        <PropertyCondition Name="HierarchyLevel">3</PropertyCondition>
+                                                      </AndCondition>
+                                                      <SupportLevel>0</SupportLevel>
+                                                      <Descendants>
+                                                        <UIObject ControlType="Client" Id="UIChartControlUnitLeadClient" FriendlyName="chartControlUnitLeader" SpecialControlType="None">
+                                                          <TechnologyName>MSAA</TechnologyName>
+                                                          <WindowTitles>
+                                                            <WindowTitle>Gat</WindowTitle>
+                                                          </WindowTitles>
+                                                          <SearchConfigurations>
+                                                            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                                                          </SearchConfigurations>
+                                                          <AndCondition Id="SearchCondition">
+                                                            <PropertyCondition Name="ControlType">Client</PropertyCondition>
+                                                          </AndCondition>
+                                                          <SupportLevel>100</SupportLevel>
+                                                          <Descendants />
+                                                        </UIObject>
+                                                      </Descendants>
+                                                    </UIObject>
+                                                  </Descendants>
+                                                </UIObject>
+                                              </Descendants>
+                                            </UIObject>
+                                          </Descendants>
+                                        </UIObject>
+                                        <UIObject ControlType="NavBarGroup" Id="UIFravær1NavBarGroup" FriendlyName="Fravær (1)" SpecialControlType="None">
+                                          <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                          <WindowTitles>
+                                            <WindowTitle>Gat</WindowTitle>
+                                          </WindowTitles>
+                                          <AndCondition>
+                                            <PropertyCondition Name="Name">Fravær (1)</PropertyCondition>
+                                            <PropertyCondition Name="ClassName">NavBarGroup</PropertyCondition>
+                                          </AndCondition>
+                                          <SupportLevel>0</SupportLevel>
+                                          <Descendants />
+                                        </UIObject>
+                                      </Descendants>
+                                    </UIObject>
+                                  </Descendants>
+                                </UIObject>
+                              </Descendants>
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                    <UIObject ControlType="DockPanel" Id="UICenterPanelPeriodDockPanel" FriendlyName="CenterPanelPeriod" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Gat</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">CenterPanelPeriod</PropertyCondition>
+                        <PropertyCondition Name="ClassName">WorkScheduleDockPanel</PropertyCondition>
+                        <PropertyCondition Name="HierarchyLevel">2</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Custom" Id="UIControlContainerCustom" FriendlyName="ControlContainer" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v18.2</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Gat</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition>
+                            <PropertyCondition Name="Name">CenterPanelPeriodControlContainer[0]</PropertyCondition>
+                            <PropertyCondition Name="ClassName">ControlContainer</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="Custom" Id="UIPeriodScheduleControCustom" FriendlyName="PeriodScheduleControl" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Gat</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">PeriodScheduleControl</PropertyCondition>
+                                <PropertyCondition Name="ClassName">PeriodScheduleControl</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants>
+                                <UIObject ControlType="SplitContainerControl" Id="UILayoutPanelSplitContainerControl" FriendlyName="layoutPanel" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>Gat</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">layoutPanel</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">SplitLayoutPanel</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants>
+                                    <UIObject ControlType="Client" Id="UITopPanelClient" FriendlyName="topPanel" SpecialControlType="None">
+                                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                      <WindowTitles>
+                                        <WindowTitle>Gat</WindowTitle>
+                                      </WindowTitles>
+                                      <AndCondition>
+                                        <PropertyCondition Name="Name">topPanel</PropertyCondition>
+                                        <PropertyCondition Name="ClassName">CustomSplitGroupPanel</PropertyCondition>
+                                      </AndCondition>
+                                      <SupportLevel>0</SupportLevel>
+                                      <Descendants>
+                                        <UIObject ControlType="ScrollableControl" Id="UIXtraScrollableControScrollableControl" FriendlyName="XtraScrollableControl" SpecialControlType="None">
+                                          <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                          <WindowTitles>
+                                            <WindowTitle>Gat</WindowTitle>
+                                          </WindowTitles>
+                                          <AndCondition>
+                                            <PropertyCondition Name="Name">topPanelXtraScrollableControl[0]</PropertyCondition>
+                                            <PropertyCondition Name="ClassName">XtraScrollableControl</PropertyCondition>
+                                          </AndCondition>
+                                          <SupportLevel>0</SupportLevel>
+                                          <Descendants>
+                                            <UIObject ControlType="List" Id="UIPeriodScheduleListBoList" FriendlyName="PeriodScheduleListBoxControl`1" SpecialControlType="None">
+                                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                              <WindowTitles>
+                                                <WindowTitle>Gat</WindowTitle>
+                                              </WindowTitles>
+                                              <AndCondition>
+                                                <PropertyCondition Name="Name">topPanelXtraScrollableControl[0]PeriodScheduleListBoxControl`1[42]</PropertyCondition>
+                                                <PropertyCondition Name="ClassName">PeriodScheduleListBoxControl`1</PropertyCondition>
+                                              </AndCondition>
+                                              <SupportLevel>0</SupportLevel>
+                                              <Descendants>
+                                                <UIObject ControlType="ListItem" Id="UIItem45B2PersonListItem" FriendlyName="45B - 2, Person" SpecialControlType="None">
+                                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                                  <WindowTitles>
+                                                    <WindowTitle>Gat</WindowTitle>
+                                                  </WindowTitles>
+                                                  <AndCondition>
+                                                    <PropertyCondition Name="Name">topPanelXtraScrollableControl[0]PeriodScheduleListBoxControl`1[42]Item[0]</PropertyCondition>
+                                                    <PropertyCondition Name="ClassName">PeriodScheduleListBoxControl`1Item</PropertyCondition>
+                                                  </AndCondition>
+                                                  <SupportLevel>0</SupportLevel>
+                                                  <Descendants />
+                                                </UIObject>
+                                              </Descendants>
+                                            </UIObject>
+                                            <UIObject ControlType="List" Id="UIPeriodScheduleListBoList1" FriendlyName="PeriodScheduleListBoxControl`1" SpecialControlType="None">
+                                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                              <WindowTitles>
+                                                <WindowTitle>Gat</WindowTitle>
+                                              </WindowTitles>
+                                              <AndCondition>
+                                                <PropertyCondition Name="Name">topPanelXtraScrollableControl[0]PeriodScheduleListBoxControl`1[43]</PropertyCondition>
+                                                <PropertyCondition Name="ClassName">PeriodScheduleListBoxControl`1</PropertyCondition>
+                                              </AndCondition>
+                                              <SupportLevel>0</SupportLevel>
+                                              <Descendants>
+                                                <UIObject ControlType="ListItem" Id="UIItem45B2PersonListItem" FriendlyName="45B - 2, Person" SpecialControlType="None">
+                                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                                  <WindowTitles>
+                                                    <WindowTitle>Gat</WindowTitle>
+                                                  </WindowTitles>
+                                                  <AndCondition>
+                                                    <PropertyCondition Name="Name">topPanelXtraScrollableControl[0]PeriodScheduleListBoxControl`1[43]Item[0]</PropertyCondition>
+                                                    <PropertyCondition Name="ClassName">PeriodScheduleListBoxControl`1Item</PropertyCondition>
+                                                  </AndCondition>
+                                                  <SupportLevel>0</SupportLevel>
+                                                  <Descendants />
+                                                </UIObject>
+                                              </Descendants>
+                                            </UIObject>
+                                            <UIObject ControlType="List" Id="UIPeriodScheduleListBoList2" FriendlyName="PeriodScheduleListBoxControl`1" SpecialControlType="None">
+                                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                              <WindowTitles>
+                                                <WindowTitle>Gat</WindowTitle>
+                                              </WindowTitles>
+                                              <AndCondition>
+                                                <PropertyCondition Name="Name">topPanelXtraScrollableControl[0]PeriodScheduleListBoxControl`1[44]</PropertyCondition>
+                                                <PropertyCondition Name="ClassName">PeriodScheduleListBoxControl`1</PropertyCondition>
+                                              </AndCondition>
+                                              <SupportLevel>0</SupportLevel>
+                                              <Descendants>
+                                                <UIObject ControlType="ListItem" Id="UIItem45B2PersonListItem" FriendlyName="45B - 2, Person" SpecialControlType="None">
+                                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                                  <WindowTitles>
+                                                    <WindowTitle>Gat</WindowTitle>
+                                                  </WindowTitles>
+                                                  <AndCondition>
+                                                    <PropertyCondition Name="Name">topPanelXtraScrollableControl[0]PeriodScheduleListBoxControl`1[44]Item[0]</PropertyCondition>
+                                                    <PropertyCondition Name="ClassName">PeriodScheduleListBoxControl`1Item</PropertyCondition>
+                                                  </AndCondition>
+                                                  <SupportLevel>0</SupportLevel>
+                                                  <Descendants />
+                                                </UIObject>
+                                              </Descendants>
+                                            </UIObject>
+                                            <UIObject ControlType="List" Id="UIPeriodScheduleListBoList3" FriendlyName="PeriodScheduleListBoxControl`1" SpecialControlType="None">
+                                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                              <WindowTitles>
+                                                <WindowTitle>Gat</WindowTitle>
+                                              </WindowTitles>
+                                              <AndCondition>
+                                                <PropertyCondition Name="Name">topPanelXtraScrollableControl[0]PeriodScheduleListBoxControl`1[45]</PropertyCondition>
+                                                <PropertyCondition Name="ClassName">PeriodScheduleListBoxControl`1</PropertyCondition>
+                                              </AndCondition>
+                                              <SupportLevel>0</SupportLevel>
+                                              <Descendants>
+                                                <UIObject ControlType="ListItem" Id="UIItem45B2PersonListItem" FriendlyName="45B - 2, Person" SpecialControlType="None">
+                                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                                  <WindowTitles>
+                                                    <WindowTitle>Gat</WindowTitle>
+                                                  </WindowTitles>
+                                                  <AndCondition>
+                                                    <PropertyCondition Name="Name">topPanelXtraScrollableControl[0]PeriodScheduleListBoxControl`1[45]Item[0]</PropertyCondition>
+                                                    <PropertyCondition Name="ClassName">PeriodScheduleListBoxControl`1Item</PropertyCondition>
+                                                  </AndCondition>
+                                                  <SupportLevel>0</SupportLevel>
+                                                  <Descendants />
+                                                </UIObject>
+                                              </Descendants>
+                                            </UIObject>
+                                            <UIObject ControlType="List" Id="UIPeriodScheduleListBoList4" FriendlyName="PeriodScheduleListBoxControl`1" SpecialControlType="None">
+                                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                              <WindowTitles>
+                                                <WindowTitle>Gat</WindowTitle>
+                                              </WindowTitles>
+                                              <AndCondition>
+                                                <PropertyCondition Name="Name">topPanelXtraScrollableControl[0]PeriodScheduleListBoxControl`1[46]</PropertyCondition>
+                                                <PropertyCondition Name="ClassName">PeriodScheduleListBoxControl`1</PropertyCondition>
+                                              </AndCondition>
+                                              <SupportLevel>0</SupportLevel>
+                                              <Descendants>
+                                                <UIObject ControlType="ListItem" Id="UIItem45B2PersonListItem" FriendlyName="45B - 2, Person" SpecialControlType="None">
+                                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                                  <WindowTitles>
+                                                    <WindowTitle>Gat</WindowTitle>
+                                                  </WindowTitles>
+                                                  <AndCondition>
+                                                    <PropertyCondition Name="Name">topPanelXtraScrollableControl[0]PeriodScheduleListBoxControl`1[46]Item[0]</PropertyCondition>
+                                                    <PropertyCondition Name="ClassName">PeriodScheduleListBoxControl`1Item</PropertyCondition>
+                                                  </AndCondition>
+                                                  <SupportLevel>0</SupportLevel>
+                                                  <Descendants />
+                                                </UIObject>
+                                              </Descendants>
+                                            </UIObject>
+                                            <UIObject ControlType="List" Id="UIPeriodScheduleListBoList5" FriendlyName="PeriodScheduleListBoxControl`1" SpecialControlType="None">
+                                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                              <WindowTitles>
+                                                <WindowTitle>Gat</WindowTitle>
+                                              </WindowTitles>
+                                              <AndCondition>
+                                                <PropertyCondition Name="Name">topPanelXtraScrollableControl[0]PeriodScheduleListBoxControl`1[47]</PropertyCondition>
+                                                <PropertyCondition Name="ClassName">PeriodScheduleListBoxControl`1</PropertyCondition>
+                                              </AndCondition>
+                                              <SupportLevel>0</SupportLevel>
+                                              <Descendants>
+                                                <UIObject ControlType="ListItem" Id="UIItem45B2PersonListItem" FriendlyName="45B - 2, Person" SpecialControlType="None">
+                                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                                  <WindowTitles>
+                                                    <WindowTitle>Gat</WindowTitle>
+                                                  </WindowTitles>
+                                                  <AndCondition>
+                                                    <PropertyCondition Name="Name">topPanelXtraScrollableControl[0]PeriodScheduleListBoxControl`1[47]Item[0]</PropertyCondition>
+                                                    <PropertyCondition Name="ClassName">PeriodScheduleListBoxControl`1Item</PropertyCondition>
+                                                  </AndCondition>
+                                                  <SupportLevel>0</SupportLevel>
+                                                  <Descendants />
+                                                </UIObject>
+                                              </Descendants>
+                                            </UIObject>
+                                            <UIObject ControlType="List" Id="UIPeriodScheduleListBoList6" FriendlyName="PeriodScheduleListBoxControl`1" SpecialControlType="None">
+                                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                              <WindowTitles>
+                                                <WindowTitle>Gat</WindowTitle>
+                                              </WindowTitles>
+                                              <AndCondition>
+                                                <PropertyCondition Name="Name">topPanelXtraScrollableControl[0]PeriodScheduleListBoxControl`1[48]</PropertyCondition>
+                                                <PropertyCondition Name="ClassName">PeriodScheduleListBoxControl`1</PropertyCondition>
+                                              </AndCondition>
+                                              <SupportLevel>0</SupportLevel>
+                                              <Descendants>
+                                                <UIObject ControlType="ListItem" Id="UIItem45B2PersonListItem" FriendlyName="45B - 2, Person" SpecialControlType="None">
+                                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                                  <WindowTitles>
+                                                    <WindowTitle>Gat</WindowTitle>
+                                                  </WindowTitles>
+                                                  <AndCondition>
+                                                    <PropertyCondition Name="Name">topPanelXtraScrollableControl[0]PeriodScheduleListBoxControl`1[48]Item[0]</PropertyCondition>
+                                                    <PropertyCondition Name="ClassName">PeriodScheduleListBoxControl`1Item</PropertyCondition>
+                                                  </AndCondition>
+                                                  <SupportLevel>0</SupportLevel>
+                                                  <Descendants />
+                                                </UIObject>
+                                              </Descendants>
+                                            </UIObject>
+                                          </Descendants>
+                                        </UIObject>
+                                      </Descendants>
+                                    </UIObject>
+                                  </Descendants>
+                                </UIObject>
+                              </Descendants>
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Custom" Id="UIViewHostCustom1" FriendlyName="ViewHost" SpecialControlType="None">
+              <TechnologyName>DevExpress.v19.2</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Gat</WindowTitle>
+              </WindowTitles>
+              <AndCondition>
+                <PropertyCondition Name="Name">ViewHost</PropertyCondition>
+                <PropertyCondition Name="ClassName">ViewHost</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Client" Id="UIPcViewClient" FriendlyName="pcView" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Gat</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition>
+                    <PropertyCondition Name="Name">pcView</PropertyCondition>
+                    <PropertyCondition Name="ClassName">PanelControl</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="DockPanel" Id="UILeftPanelDockPanel" FriendlyName="LeftPanel" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v19.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Gat</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">LeftPanel</PropertyCondition>
+                        <PropertyCondition Name="ClassName">WorkScheduleDockPanel</PropertyCondition>
+                        <PropertyCondition Name="HierarchyLevel">2</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="DockPanel" Id="UIDashboardDockPanel" FriendlyName="Dashboard" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v19.2</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Gat</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition>
+                            <PropertyCondition Name="Name">Dashboard</PropertyCondition>
+                            <PropertyCondition Name="ClassName">WorkScheduleDockPanel</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="Custom" Id="UIControlContainerCustom" FriendlyName="ControlContainer" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v19.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Gat</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">DashboardControlContainer[0]</PropertyCondition>
+                                <PropertyCondition Name="ClassName">ControlContainer</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants>
+                                <UIObject ControlType="Custom" Id="UIDashboardControlCustom" FriendlyName="DashboardControl" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>Gat</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">DashboardControl</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">DashboardControl</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants>
+                                    <UIObject ControlType="NavBar" Id="UINavBarControlNavBar" FriendlyName="navBarControl" SpecialControlType="None">
+                                      <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                      <WindowTitles>
+                                        <WindowTitle>Gat</WindowTitle>
+                                      </WindowTitles>
+                                      <AndCondition>
+                                        <PropertyCondition Name="Name">navBarControl</PropertyCondition>
+                                        <PropertyCondition Name="ClassName">GSNavBarControl</PropertyCondition>
+                                      </AndCondition>
+                                      <SupportLevel>0</SupportLevel>
+                                      <Descendants>
+                                        <UIObject ControlType="ScrollableControl" Id="UINgcAbsenceScrollableControl" FriendlyName="ngcAbsence" SpecialControlType="None">
+                                          <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                          <WindowTitles>
+                                            <WindowTitle>Gat</WindowTitle>
+                                          </WindowTitles>
+                                          <AndCondition>
+                                            <PropertyCondition Name="Name">ngcAbsence</PropertyCondition>
+                                            <PropertyCondition Name="ClassName">NavBarGroupControlContainer</PropertyCondition>
+                                            <PropertyCondition Name="HierarchyLevel">2</PropertyCondition>
+                                          </AndCondition>
+                                          <SupportLevel>0</SupportLevel>
+                                          <Descendants>
+                                            <UIObject ControlType="Table" Id="UIGcAbsenceTable" FriendlyName="gcAbsence" SpecialControlType="None">
+                                              <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                              <WindowTitles>
+                                                <WindowTitle>Gat</WindowTitle>
+                                              </WindowTitles>
+                                              <AndCondition>
+                                                <PropertyCondition Name="Name">gcAbsence</PropertyCondition>
+                                                <PropertyCondition Name="ClassName">GSGridControl</PropertyCondition>
+                                              </AndCondition>
+                                              <SupportLevel>0</SupportLevel>
+                                              <Descendants>
+                                                <UIObject ControlType="Cell" Id="UIItem0401Cell" FriendlyName="04.01" SpecialControlType="None">
+                                                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                                  <WindowTitles>
+                                                    <WindowTitle>Gat</WindowTitle>
+                                                  </WindowTitles>
+                                                  <AndCondition>
+                                                    <PropertyCondition Name="Name">gcAbsenceGridControlCell[View]gvAbsence[Row]0[Column]clmAbsenceDate</PropertyCondition>
+                                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                                  </AndCondition>
+                                                  <SupportLevel>0</SupportLevel>
+                                                  <Descendants />
+                                                </UIObject>
+                                                <UIObject ControlType="Cell" Id="UIItem2PersonCell" FriendlyName="2, Person" SpecialControlType="None">
+                                                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                                  <WindowTitles>
+                                                    <WindowTitle>Gat</WindowTitle>
+                                                  </WindowTitles>
+                                                  <AndCondition>
+                                                    <PropertyCondition Name="Name">gcAbsenceGridControlCell[View]gvAbsence[Row]0[Column]clmAbsenceName</PropertyCondition>
+                                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                                  </AndCondition>
+                                                  <SupportLevel>0</SupportLevel>
+                                                  <Descendants />
+                                                </UIObject>
+                                                <UIObject ControlType="Cell" Id="UITjenestefraværCell" FriendlyName="Tjenestefravær" SpecialControlType="None">
+                                                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                                  <WindowTitles>
+                                                    <WindowTitle>Gat</WindowTitle>
+                                                  </WindowTitles>
+                                                  <AndCondition>
+                                                    <PropertyCondition Name="Name">gcAbsenceGridControlCell[View]gvAbsence[Row]0[Column]clmAbsenceInfoText</PropertyCondition>
+                                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                                  </AndCondition>
+                                                  <SupportLevel>0</SupportLevel>
+                                                  <Descendants />
+                                                </UIObject>
+                                                <UIObject ControlType="Cell" Id="UIItem0801Cell" FriendlyName="08.01" SpecialControlType="None">
+                                                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                                  <WindowTitles>
+                                                    <WindowTitle>Gat</WindowTitle>
+                                                  </WindowTitles>
+                                                  <AndCondition>
+                                                    <PropertyCondition Name="Name">gcAbsenceGridControlCell[View]gvAbsence[Row]1[Column]clmAbsenceDate</PropertyCondition>
+                                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                                  </AndCondition>
+                                                  <SupportLevel>0</SupportLevel>
+                                                  <Descendants />
+                                                </UIObject>
+                                                <UIObject ControlType="Cell" Id="UIItem2PersonCell1" FriendlyName="2, Person" SpecialControlType="None">
+                                                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                                  <WindowTitles>
+                                                    <WindowTitle>Gat</WindowTitle>
+                                                  </WindowTitles>
+                                                  <AndCondition>
+                                                    <PropertyCondition Name="Name">gcAbsenceGridControlCell[View]gvAbsence[Row]1[Column]clmAbsenceName</PropertyCondition>
+                                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                                  </AndCondition>
+                                                  <SupportLevel>0</SupportLevel>
+                                                  <Descendants />
+                                                </UIObject>
+                                                <UIObject ControlType="Cell" Id="UIFerie5dgrukeheleukerCell" FriendlyName="Ferie 5 dgr/uke - hele uker" SpecialControlType="None">
+                                                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                                  <WindowTitles>
+                                                    <WindowTitle>Gat</WindowTitle>
+                                                  </WindowTitles>
+                                                  <AndCondition>
+                                                    <PropertyCondition Name="Name">gcAbsenceGridControlCell[View]gvAbsence[Row]1[Column]clmAbsenceInfoText</PropertyCondition>
+                                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                                  </AndCondition>
+                                                  <SupportLevel>0</SupportLevel>
+                                                  <Descendants />
+                                                </UIObject>
+                                              </Descendants>
+                                            </UIObject>
+                                          </Descendants>
+                                        </UIObject>
+                                      </Descendants>
+                                    </UIObject>
+                                  </Descendants>
+                                </UIObject>
+                              </Descendants>
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UIFraværsregistreringWindow" FriendlyName="Fraværsregistrering" SpecialControlType="None" SessionId="11866190">
+          <TechnologyName>DevExpress.v18.2</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>Fraværsregistrering</WindowTitle>
+          </WindowTitles>
+          <AndCondition>
+            <PropertyCondition Name="Name">Fraværsregistrering</PropertyCondition>
+            <PropertyCondition Name="ClassName" Operator="Contains">WindowsForms10.Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Client" Id="UIPnlShiftManagementClient" FriendlyName="pnlShiftManagement" SpecialControlType="None">
+              <TechnologyName>DevExpress.v18.2</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Fraværsregistrering</WindowTitle>
+              </WindowTitles>
+              <AndCondition>
+                <PropertyCondition Name="Name">pnlShiftManagement</PropertyCondition>
+                <PropertyCondition Name="ClassName">GSPanelControl</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="SplitContainerControl" Id="UISccShiftManagementSplitContainerControl" FriendlyName="sccShiftManagement" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Fraværsregistrering</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition>
+                    <PropertyCondition Name="Name">sccShiftManagement</PropertyCondition>
+                    <PropertyCondition Name="ClassName">GSSplitContainerControl</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Client" Id="UISplitGroupPanelClient" FriendlyName="SplitGroupPanel" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Fraværsregistrering</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">sccShiftManagementSplitGroupPanel[0]</PropertyCondition>
+                        <PropertyCondition Name="ClassName">SplitGroupPanel</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Client" Id="UIGrcShiftsClient" FriendlyName="grcShifts" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v18.2</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Fraværsregistrering</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition>
+                            <PropertyCondition Name="Name">grcShifts</PropertyCondition>
+                            <PropertyCondition Name="ClassName">GSGroupControl</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="TabList" Id="UITcShiftsTabList" FriendlyName="tcShifts" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Fraværsregistrering</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">tcShifts</PropertyCondition>
+                                <PropertyCondition Name="ClassName">GSTabControl</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants>
+                                <UIObject ControlType="Client" Id="UIXtpShiftsGridClient" FriendlyName="xtpShiftsGrid" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>Fraværsregistrering</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">xtpShiftsGrid</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">XtraTabPage</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants>
+                                    <UIObject ControlType="Table" Id="UIGcShiftsTable" FriendlyName="gcShifts" SpecialControlType="None">
+                                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                      <WindowTitles>
+                                        <WindowTitle>Fraværsregistrering</WindowTitle>
+                                      </WindowTitles>
+                                      <AndCondition>
+                                        <PropertyCondition Name="Name">gcShifts</PropertyCondition>
+                                        <PropertyCondition Name="ClassName">GSGridControl</PropertyCondition>
+                                      </AndCondition>
+                                      <SupportLevel>0</SupportLevel>
+                                      <Descendants>
+                                        <UIObject ControlType="Cell" Id="UIItem2Cell" FriendlyName="2" SpecialControlType="None">
+                                          <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                          <WindowTitles>
+                                            <WindowTitle>Fraværsregistrering</WindowTitle>
+                                          </WindowTitles>
+                                          <AndCondition>
+                                            <PropertyCondition Name="Name">gcShiftsGridControlCell[View]gvShifts[Row]1[Column]tlcShiftCodeName</PropertyCondition>
+                                            <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                          </AndCondition>
+                                          <SupportLevel>0</SupportLevel>
+                                          <Descendants />
+                                        </UIObject>
+                                        <UIObject ControlType="Cell" Id="UIValgtCell" FriendlyName="Valgt" SpecialControlType="None">
+                                          <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                          <WindowTitles>
+                                            <WindowTitle>Fraværsregistrering</WindowTitle>
+                                          </WindowTitles>
+                                          <AndCondition>
+                                            <PropertyCondition Name="Name">gcShiftsGridControlCell[View]gvShifts[Row]1[Column]tlcAbsent</PropertyCondition>
+                                            <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                          </AndCondition>
+                                          <SupportLevel>0</SupportLevel>
+                                          <Descendants />
+                                        </UIObject>
+                                        <UIObject ControlType="Cell" Id="UIValgtCell1" FriendlyName="Valgt" SpecialControlType="None">
+                                          <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                          <WindowTitles>
+                                            <WindowTitle>Fraværsregistrering</WindowTitle>
+                                          </WindowTitles>
+                                          <AndCondition>
+                                            <PropertyCondition Name="Name">gcShiftsGridControlCell[View]gvShifts[Row]2[Column]tlcPresent</PropertyCondition>
+                                            <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                          </AndCondition>
+                                          <SupportLevel>0</SupportLevel>
+                                          <Descendants />
+                                        </UIObject>
+                                      </Descendants>
+                                    </UIObject>
+                                  </Descendants>
+                                </UIObject>
+                              </Descendants>
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Client" Id="UIPnlShiftManagementClient1" FriendlyName="pnlShiftManagement" SpecialControlType="None">
+              <TechnologyName>DevExpress.v19.2</TechnologyName>
+              <WindowTitles />
+              <AndCondition>
+                <PropertyCondition Name="Name">pnlShiftManagement</PropertyCondition>
+                <PropertyCondition Name="ClassName">GSPanelControl</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="SplitContainerControl" Id="UISccShiftManagementSplitContainerControl" FriendlyName="sccShiftManagement" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                  <WindowTitles />
+                  <AndCondition>
+                    <PropertyCondition Name="Name">sccShiftManagement</PropertyCondition>
+                    <PropertyCondition Name="ClassName">GSSplitContainerControl</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Client" Id="UISplitGroupPanelClient" FriendlyName="SplitGroupPanel" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v19.2</TechnologyName>
+                      <WindowTitles />
+                      <AndCondition>
+                        <PropertyCondition Name="Name">sccShiftManagementSplitGroupPanel[0]</PropertyCondition>
+                        <PropertyCondition Name="ClassName">SplitGroupPanel</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Client" Id="UIGrcShiftsClient" FriendlyName="grcShifts" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v19.2</TechnologyName>
+                          <WindowTitles />
+                          <AndCondition>
+                            <PropertyCondition Name="Name">grcShifts</PropertyCondition>
+                            <PropertyCondition Name="ClassName">GSGroupControl</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="TabList" Id="UITcShiftsTabList" FriendlyName="tcShifts" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v19.2</TechnologyName>
+                              <WindowTitles />
+                              <AndCondition>
+                                <PropertyCondition Name="Name">tcShifts</PropertyCondition>
+                                <PropertyCondition Name="ClassName">GSTabControl</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants>
+                                <UIObject ControlType="Client" Id="UIXtpShiftsGridClient" FriendlyName="xtpShiftsGrid" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                  <WindowTitles />
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">xtpShiftsGrid</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">XtraTabPage</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants>
+                                    <UIObject ControlType="Table" Id="UIGcShiftsTable" FriendlyName="gcShifts" SpecialControlType="None">
+                                      <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                      <WindowTitles>
+                                        <WindowTitle>Fraværsregistrering</WindowTitle>
+                                      </WindowTitles>
+                                      <AndCondition>
+                                        <PropertyCondition Name="Name">gcShifts</PropertyCondition>
+                                        <PropertyCondition Name="ClassName">GSGridControl</PropertyCondition>
+                                      </AndCondition>
+                                      <SupportLevel>0</SupportLevel>
+                                      <Descendants>
+                                        <UIObject ControlType="Cell" Id="UIValgtCell" FriendlyName="Valgt" SpecialControlType="None">
+                                          <TechnologyName>DevExpress.v19.2</TechnologyName>
+                                          <WindowTitles>
+                                            <WindowTitle>Fraværsregistrering</WindowTitle>
+                                          </WindowTitles>
+                                          <AndCondition>
+                                            <PropertyCondition Name="Name">gcShiftsGridControlCell[View]gvShifts[Row]3[Column]tlcPresent</PropertyCondition>
+                                            <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                          </AndCondition>
+                                          <SupportLevel>0</SupportLevel>
+                                          <Descendants />
+                                        </UIObject>
+                                      </Descendants>
+                                    </UIObject>
+                                  </Descendants>
+                                </UIObject>
+                              </Descendants>
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UIRegistreringsstatusWindow" FriendlyName="Registreringsstatus" SpecialControlType="None" SessionId="13373870">
+          <TechnologyName>DevExpress.v18.2</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>Registreringsstatus</WindowTitle>
+          </WindowTitles>
+          <AndCondition>
+            <PropertyCondition Name="Name">Registreringsstatus</PropertyCondition>
+            <PropertyCondition Name="ClassName" Operator="Contains">WindowsForms10.Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Custom" Id="UILcMessagesCustom" FriendlyName="lcMessages" SpecialControlType="None">
+              <TechnologyName>DevExpress.v18.2</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Registreringsstatus</WindowTitle>
+              </WindowTitles>
+              <AndCondition>
+                <PropertyCondition Name="Name">lcMessages</PropertyCondition>
+                <PropertyCondition Name="ClassName">GSLayoutControl</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="LayoutGroup" Id="UILcgMessagesLayoutGroup" FriendlyName="lcgMessages" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Registreringsstatus</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition>
+                    <PropertyCondition Name="Name">lcgMessages</PropertyCondition>
+                    <PropertyCondition Name="ClassName">LayoutGroup</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="LayoutControlItem" Id="UILciMessagesLayoutControlItem" FriendlyName="lciMessages" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Registreringsstatus</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">lciMessages</PropertyCondition>
+                        <PropertyCondition Name="ClassName">LayoutControlItem</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Table" Id="UIGMessagesTable" FriendlyName="gMessages" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v18.2</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Registreringsstatus</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition>
+                            <PropertyCondition Name="Name">gMessages</PropertyCondition>
+                            <PropertyCondition Name="ClassName">GSGridControl</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="Cell" Id="UILinje212PersonFraværCell" FriendlyName="Linje 2 - 1 - 2, Person - Fravær må håndteres manuelt." SpecialControlType="None">
+                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Registreringsstatus</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">gMessagesGridControlCell[View]gvMessages[Row]1[Column]gvMessagesColumn_Text</PropertyCondition>
+                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                            <UIObject ControlType="Cell" Id="UIDetfinnesfraværivaktCell" FriendlyName="Det finnes fravær i vaktboken i perioden som iverksettes. Disse må manuelt oppdateres etter iverksetting for å få korrekte verdier." SpecialControlType="None">
+                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Registreringsstatus</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">gMessagesGridControlCell[View]gvMessages[Row]1[Column]gvMessagesColumn_Info</PropertyCondition>
+                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+      </TopLevelWindows>
+    </UIMap>
+  </Maps>
+  <ValueMap>
+    <ParameterList />
+  </ValueMap>
+</UITest>

@@ -1,0 +1,731 @@
+<?xml version="1.0"?>
+<UITest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="" Id="3efe829a-76df-439e-af0d-8d5c62727a1e" AssemblyVersion="10.0.21008.0" Version="1.0" xmlns="http://schemas.microsoft.com/VisualStudio/TeamTest/UITest/2010">
+  <Configuration>
+    <Group Name="IE">
+      <Setting Name="Version" Value="9.11.17134.0" WarningLevel="1" />
+      <Setting Name="InformationBar" WarningLevel="1" />
+      <Setting Name="AutoCompletePassword" WarningLevel="1" />
+      <Setting Name="AutoCompleteForm" WarningLevel="1" />
+      <Setting Name="DefaultBrowser" Value="IEXPLORE.EXE" WarningLevel="1" />
+      <Setting Name="PopupBlocker" Value="yes" WarningLevel="1" />
+      <Setting Name="TabbedBrowsing" WarningLevel="2" />
+      <Setting Name="InternetZoneSecurity" Value="0" WarningLevel="2" />
+      <Setting Name="IntranetZoneSecurity" Value="69632" WarningLevel="2" />
+      <Setting Name="TrustedZoneSecurity" Value="70912" WarningLevel="2" />
+      <Setting Name="RestrictedZoneSecurity" Value="73728" WarningLevel="2" />
+      <Setting Name="PhishingFilter" WarningLevel="1" />
+      <Setting Name="EnhancedSecurityConfiguration" WarningLevel="1" />
+    </Group>
+    <Group Name="OS">
+      <Setting Name="Name" Value="Microsoft Windows 10 Pro" WarningLevel="2" />
+      <Setting Name="Version" Value="Microsoft Windows NT 10.0.17134.0" WarningLevel="2" />
+      <Setting Name="IsUserAdmin" Value="True" WarningLevel="2" />
+      <Setting Name="Is64BitOperatingSystem" Value="True" WarningLevel="2" />
+      <Setting Name="IsTerminalServerSession" Value="False" WarningLevel="2" />
+      <Setting Name="OSLanguage" Value="1033" WarningLevel="1" />
+      <Setting Name="UserLocale" Value="1044" WarningLevel="1" />
+      <Setting Name="DragFullWindows" Value="True" WarningLevel="2" />
+      <Setting Name="ScreenResolutionWidth" Value="1920" WarningLevel="2" />
+      <Setting Name="ScreenResolutionHeight" Value="1080" WarningLevel="2" />
+      <Setting Name="SystemDPIX" Value="96" WarningLevel="2" />
+      <Setting Name="SystemDPIY" Value="96" WarningLevel="2" />
+      <Setting Name="Aero" Value="1" WarningLevel="1" />
+      <Setting Name="UACEnabled" Value="1" WarningLevel="2" />
+      <Setting Name="UACPromptEnabled" Value="0" WarningLevel="1" />
+    </Group>
+    <Group Name="TechnologyManagers">
+      <Setting Name="Web" WarningLevel="1" />
+      <Setting Name="DevExpress.v17.2" WarningLevel="1" />
+      <Setting Name="Web" WarningLevel="1" />
+      <Setting Name="DevExpress.v18.1" WarningLevel="1" />
+      <Setting Name="DevExpress.v18.2" WarningLevel="1" />
+      <Setting Name="DevExpress.v19.2" WarningLevel="1" />
+      <Setting Name="Web" WarningLevel="1" />
+      <Setting Name="UIA" WarningLevel="1" />
+    </Group>
+  </Configuration>
+  <InitializeActions />
+  <ExecuteActions>
+    <MouseAction UIObjectName="UIMapVS2017.UIFormidlingssenterWindow.UIRcMenuRibbon.UIRpHomeRibbonPage.UIRpgActionsRibbonPageGroup.UIAvbestillRibbonBaseButtonItem">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="41" Y="9" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMapVS2017.UIFormidlingssenterWindow.UIRcMenuRibbon.UIRpHomeRibbonPage.UIPgWindowRibbonPageGroup.UIBbiCloseRibbonBaseButtonItem">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="23" Y="30" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="CancelAndClose">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+  </ExecuteActions>
+  <CleanupActions />
+  <OnErrorActions />
+  <Maps>
+    <UIMap Id="UIMapVS2017">
+      <TopLevelWindows>
+        <TopLevelWindow ControlType="Window" Id="UIGatWindow" FriendlyName="Gat" SpecialControlType="None" SessionId="5377734">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>Gat</WindowTitle>
+          </WindowTitles>
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="Name">Gat</PropertyCondition>
+            <PropertyCondition Name="ClassName">TfrmMain</PropertyCondition>
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Custom" Id="UIViewHostCustom" FriendlyName="ViewHost" SpecialControlType="None">
+              <TechnologyName>DevExpress.v18.2</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Gat</WindowTitle>
+              </WindowTitles>
+              <AndCondition>
+                <PropertyCondition Name="Name">ViewHost</PropertyCondition>
+                <PropertyCondition Name="ClassName">ViewHost</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Client" Id="UIPcViewClient" FriendlyName="pcView" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Gat</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition>
+                    <PropertyCondition Name="Name">pcView</PropertyCondition>
+                    <PropertyCondition Name="ClassName">PanelControl</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="DockPanel" Id="UICenterPanelDayDockPanel" FriendlyName="CenterPanelDay" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Gat</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">CenterPanelDay</PropertyCondition>
+                        <PropertyCondition Name="ClassName">WorkScheduleDockPanel</PropertyCondition>
+                        <PropertyCondition Name="HierarchyLevel">2</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Custom" Id="UIControlContainerCustom" FriendlyName="ControlContainer" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v18.2</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Gat</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition>
+                            <PropertyCondition Name="Name">CenterPanelDayControlContainer[0]</PropertyCondition>
+                            <PropertyCondition Name="ClassName">ControlContainer</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="DockPanel" Id="UICenterPanelDayWrappeDockPanel" FriendlyName="CenterPanelDayWrapper" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Gat</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">CenterPanelDayWrapper</PropertyCondition>
+                                <PropertyCondition Name="ClassName">WorkScheduleDockPanel</PropertyCondition>
+                                <PropertyCondition Name="HierarchyLevel">2</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants>
+                                <UIObject ControlType="DockPanel" Id="UIHjemmevakt0016777077DockPanel" FriendlyName=";Hjemmevakt;0;0;-16777077;0;False" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>Gat</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">;Hjemmevakt;0;0;-16777077;0;False</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">WorkScheduleDockPanel</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants>
+                                    <UIObject ControlType="Custom" Id="UIControlContainerCustom" FriendlyName="ControlContainer" SpecialControlType="None">
+                                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                      <WindowTitles>
+                                        <WindowTitle>Gat</WindowTitle>
+                                      </WindowTitles>
+                                      <AndCondition>
+                                        <PropertyCondition Name="Name">;Hjemmevakt;0;0;-16777077;0;FalseControlContainer[0]</PropertyCondition>
+                                        <PropertyCondition Name="ClassName">ControlContainer</PropertyCondition>
+                                      </AndCondition>
+                                      <SupportLevel>0</SupportLevel>
+                                      <Descendants>
+                                        <UIObject ControlType="Table" Id="UIGcDayColumnTable" FriendlyName="gcDayColumn" SpecialControlType="None">
+                                          <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                          <WindowTitles>
+                                            <WindowTitle>Gat</WindowTitle>
+                                          </WindowTitles>
+                                          <AndCondition>
+                                            <PropertyCondition Name="Name">gcDayColumn</PropertyCondition>
+                                            <PropertyCondition Name="ClassName">GSGridControl</PropertyCondition>
+                                            <PropertyCondition Name="HierarchyLevel">2</PropertyCondition>
+                                          </AndCondition>
+                                          <SupportLevel>0</SupportLevel>
+                                          <Descendants>
+                                            <UIObject ControlType="Cell" Id="UIVAKANTCell" FriendlyName="VAKANT" SpecialControlType="None">
+                                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                              <WindowTitles>
+                                                <WindowTitle>Gat</WindowTitle>
+                                              </WindowTitles>
+                                              <AndCondition>
+                                                <PropertyCondition Name="Name">gcDayColumnGridControlCell[View]gvDayColumn[Row]0[Column]colEmployeeName</PropertyCondition>
+                                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                              </AndCondition>
+                                              <SupportLevel>0</SupportLevel>
+                                              <Descendants />
+                                            </UIObject>
+                                          </Descendants>
+                                        </UIObject>
+                                      </Descendants>
+                                    </UIObject>
+                                  </Descendants>
+                                </UIObject>
+                              </Descendants>
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                    <UIObject ControlType="Ribbon" Id="UIRibbonControlRibbon" FriendlyName="ribbonControl" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Gat</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">ribbonControl</PropertyCondition>
+                        <PropertyCondition Name="ClassName">RibbonControl</PropertyCondition>
+                        <PropertyCondition Name="HierarchyLevel">2</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="RibbonPage" Id="UIRpMainMenuRibbonPage" FriendlyName="rpMainMenu" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v18.2</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Gat</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition>
+                            <PropertyCondition Name="Name">rpMainMenu</PropertyCondition>
+                            <PropertyCondition Name="ClassName">RibbonPage</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="RibbonPageGroup" Id="UIGrpVacancyRibbonPageGroup" FriendlyName="grpVacancy" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Gat</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">grpVacancy</PropertyCondition>
+                                <PropertyCondition Name="ClassName">RibbonPageGroup</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants>
+                                <UIObject ControlType="RibbonBaseButtonItem" Id="UIOppdekkingRibbonBaseButtonItem" FriendlyName="Oppdekking" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>Gat</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">btnVacancyOrder</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">RibbonBaseButtonItem</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants />
+                                </UIObject>
+                                <UIObject ControlType="RibbonBaseButtonItem" Id="UIFormidlingRibbonBaseButtonItem" FriendlyName="Formidling" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>Gat</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">btnVacancyOrderManage</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">RibbonBaseButtonItem</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants />
+                                </UIObject>
+                              </Descendants>
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UIOppdekkingssenterASCWindow" FriendlyName="Oppdekkingssenter (ASCL/1030)" SpecialControlType="None" SessionId="985722">
+          <TechnologyName>DevExpress.v18.2</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>Oppdekkingssenter (ASCL/1030)</WindowTitle>
+          </WindowTitles>
+          <AndCondition>
+            <PropertyCondition Name="Name">Oppdekkingssenter (ASCL/1030)</PropertyCondition>
+            <PropertyCondition Name="ClassName" Operator="Contains">WindowsForms10.Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Ribbon" Id="UIRcOrderRibbon" FriendlyName="rcOrder" SpecialControlType="None">
+              <TechnologyName>DevExpress.v18.2</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Oppdekkingssenter (ASCL/1030)</WindowTitle>
+              </WindowTitles>
+              <AndCondition>
+                <PropertyCondition Name="Name">rcOrder</PropertyCondition>
+                <PropertyCondition Name="ClassName">RibbonControl</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="RibbonPage" Id="UIRpOrderRibbonPage" FriendlyName="rpOrder" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Oppdekkingssenter (ASCL/1030)</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition>
+                    <PropertyCondition Name="Name">rpOrder</PropertyCondition>
+                    <PropertyCondition Name="ClassName">RibbonPage</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="RibbonPageGroup" Id="UIRpgOrderActionRibbonPageGroup" FriendlyName="rpgOrderAction" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Oppdekkingssenter (ASCL/1030)</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">rpgOrderAction</PropertyCondition>
+                        <PropertyCondition Name="ClassName">RibbonPageGroup</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="RibbonBaseButtonItem" Id="UIBestillRibbonBaseButtonItem" FriendlyName="Bestill..." SpecialControlType="None">
+                          <TechnologyName>DevExpress.v18.2</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Oppdekkingssenter (ASCL/1030)</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition>
+                            <PropertyCondition Name="Name">btnPlaceOrder</PropertyCondition>
+                            <PropertyCondition Name="ClassName">RibbonBaseButtonItem</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                    <UIObject ControlType="RibbonPageGroup" Id="UIRpgWindowRibbonPageGroup" FriendlyName="rpgWindow" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Oppdekkingssenter (ASCL/1030)</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">rpgWindow</PropertyCondition>
+                        <PropertyCondition Name="ClassName">RibbonPageGroup</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="RibbonBaseButtonItem" Id="UILukkRibbonBaseButtonItem" FriendlyName="Lukk" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v18.2</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Oppdekkingssenter (ASCL/1030)</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition>
+                            <PropertyCondition Name="Name">btnCloseWindow</PropertyCondition>
+                            <PropertyCondition Name="ClassName">RibbonBaseButtonItem</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UISendbestillingWindow" FriendlyName="Send bestilling..." SpecialControlType="None" SessionId="1184022">
+          <TechnologyName>DevExpress.v18.2</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>Send bestilling...</WindowTitle>
+          </WindowTitles>
+          <AndCondition>
+            <PropertyCondition Name="Name">Send bestilling...</PropertyCondition>
+            <PropertyCondition Name="ClassName" Operator="Contains">WindowsForms10.Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Custom" Id="UIGsLayoutControl1Custom" FriendlyName="gsLayoutControl1" SpecialControlType="None">
+              <TechnologyName>DevExpress.v18.2</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Send bestilling...</WindowTitle>
+              </WindowTitles>
+              <AndCondition>
+                <PropertyCondition Name="Name">gsLayoutControl1</PropertyCondition>
+                <PropertyCondition Name="ClassName">GSLayoutControl</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="LayoutGroup" Id="UIRootLayoutGroup" FriendlyName="Root" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Send bestilling...</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition>
+                    <PropertyCondition Name="Name">Root</PropertyCondition>
+                    <PropertyCondition Name="ClassName">LayoutGroup</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="LayoutControlItem" Id="UILciSubmitOrderLayoutControlItem" FriendlyName="lciSubmitOrder" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Send bestilling...</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">lciSubmitOrder</PropertyCondition>
+                        <PropertyCondition Name="ClassName">LayoutControlItem</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Button" Id="UIBestillButton" FriendlyName="&amp;Bestill" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v18.2</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Send bestilling...</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition>
+                            <PropertyCondition Name="Name">btnSubmitOrder</PropertyCondition>
+                            <PropertyCondition Name="ClassName">GSSimpleButton</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UIFormidlingssenterWindow" FriendlyName="Formidlingssenter" SpecialControlType="None" SessionId="21367904">
+          <TechnologyName>DevExpress.v18.2</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>Formidlingssenter</WindowTitle>
+          </WindowTitles>
+          <AndCondition>
+            <PropertyCondition Name="Name">Formidlingssenter</PropertyCondition>
+            <PropertyCondition Name="ClassName" Operator="Contains">WindowsForms10.Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Ribbon" Id="UIRcMenuRibbon" FriendlyName="rcMenu" SpecialControlType="None">
+              <TechnologyName>DevExpress.v18.2</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Formidlingssenter</WindowTitle>
+              </WindowTitles>
+              <AndCondition>
+                <PropertyCondition Name="Name">rcMenu</PropertyCondition>
+                <PropertyCondition Name="ClassName">RibbonControl</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="RibbonPage" Id="UIRpHomeRibbonPage" FriendlyName="rpHome" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Formidlingssenter</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition>
+                    <PropertyCondition Name="Name">rpHome</PropertyCondition>
+                    <PropertyCondition Name="ClassName">RibbonPage</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="RibbonPageGroup" Id="UIRpgPeriodRibbonPageGroup" FriendlyName="rpgPeriod" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Formidlingssenter</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">rpgPeriod</PropertyCondition>
+                        <PropertyCondition Name="ClassName">RibbonPageGroup</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="RibbonEditItem" Id="UIBeiFromDateRibbonEditItem" FriendlyName="beiFromDate" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v18.2</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Formidlingssenter</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition>
+                            <PropertyCondition Name="Name">beiFromDate</PropertyCondition>
+                            <PropertyCondition Name="ClassName">RibbonEditItem</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                    <UIObject ControlType="RibbonPageGroup" Id="UIRpgActionsRibbonPageGroup" FriendlyName="rpgActions" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Formidlingssenter</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">rpgActions</PropertyCondition>
+                        <PropertyCondition Name="ClassName">RibbonPageGroup</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="RibbonBaseButtonItem" Id="UITabestillingRibbonBaseButtonItem" FriendlyName="Ta bestilling" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v18.2</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Formidlingssenter</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition>
+                            <PropertyCondition Name="Name">bbiPickOrder</PropertyCondition>
+                            <PropertyCondition Name="ClassName">RibbonBaseButtonItem</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                        <UIObject ControlType="RibbonBaseButtonItem" Id="UIAvbestillRibbonBaseButtonItem" FriendlyName="Avbestill" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v18.2</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Formidlingssenter</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition>
+                            <PropertyCondition Name="Name">bbiManageCanceled</PropertyCondition>
+                            <PropertyCondition Name="ClassName">RibbonBaseButtonItem</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                    <UIObject ControlType="RibbonPageGroup" Id="UIRpgCoverRibbonPageGroup" FriendlyName="rpgCover" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Formidlingssenter</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">rpgCover</PropertyCondition>
+                        <PropertyCondition Name="ClassName">RibbonPageGroup</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="RibbonBaseButtonItem" Id="UIDekkoppRibbonBaseButtonItem" FriendlyName="Dekk opp..." SpecialControlType="None">
+                          <TechnologyName>DevExpress.v18.2</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Formidlingssenter</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition>
+                            <PropertyCondition Name="Name">bbiCoverWithWizard</PropertyCondition>
+                            <PropertyCondition Name="ClassName">RibbonBaseButtonItem</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                    <UIObject ControlType="RibbonPageGroup" Id="UIPgWindowRibbonPageGroup" FriendlyName="pgWindow" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Formidlingssenter</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">pgWindow</PropertyCondition>
+                        <PropertyCondition Name="ClassName">RibbonPageGroup</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="RibbonBaseButtonItem" Id="UIBbiCloseRibbonBaseButtonItem" FriendlyName="bbiClose" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v18.2</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Formidlingssenter</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition>
+                            <PropertyCondition Name="Name">bbiClose</PropertyCondition>
+                            <PropertyCondition Name="ClassName">RibbonBaseButtonItem</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="PopupEdit" Id="UIGSSmartDateEditEditoPopupEdit" FriendlyName="GSSmartDateEditEditor" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Formidlingssenter</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition>
+                    <PropertyCondition Name="Name">rcMenuGSSmartDateEditEditor[0]</PropertyCondition>
+                    <PropertyCondition Name="ClassName">GSSmartDateEditEditor</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="PopupEdit" Id="UIUnknownPopupEdit" FriendlyName="Unknown" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Formidlingssenter</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition>
+                    <PropertyCondition Name="Name">Unknown</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Custom" Id="UIScccContentCustom" FriendlyName="scccContent" SpecialControlType="None">
+              <TechnologyName>DevExpress.v18.2</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Formidlingssenter</WindowTitle>
+              </WindowTitles>
+              <AndCondition>
+                <PropertyCondition Name="Name">scccContent</PropertyCondition>
+                <PropertyCondition Name="ClassName">ShiftCoverContentControl</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Table" Id="UIGcShiftsTable" FriendlyName="gcShifts" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Formidlingssenter</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition>
+                    <PropertyCondition Name="Name">gcShifts</PropertyCondition>
+                    <PropertyCondition Name="ClassName">GSGridControl</PropertyCondition>
+                    <PropertyCondition Name="HierarchyLevel">2</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Cell" Id="UIItem02012016Cell" FriendlyName="02.01.2016" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Formidlingssenter</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">gcShiftsGridControlCell[View]gvShifts[Row]0[Column]colActiveDate</PropertyCondition>
+                        <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UIVelgansattsomskaldekWindow" FriendlyName="Velg ansatt som skal dekke vakten HJ1 (19:00-07:00..." SpecialControlType="None" SessionId="3149198">
+          <TechnologyName>DevExpress.v18.2</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>Velg ansatt som skal dekke vakten HJ1 (19:00-07:00) lør 02.01.2016, 1030 - Ortopedisk avdeling, H</WindowTitle>
+          </WindowTitles>
+          <AndCondition>
+            <PropertyCondition Name="Name">Velg ansatt som skal dekke vakten HJ1 (19:00-07:00) lør 02.01.2016, 1030 - Ortopedisk avdeling, H</PropertyCondition>
+            <PropertyCondition Name="ClassName" Operator="Contains">WindowsForms10.Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Button" Id="UINesteButton" FriendlyName="&amp;Neste &gt;" SpecialControlType="None">
+              <TechnologyName>DevExpress.v18.2</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Velg ansatt som skal dekke vakten HJ1 (19:00-07:00) lør 02.01.2016, 1030 - Ortopedisk avdeling, H</WindowTitle>
+              </WindowTitles>
+              <AndCondition>
+                <PropertyCondition Name="Name">WizardButton[1]</PropertyCondition>
+                <PropertyCondition Name="ClassName">WizardButton</PropertyCondition>
+                <PropertyCondition Name="HierarchyLevel">2</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants />
+            </UIObject>
+            <UIObject ControlType="Button" Id="UIFullførButton" FriendlyName="&amp;Fullfør" SpecialControlType="None">
+              <TechnologyName>DevExpress.v18.2</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Velg ansatt som skal dekke vakten HJ1 (19:00-07:00) lør 02.01.2016, 1030 - Ortopedisk avdeling, H</WindowTitle>
+              </WindowTitles>
+              <AndCondition>
+                <PropertyCondition Name="Name">WizardButton[2]</PropertyCondition>
+                <PropertyCondition Name="ClassName">WizardButton</PropertyCondition>
+                <PropertyCondition Name="HierarchyLevel">2</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants />
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UIMerarbeidovertidWindow" FriendlyName="Merarbeid / overtid" SpecialControlType="None" SessionId="3214734">
+          <TechnologyName>DevExpress.v18.2</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>Merarbeid / overtid</WindowTitle>
+          </WindowTitles>
+          <AndCondition>
+            <PropertyCondition Name="Name">Merarbeid / overtid</PropertyCondition>
+            <PropertyCondition Name="ClassName" Operator="Contains">WindowsForms10.Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Client" Id="UIGsPanelControl1Client" FriendlyName="gsPanelControl1" SpecialControlType="None">
+              <TechnologyName>DevExpress.v18.2</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Merarbeid / overtid</WindowTitle>
+              </WindowTitles>
+              <AndCondition>
+                <PropertyCondition Name="Name">gsPanelControl1</PropertyCondition>
+                <PropertyCondition Name="ClassName">GSPanelControl</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Button" Id="UIAvbrytButton" FriendlyName="&amp;Avbryt" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Merarbeid / overtid</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition>
+                    <PropertyCondition Name="Name">btnCancel</PropertyCondition>
+                    <PropertyCondition Name="ClassName">GSSimpleButton</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+      </TopLevelWindows>
+    </UIMap>
+  </Maps>
+  <ValueMap>
+    <ParameterList />
+  </ValueMap>
+</UITest>

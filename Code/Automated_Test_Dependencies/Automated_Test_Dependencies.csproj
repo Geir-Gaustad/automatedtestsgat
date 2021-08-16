@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BAEF3D20-55C7-427C-9307-8D5B85641697}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Automated_Test_Dependencies</RootNamespace>
+    <AssemblyName>Automated_Test_Dependencies</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\0001_RestoreDatabases\0001_RestoreDatabases.csproj">
+      <Project>{d0275a27-8c7d-4967-8b4f-3c207b8389f9}</Project>
+      <Name>0001_RestoreDatabases</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\010_Test_Delte_Oppgaver_Arbeidsplan_GATP_1681\010_Test_Delte_Oppgaver_Arbeidsplan_GATP_1681.csproj">
+      <Project>{e28433b2-9857-412b-a6d8-a90129905eb2}</Project>
+      <Name>010_Test_Delte_Oppgaver_Arbeidsplan_GATP_1681</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\010_Test_Delte_Oppgaver_I_Vaktbok_GATP_1943\010_Test_Delte_Oppgaver_I_Vaktbok_GATP_1943.csproj">
+      <Project>{95743e07-da62-4c43-b01a-06d47a10ac1b}</Project>
+      <Name>010_Test_Delte_Oppgaver_I_Vaktbok_GATP_1943</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\010_Test_Oppgavetildeling_Vaktbok_GATP_1680\010_Test_Oppgavetildeling_Vaktbok_GATP_1680.csproj">
+      <Project>{3d054a5e-58d7-45dc-aeb3-6308e4530a19}</Project>
+      <Name>010_Test_Oppgavetildeling_Vaktbok_GATP_1680</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\010_Test_Vaktbok_Oppgavetildelingsvindu_GATP_1682\010_Test_Vaktbok_Oppgavetildelingsvindu_GATP_1682.csproj">
+      <Project>{097905b0-2a53-4ef1-b7e6-22b45bc3f41b}</Project>
+      <Name>010_Test_Vaktbok_Oppgavetildelingsvindu_GATP_1682</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\010_Test_Vaktbok_Oppgavetildeling_Fane_Plan_GATP_746\010_Test_Oppgavetildeling_Arbeidsplan_GATP_1679.csproj">
+      <Project>{cfe6be9f-68d9-4662-b8c2-9b46a9a35028}</Project>
+      <Name>010_Test_Oppgavetildeling_Arbeidsplan_GATP_1679</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\020_Test_Arbeidsplan_Ansatte\020_Test_Arbeidsplan_Ansatte_GATP_743.csproj">
+      <Project>{dec1054d-c32c-4179-b1e0-1527ecd21295}</Project>
+      <Name>020_Test_Arbeidsplan_Ansatte_GATP_743</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\020_Test_Arbeidsplan_Arbeidsplanoppsett_Plan\020_Test_Arbeidsplan_Arbeidsplanoppsett_Plan_GATP_742.csproj">
+      <Project>{1cc0e975-f714-41fd-b426-125b918270eb}</Project>
+      <Name>020_Test_Arbeidsplan_Arbeidsplanoppsett_Plan_GATP_742</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\020_Test_Arbeidsplan_Bemanningsplan\020_Test_Arbeidsplan_Bemanningsplan_GATP_738.csproj">
+      <Project>{0664b5f1-a73c-4fa7-b810-9b22eaaaf930}</Project>
+      <Name>020_Test_Arbeidsplan_Bemanningsplan_GATP_738</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\020_Test_Arbeidsplan_Beregninger\020_Test_Arbeidsplan_Beregninger_GATP_751.csproj">
+      <Project>{8d8f294c-4852-4184-b854-2389b6ceac6a}</Project>
+      <Name>020_Test_Arbeidsplan_Beregninger_GATP_751</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\020_Test_Arbeidsplan_Bytt_Ansatt\020_Test_Arbeidsplan_Bytt_Ansatt_GATP_744.csproj">
+      <Project>{5bd6392e-5f6d-4fd4-bcf9-663182dc8460}</Project>
+      <Name>020_Test_Arbeidsplan_Bytt_Ansatt_GATP_744</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\020_Test_Arbeidsplan_Doegnrytmeplan\020_Test_Arbeidsplan_Doegnrytmeplan_GATP_737.csproj">
+      <Project>{020900b5-ce93-4d69-a5bb-1e58ee184df3}</Project>
+      <Name>020_Test_Arbeidsplan_Doegnrytmeplan_GATP_737</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\020_Test_Arbeidsplan_Filter_og_Visning_GATP_750\020_Test_Arbeidsplan_Filter_og_Visning_GATP_750.csproj">
+      <Project>{868e54a3-48f1-4e82-97ba-f3295aedd75e}</Project>
+      <Name>020_Test_Arbeidsplan_Filter_og_Visning_GATP_750</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\020_Test_Arbeidsplan_Frikoder_Hjelpeplan_GATP_304\020_Test_Arbeidsplan_Frikoder_Hjelpeplan_GATP_304.csproj">
+      <Project>{f0dda2d0-3be4-416b-b1b8-2bf314e2590f}</Project>
+      <Name>020_Test_Arbeidsplan_Frikoder_Hjelpeplan_GATP_304</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\020_Test_Arbeidsplan_Godkjenning\020_Test_Arbeidsplan_Godkjenning_GATP_757.csproj">
+      <Project>{fb343a17-e561-4ba0-bde4-a1f026c0da67}</Project>
+      <Name>020_Test_Arbeidsplan_Godkjenning_GATP_757</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\020_Test_Arbeidsplan_Instillinger_Fane_Plan_GATP_741\020_Test_Arbeidsplan_Instillinger_Fane_Plan_GATP_741.csproj">
+      <Project>{a3c63f3a-d443-4a78-8586-9b5cafbdecb6}</Project>
+      <Name>020_Test_Arbeidsplan_Instillinger_Fane_Plan_GATP_741</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\020_Test_Arbeidsplan_Iverksetting_GATP_748\020_Test_Arbeidsplan_Iverksetting_GATP_748.csproj">
+      <Project>{1ff2ba0e-b71b-4261-a553-27d64086eb69}</Project>
+      <Name>020_Test_Arbeidsplan_Iverksetting_GATP_748</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\020_Test_Arbeidsplan_Kopiering\020_Test_Arbeidsplan_Kopiering_GATP_749.csproj">
+      <Project>{151b69a5-1ba3-4575-a561-3f745f85fde1}</Project>
+      <Name>020_Test_Arbeidsplan_Kopiering_GATP_749</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\020_Test_Arbeidsplan_Onskeeplan\020_Test_Arbeidsplan_Onskeplan_Liste_GATP_739.csproj">
+      <Project>{2b43a94f-a1bd-409c-a0a4-c916d65f21cc}</Project>
+      <Name>020_Test_Arbeidsplan_Onskeplan_Liste_GATP_739</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\020_Test_Arbeidsplan_redigering_GATP_740\020_Test_Arbeidsplan_Redigering_GATP_740.csproj">
+      <Project>{83f5fb81-38c4-4164-bb46-822d460756ee}</Project>
+      <Name>020_Test_Arbeidsplan_Redigering_GATP_740</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\021_Test_Arbeidsplan_lønnsberegning\021_Test_Arbeidsplan_lønnsberegning_GATP_2450.csproj">
+      <Project>{af5819d6-4a38-4d64-b934-943563db52d6}</Project>
+      <Name>021_Test_Arbeidsplan_lønnsberegning_GATP_2450</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\022_Ytelsestest_Kalenderplan\022_Ytelsestest_Kalenderplan_GATP_276_979.csproj">
+      <Project>{8d5ac59e-f87a-42ed-876f-85e098a00107}</Project>
+      <Name>022_Ytelsestest_Kalenderplan_GATP_276_979</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\023_Test_Omregnet_Tid\023_Test_Omregnet_Tid_GATP_2495.csproj">
+      <Project>{89f24e11-99f4-4af7-95f9-9890c1c6f52f}</Project>
+      <Name>023_Test_Omregnet_Tid_GATP_2495</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\024_Test_FTT\024_Test_FTT_GATP_2494.csproj">
+      <Project>{3d81fe58-6ce5-4c99-be4d-8dc6ccecac5c}</Project>
+      <Name>024_Test_FTT_GATP_2494</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\025_Ytelsestest_Arbeidsplan\022_Ytelsestest_Arbeidsplan_GATP_283.csproj">
+      <Project>{ee0c7cdb-4b65-4490-aae5-b61d1b328d3d}</Project>
+      <Name>022_Ytelsestest_Arbeidsplan_GATP_283</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\026_Test_Helligdagsberegning_hjelpeplan_nattevakter\026_Test_Helligdagsberegning_hjelpeplan_nattevakter_GATP_829.csproj">
+      <Project>{34090718-e0eb-4c07-a8d1-bef25441623c}</Project>
+      <Name>026_Test_Helligdagsberegning_hjelpeplan_nattevakter_GATP_829</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\027_Test_Helligdagsberegning_kalenderplan\027_Test_Helligdagsberegning_hjelpeplan_GATP_305.csproj">
+      <Project>{0935b647-b5e7-4607-a390-daf549fdaece}</Project>
+      <Name>027_Test_Helligdagsberegning_hjelpeplan_GATP_305</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\028_Test_Helligdagsberegning_kalenderplan\028_Test_Helligdagsberegning_kalenderplan_GATP_832.csproj">
+      <Project>{02bcac9b-b674-4d16-9f16-d0ea5cd4fb94}</Project>
+      <Name>028_Test_Helligdagsberegning_kalenderplan_GATP_832</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\029_Test_Timelønnsberegning_Arbeidsplan\029_Test_Timelønnsberegning_Arbeidsplan_GATP_614.csproj">
+      <Project>{22ea015b-6f92-4a3d-a1b3-c79c9faed056}</Project>
+      <Name>029_Test_Timelønnsberegning_Arbeidsplan_GATP_614</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\010_Test_Oppgavetildeling_Vaktbok_GATP_1680\010_Test_Oppgavetildeling_Vaktbok_GATP_1680.csproj">
+      <Project>{3d054a5e-58d7-45dc-aeb3-6308e4530a19}</Project>
+      <Name>010_Test_Oppgavetildeling_Vaktbok_GATP_1680</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\032_Test_Rekalkulering_Overfort_Lonn_GATW_4284\032_Test_Rekalkulering_Overfort_Lonn_GATW_4284.csproj">
+      <Project>{2d2ad11b-e02c-4e4c-ba94-98103d4c8fe5}</Project>
+      <Name>032_Test_Rekalkulering_Overfort_Lonn_GATW_4284</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\040_ Beregningsregler_grunnlag_deltid_pr_ uke__avvik_uten_ot_GATW_3560\040_ Beregningsregler_grunnlag_deltid_pr_ uke_avvik_uten_ot_GATW_3560.csproj">
+      <Project>{d3b44eaa-2042-40cb-bca8-cb28de8ef98c}</Project>
+      <Name>040_ Beregningsregler_grunnlag_deltid_pr_ uke_avvik_uten_ot_GATW_3560</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\040_ Beregningsregler_Lønnsgrunnlag deltid_gjennomsnitt_GATW_3540\040_Beregningsregler_Lønnsgrunnlag_deltid_gjennomsnitt_GATW_3540.csproj">
+      <Project>{8acfa9c1-a407-41e9-939a-f23947fedad0}</Project>
+      <Name>040_Beregningsregler_Lønnsgrunnlag_deltid_gjennomsnitt_GATW_3540</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\040_ Beregningsregler_Lønnsgrunnlag deltid_pr_ uke\040_Beregningsregler_Lønnsgrunnlagdeltid_pr_uke_GATW_3534.csproj">
+      <Project>{f3f05599-c58b-45cb-aa7a-55c79fa409cb}</Project>
+      <Name>040_Beregningsregler_Lønnsgrunnlagdeltid_pr_uke_GATW_3534</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\040_ Beregningsregler_Utrykning_GATW_3536\040_Beregningsregler_Utrykning_GATW_3536.csproj">
+      <Project>{b5bf5621-15b8-4a33-9a41-06215f1ec8ea}</Project>
+      <Name>040_Beregningsregler_Utrykning_GATW_3536</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\040_Beregningsregler_grunnlag_deltid_pr_uke_annetdogn_ukeskille_GATW_3544\040_Beregningsregler_grunnlag_deltid_pr_uke_annetdogn_ukeskille_GATW_3544.csproj">
+      <Project>{96562d0c-afb5-43f4-ba0b-c5a33bc6af14}</Project>
+      <Name>040_Beregningsregler_grunnlag_deltid_pr_uke_annetdogn_ukeskille_GATW_3544</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\045_Test_Egengodkjenning_Bytter_Avdelingsbytter_GATW_4850\045_Test_Egengodkjenning_Bytter_Avdelingsbytter_GATW_4850.csproj">
+      <Project>{17e57600-01f5-46eb-bed4-f80c790d3ea4}</Project>
+      <Name>045_Test_Egengodkjenning_Bytter_Avdelingsbytter_GATW_4850</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\055_Test_AML\055_Test_AML_GATP_2452.csproj">
+      <Project>{deb8fb1c-112b-4658-9128-badc322d24d8}</Project>
+      <Name>055_Test_AML_GATP_2452</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\060_Test_Security_GatUser_Log_GATP_2465\060_Test_Security_GatUser_Log_GATP_2465.csproj">
+      <Project>{ff9e0a33-5160-4e3e-8659-a736b85fcbe0}</Project>
+      <Name>060_Test_Security_GatUser_Log_GATP_2465</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\093_Test\093_Test_Helgeavtale_Spekter_GATP_2454.csproj">
+      <Project>{2988bf1c-fccc-4153-85eb-5891cc58e116}</Project>
+      <Name>093_Test_Helgeavtale_Spekter_GATP_2454</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\099_Test_Distribusjon_Leveranse\099_Test_Distribusjon_Leveranse_GATP_2455.csproj">
+      <Project>{c801b2b7-f94e-4d8b-bc75-7aaa08c70633}</Project>
+      <Name>099_Test_Distribusjon_Leveranse_GATP_2455</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\1413_Test_Minnebruk_Ekstravindu\031_Test_Minnebruk_Ekstravindu_GATP_1413.csproj">
+      <Project>{2f5e1b59-6bf3-4c0c-b064-33fabee8e686}</Project>
+      <Name>031_Test_Minnebruk_Ekstravindu_GATP_1413</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\1414_Test_Minnebruk_Fraværsvindu\031_Test_Minnebruk_Fraværsvindu_GATP_1414.csproj">
+      <Project>{cce570cf-85bb-4135-9a43-2cb804ca1151}</Project>
+      <Name>031_Test_Minnebruk_Fraværsvindu_GATP_1414</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CommonUIFunctions\CommonUIFunctions.csproj">
+      <Project>{444c6f0b-752b-4777-af21-0041a645e238}</Project>
+      <Name>CommonUIFunctions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\CommonTestData.csproj">
+      <Project>{20ef8327-32d9-46a7-8a42-20ae21b5558b}</Project>
+      <Name>CommonTestData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LaunchGatRun\001_LaunchGatRun.csproj">
+      <Project>{d0f90dc2-3b44-44eb-9ab1-1b58b3bdea1a}</Project>
+      <Name>001_LaunchGatRun</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

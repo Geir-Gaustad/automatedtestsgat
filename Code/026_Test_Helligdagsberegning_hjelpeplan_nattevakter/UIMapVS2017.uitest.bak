@@ -1,0 +1,2342 @@
+<?xml version="1.0"?>
+<UITest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="" Id="3efe829a-76df-439e-af0d-8d5c62727a1e" AssemblyVersion="10.0.21008.0" Version="1.0" xmlns="http://schemas.microsoft.com/VisualStudio/TeamTest/UITest/2010">
+  <Configuration>
+    <Group Name="IE">
+      <Setting Name="Version" Value="9.11.16299.0" WarningLevel="1" />
+      <Setting Name="InformationBar" WarningLevel="1" />
+      <Setting Name="AutoCompletePassword" WarningLevel="1" />
+      <Setting Name="AutoCompleteForm" WarningLevel="1" />
+      <Setting Name="DefaultBrowser" Value="IEXPLORE.EXE" WarningLevel="1" />
+      <Setting Name="PopupBlocker" Value="yes" WarningLevel="1" />
+      <Setting Name="TabbedBrowsing" WarningLevel="2" />
+      <Setting Name="InternetZoneSecurity" Value="66816" WarningLevel="2" />
+      <Setting Name="IntranetZoneSecurity" Value="69632" WarningLevel="2" />
+      <Setting Name="TrustedZoneSecurity" Value="70912" WarningLevel="2" />
+      <Setting Name="RestrictedZoneSecurity" Value="73728" WarningLevel="2" />
+      <Setting Name="PhishingFilter" WarningLevel="1" />
+      <Setting Name="EnhancedSecurityConfiguration" WarningLevel="1" />
+    </Group>
+    <Group Name="OS">
+      <Setting Name="Name" Value="Microsoft Windows 10 Pro" WarningLevel="2" />
+      <Setting Name="Version" Value="Microsoft Windows NT 10.0.16299.0" WarningLevel="2" />
+      <Setting Name="IsUserAdmin" Value="True" WarningLevel="2" />
+      <Setting Name="Is64BitOperatingSystem" Value="True" WarningLevel="2" />
+      <Setting Name="IsTerminalServerSession" Value="False" WarningLevel="2" />
+      <Setting Name="OSLanguage" Value="1033" WarningLevel="1" />
+      <Setting Name="UserLocale" Value="1044" WarningLevel="1" />
+      <Setting Name="DragFullWindows" Value="True" WarningLevel="2" />
+      <Setting Name="ScreenResolutionWidth" Value="1920" WarningLevel="2" />
+      <Setting Name="ScreenResolutionHeight" Value="1080" WarningLevel="2" />
+      <Setting Name="SystemDPIX" Value="96" WarningLevel="2" />
+      <Setting Name="SystemDPIY" Value="96" WarningLevel="2" />
+      <Setting Name="Aero" Value="1" WarningLevel="1" />
+      <Setting Name="UACEnabled" Value="1" WarningLevel="2" />
+      <Setting Name="UACPromptEnabled" Value="2" WarningLevel="1" />
+    </Group>
+    <Group Name="TechnologyManagers">
+      <Setting Name="Web" WarningLevel="1" />
+      <Setting Name="Web" WarningLevel="1" />
+      <Setting Name="DevExpress.v18.2" WarningLevel="1" />
+      <Setting Name="UIA" WarningLevel="1" />
+    </Group>
+  </Configuration>
+  <InitializeActions />
+  <ExecuteActions>
+    <DragDropAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIItemCell9">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <TargetElementName>UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIItemCell12</TargetElementName>
+      <MouseButton>Left</MouseButton>
+      <StartLocation X="18" Y="8" />
+      <StopLocation X="20" Y="8" />
+    </DragDropAction>
+    <MouseAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIItemCell12">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="20" Y="8" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Right</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="AddAbsenceToElmander">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMapVS2017.UIAnsatteiarbeidsplanWindow.UIPanelControlOuterClient.UIPanelControlLeftClient.UITreeListEmployeeTreeList.UINode5TreeListNode.UIItem6LarssonHenrikTreeListCell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="44" Y="7" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMapVS2017.UIAnsatteiarbeidsplanWindow.UIPanelControlOuterClient.UIPanelControlLeftClient.UITreeListEmployeeTreeList.UINode6TreeListNode.UIItem7NilssonRolandTreeListCell">
+      <ParameterName />
+      <ModifierKeys>Control</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="34" Y="7" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <SetValueAction UIObjectName="UIMapVS2017.UIAnsatteiarbeidsplanWindow.UIPanelControlOuterClient.UIPanelControlRightClient.UIViewHostCustom.UIPcViewClient.UIEmployeeEditorsViewCustom.UIPcContentClient.UIXscContentScrollableControl.UIGroupControlViewHostCustom.UIGroupControlClient.UIEmployeeManagerF3CalCustom.UILueF3CalculationOptiLookUpEdit" Comment="ValueTypeName">
+      <ParameterName />
+      <Value Encoded="false">Gatsoft.Gat.RosterPlan.EmployeeManager.UI.ViewModels.Data.F3CalculationOptionViewModel</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="UIMapVS2017.UIAnsatteiarbeidsplanWindow.UIPanelControlOuterClient.UIPanelControlRightClient.UIViewHostCustom.UIPcViewClient.UIEmployeeEditorsViewCustom.UIPcContentClient.UIXscContentScrollableControl.UIGroupControlViewHostCustom.UIGroupControlClient.UIEmployeeManagerF3CalCustom.UILueF3CalculationOptiLookUpEdit" Comment="ValueAsString">
+      <ParameterName />
+      <Value Encoded="false">Annenhver</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="AddF3_Larsson_Nilsson">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIItemCell10">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="15" Y="8" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <SendKeysAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIRow11ColumnRosterCelEdit">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Text Encoded="false">f3{Tab}</Text>
+    </SendKeysAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="AddF3ShiftsLarson">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMapVS2017.UIAnsatteiarbeidsplanWindow.UIPanelControlOuterClient.UIPanelControlLeftClient.UITreeListEmployeeTreeList.UINode2TreeListNode.UIItem3ElmanderJohanTreeListCell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="32" Y="6" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <SetValueAction UIObjectName="UIMapVS2017.UIAnsatteiarbeidsplanWindow.UIPanelControlOuterClient.UIPanelControlRightClient.UIViewHostCustom.UIPcViewClient.UIEmployeeEditorsViewCustom.UIPcContentClient.UIXscContentScrollableControl.UIGroupControlViewHostCustom.UIGroupControlClient.UIEmployeeManagerF3CalCustom.UILueF3CalculationOptiLookUpEdit" Comment="ValueTypeName">
+      <ParameterName />
+      <Value Encoded="false">Gatsoft.Gat.RosterPlan.EmployeeManager.UI.ViewModels.Data.F3CalculationOptionViewModel</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="UIMapVS2017.UIAnsatteiarbeidsplanWindow.UIPanelControlOuterClient.UIPanelControlRightClient.UIViewHostCustom.UIPcViewClient.UIEmployeeEditorsViewCustom.UIPcContentClient.UIXscContentScrollableControl.UIGroupControlViewHostCustom.UIGroupControlClient.UIEmployeeManagerF3CalCustom.UILueF3CalculationOptiLookUpEdit" Comment="ValueAsString">
+      <ParameterName />
+      <Value Encoded="false">Annenhver</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="ChangeElmanderF3Calc">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIDpnlColumnsDockPanel.UIDockPanel1_ContainerCustom.UIGcExtraGridTable.UIItem3av9Cell">
+      <ParameterName />
+      <PropertyName>ValueAsString</PropertyName>
+      <ExpectedValue>3 av 9</ExpectedValue>
+      <MessageOnValidationFailure>Error in SH</MessageOnValidationFailure>
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIDpnlColumnsDockPanel.UIDockPanel1_ContainerCustom.UIGcExtraGridTable.UIItem0av1Cell">
+      <ParameterName />
+      <PropertyName>ValueAsString</PropertyName>
+      <ExpectedValue>0 av 1</ExpectedValue>
+      <MessageOnValidationFailure>Error in F3</MessageOnValidationFailure>
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIDpnlColumnsDockPanel.UIDockPanel1_ContainerCustom.UIGcExtraGridTable.UIItem0av0Cell1">
+      <ParameterName />
+      <PropertyName>ValueAsString</PropertyName>
+      <ExpectedValue>0 av 0</ExpectedValue>
+      <MessageOnValidationFailure>Error in F5</MessageOnValidationFailure>
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="CheckAnderssonCalculationsStep4">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIDpnlColumnsDockPanel.UIDockPanel1_ContainerCustom.UIGcExtraGridTable.UIItem0av9Cell1">
+      <ParameterName />
+      <PropertyName>ValueAsString</PropertyName>
+      <ExpectedValue>0 av 9</ExpectedValue>
+      <MessageOnValidationFailure>Error in SH</MessageOnValidationFailure>
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIDpnlColumnsDockPanel.UIDockPanel1_ContainerCustom.UIGcExtraGridTable.UIItem0av0Cell2">
+      <ParameterName />
+      <PropertyName>ValueAsString</PropertyName>
+      <ExpectedValue>0 av 0</ExpectedValue>
+      <MessageOnValidationFailure>Error in F3</MessageOnValidationFailure>
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIDpnlColumnsDockPanel.UIDockPanel1_ContainerCustom.UIGcExtraGridTable.UIItem0av0Cell3">
+      <ParameterName />
+      <PropertyName>ValueAsString</PropertyName>
+      <ExpectedValue>0 av 0</ExpectedValue>
+      <MessageOnValidationFailure>Error in F5</MessageOnValidationFailure>
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="CheckBrolinCalculationsStep4">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIDpnlColumnsDockPanel.UIDockPanel1_ContainerCustom.UIGcExtraGridTable.UIItem9av9Cell">
+      <ParameterName />
+      <PropertyName>ValueAsString</PropertyName>
+      <ExpectedValue>9 av 9</ExpectedValue>
+      <MessageOnValidationFailure>Error in SH</MessageOnValidationFailure>
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIDpnlColumnsDockPanel.UIDockPanel1_ContainerCustom.UIGcExtraGridTable.UIItem0av5Cell">
+      <ParameterName />
+      <PropertyName>ValueAsString</PropertyName>
+      <ExpectedValue>0 av 5</ExpectedValue>
+      <MessageOnValidationFailure>Error in F3</MessageOnValidationFailure>
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIDpnlColumnsDockPanel.UIDockPanel1_ContainerCustom.UIGcExtraGridTable.UIItem0av0Cell4">
+      <ParameterName />
+      <PropertyName>ValueAsString</PropertyName>
+      <ExpectedValue>0 av 0</ExpectedValue>
+      <MessageOnValidationFailure>Error in F5</MessageOnValidationFailure>
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="CheckElmanderHellstromCalculationsStep4">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIDpnlColumnsDockPanel.UIDockPanel1_ContainerCustom.UIGcExtraGridTable.UIItem3av9Cell1">
+      <ParameterName />
+      <PropertyName>ValueAsString</PropertyName>
+      <ExpectedValue>3 av 9</ExpectedValue>
+      <MessageOnValidationFailure>Error in SH</MessageOnValidationFailure>
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIDpnlColumnsDockPanel.UIDockPanel1_ContainerCustom.UIGcExtraGridTable.UIItem0av0Cell5">
+      <ParameterName />
+      <PropertyName>ValueAsString</PropertyName>
+      <ExpectedValue>0 av 0</ExpectedValue>
+      <MessageOnValidationFailure>Error in F3</MessageOnValidationFailure>
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIDpnlColumnsDockPanel.UIDockPanel1_ContainerCustom.UIGcExtraGridTable.UIItem0av0Cell6">
+      <ParameterName />
+      <PropertyName>ValueAsString</PropertyName>
+      <ExpectedValue>0 av 0</ExpectedValue>
+      <MessageOnValidationFailure>Error in F5</MessageOnValidationFailure>
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="CheckHellstromCalculationsStep4">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIDpnlColumnsDockPanel.UIDockPanel1_ContainerCustom.UIGcExtraGridTable.UIItem0av9Cell">
+      <ParameterName />
+      <PropertyName>ValueAsString</PropertyName>
+      <ExpectedValue>0 av 9</ExpectedValue>
+      <MessageOnValidationFailure>Error in SH</MessageOnValidationFailure>
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIDpnlColumnsDockPanel.UIDockPanel1_ContainerCustom.UIGcExtraGridTable.UIItem0av0Cell">
+      <ParameterName />
+      <PropertyName>ValueAsString</PropertyName>
+      <ExpectedValue>0 av 0</ExpectedValue>
+      <MessageOnValidationFailure>Error in F3</MessageOnValidationFailure>
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIDpnlColumnsDockPanel.UIDockPanel1_ContainerCustom.UIGcExtraGridTable.UIItemCell">
+      <ParameterName />
+      <PropertyName>ValueAsString</PropertyName>
+      <ExpectedValue />
+      <MessageOnValidationFailure>Error in F5</MessageOnValidationFailure>
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="CheckIbrahimovicCalculationsStep4">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIItemCell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="16" Y="12" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIItemCell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="15" Y="9" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <SendKeysAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIRow5ColumnRosterCellEdit">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Text Encoded="false">n5{Tab}</Text>
+    </SendKeysAction>
+    <MouseAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIItemCell1">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="17" Y="7" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <SendKeysAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIRow5ColumnRosterCellEdit1">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Text Encoded="false">a{Tab}</Text>
+    </SendKeysAction>
+    <MouseAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIItemCell2">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="19" Y="10" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIItemCell2">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="19" Y="10" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <SendKeysAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIRow5ColumnRosterCellEdit2">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Text Encoded="false">d{Tab}</Text>
+    </SendKeysAction>
+    <MouseAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIItemCell3">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="22" Y="10" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <SendKeysAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIRow5ColumnRosterCellEdit3">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Text Encoded="false">n5{Tab}</Text>
+    </SendKeysAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="InsertLarssonshifts">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIItemCell4">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="14" Y="11" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIItemCell4">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="14" Y="11" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <SendKeysAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIRow6ColumnRosterCellEdit">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Text Encoded="false">n5{Tab}</Text>
+    </SendKeysAction>
+    <MouseAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIItemCell11">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="15" Y="9" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <SendKeysAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIRow6ColumnRosterCellEdit1">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Text Encoded="false">n5{Tab}</Text>
+    </SendKeysAction>
+    <MouseAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIItemCell21">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="20" Y="10" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIItemCell21">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="20" Y="10" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <SendKeysAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIRow6ColumnRosterCellEdit2">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Text Encoded="false">n5{Tab}</Text>
+    </SendKeysAction>
+    <MouseAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIItemCell31">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="21" Y="10" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIItemCell31">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="21" Y="10" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <SendKeysAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIRow6ColumnRosterCellEdit3">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Text Encoded="false">n5{Tab}</Text>
+    </SendKeysAction>
+    <MouseAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIItemCell41">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="21" Y="10" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIItemCell41">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="21" Y="10" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <SendKeysAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIRow6ColumnRosterCellEdit4">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Text Encoded="false">n5{Tab}</Text>
+    </SendKeysAction>
+    <MouseAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIItemCell5">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="22" Y="8" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <SendKeysAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIRow6ColumnRosterCellEdit5">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Text Encoded="false">n5{Tab}</Text>
+    </SendKeysAction>
+    <MouseAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIItemCell6">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="17" Y="10" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIItemCell6">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="17" Y="10" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <SendKeysAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIRow6ColumnRosterCellEdit6">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Text Encoded="false">n5{Tab}</Text>
+    </SendKeysAction>
+    <MouseAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIItemCell7">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="18" Y="9" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <SendKeysAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIRow6ColumnRosterCellEdit7">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Text Encoded="false">n5{Tab}</Text>
+    </SendKeysAction>
+    <MouseAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIItemCell8">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="19" Y="13" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIItemCell8">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="19" Y="13" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <SendKeysAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIGcRosterPlanTable.UIRow6ColumnRosterCellEdit8">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Text Encoded="false">n5{Tab}</Text>
+    </SendKeysAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="InsertNilssonshifts">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMapVS2017.UILeggtilansatteWindow.UIViewHostCustom.UIPcViewClient.UISelectDepartmentEmplCustom.UIPcContentContainerClient.UIPcContentClient.UIGcDepartmentEmployeeTable.UILarssonHenrikCell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="35" Y="11" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMapVS2017.UILeggtilansatteWindow.UIViewHostCustom.UIPcViewClient.UISelectDepartmentEmplCustom.UIPcContentContainerClient.UIPcContentClient.UIGcDepartmentEmployeeTable.UINilssonRolandCell">
+      <ParameterName />
+      <ModifierKeys>Control</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="46" Y="8" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="Select_Larsson_Nilsson">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIRosterPlanGrid1Custom.UIDpnlColumnsDockPanel.UIDockPanel1_ContainerCustom.UIGcExtraGridTable.UIACell2">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>A</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIRosterPlanGrid1Custom.UIDpnlColumnsDockPanel.UIDockPanel1_ContainerCustom.UIGcExtraGridTable.UIItem4av9Cell1">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>4 av 9</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIRosterPlanGrid1Custom.UIDpnlColumnsDockPanel.UIDockPanel1_ContainerCustom.UIGcExtraGridTable.UIItem0av1Cell1">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>0 av 1</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIRosterPlanGrid1Custom.UIDpnlColumnsDockPanel.UIDockPanel1_ContainerCustom.UIGcExtraGridTable.UIItem0av0Cell2">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>0 av 0</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIRosterPlanGrid1Custom.UIDpnlColumnsDockPanel.UIDockPanel1_ContainerCustom.UIGcExtraGridTable.UIACell3">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>A</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIRosterPlanGrid1Custom.UIDpnlColumnsDockPanel.UIDockPanel1_ContainerCustom.UIGcExtraGridTable.UIItem9av9Cell1">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>9 av 9</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIRosterPlanGrid1Custom.UIDpnlColumnsDockPanel.UIDockPanel1_ContainerCustom.UIGcExtraGridTable.UIItem0av2Cell2">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>0 av 2</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIRosterPlanGrid1Custom.UIDpnlColumnsDockPanel.UIDockPanel1_ContainerCustom.UIGcExtraGridTable.UIItemCell1">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue />
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="ChecksStep8">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIRosterPlanGrid1Custom.UIDpnlColumnsDockPanel.UIDockPanel1_ContainerCustom.UIGcExtraGridTable.UIGCell1">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>G</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIRosterPlanGrid1Custom.UIDpnlColumnsDockPanel.UIDockPanel1_ContainerCustom.UIGcExtraGridTable.UIItem6av9Cell1">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>6 av 9</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIRosterPlanGrid1Custom.UIDpnlColumnsDockPanel.UIDockPanel1_ContainerCustom.UIGcExtraGridTable.UIItem0av2Cell3">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>0 av 2</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIRosterPlanGrid1Custom.UIDpnlColumnsDockPanel.UIDockPanel1_ContainerCustom.UIGcExtraGridTable.UIItem0av0Cell3">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>0 av 0</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="ChecksStep9">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIRosterPlanGrid1Custom.UIGcRosterPlanTable.UIElmanderJohanCell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>Elmander, Johan</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIRosterPlanGrid1Custom.UIDpnlColumnsDockPanel.UIDockPanel1_ContainerCustom.UIGcExtraGridTable.UIGCell1">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>A</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIRosterPlanGrid1Custom.UIDpnlColumnsDockPanel.UIDockPanel1_ContainerCustom.UIGcExtraGridTable.UIItem6av9Cell1">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>6 av 9</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIRosterPlanGrid1Custom.UIDpnlColumnsDockPanel.UIDockPanel1_ContainerCustom.UIGcExtraGridTable.UIItem0av2Cell3">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>0 av 2</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIRosterPlanGrid1Custom.UIDpnlColumnsDockPanel.UIDockPanel1_ContainerCustom.UIGcExtraGridTable.UIItem0av0Cell3">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>0 av 0</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="ChecksStep10">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIRosterPlanGrid1Custom.UIGcRosterPlanTable.UILarssonHenrikCell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>Larsson, Henrik</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <AssertAction UIObjectName="UIMapVS2017.UIArbeidsplanWindow.UIPnlRosterPlanClient.UIRosterPlanGrid1Custom.UIDpnlColumnsDockPanel.UIDockPanel1_ContainerCustom.UIGcExtraGridTable.UIItem1av1Cell">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>1 av 1</ExpectedValue>
+      <MessageOnValidationFailure />
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="ChecksStep11">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+  </ExecuteActions>
+  <CleanupActions />
+  <OnErrorActions />
+  <Maps>
+    <UIMap Id="UIMapVS2017">
+      <TopLevelWindows>
+        <TopLevelWindow ControlType="Window" Id="UIArbeidsplanWindow" FriendlyName="Arbeidsplan" SpecialControlType="None" SessionId="2361354">
+          <TechnologyName>DevExpress.v18.2</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>Arbeidsplan</WindowTitle>
+          </WindowTitles>
+          <AndCondition>
+            <PropertyCondition Name="Name">Arbeidsplan</PropertyCondition>
+            <PropertyCondition Name="ClassName" Operator="Contains">WindowsForms10.Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Client" Id="UIPnlRosterPlanClient" FriendlyName="pnlRosterPlan" SpecialControlType="None">
+              <TechnologyName>DevExpress.v18.2</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Arbeidsplan</WindowTitle>
+              </WindowTitles>
+              <AndCondition>
+                <PropertyCondition Name="Name">pnlRosterPlan</PropertyCondition>
+                <PropertyCondition Name="ClassName">GSPanelControl</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="DockPanel" Id="UIDpnlColumnsDockPanel" FriendlyName="dpnlColumns" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Arbeidsplan</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition>
+                    <PropertyCondition Name="Name">dpnlColumns</PropertyCondition>
+                    <PropertyCondition Name="ClassName">DockPanel</PropertyCondition>
+                    <PropertyCondition Name="HierarchyLevel">2</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Custom" Id="UIDockPanel1_ContainerCustom" FriendlyName="dockPanel1_Container" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">dockPanel1_Container</PropertyCondition>
+                        <PropertyCondition Name="ClassName">ControlContainer</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Table" Id="UIGcExtraGridTable" FriendlyName="gcExtraGrid" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v18.2</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Arbeidsplan</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition>
+                            <PropertyCondition Name="Name">gcExtraGrid</PropertyCondition>
+                            <PropertyCondition Name="ClassName">GSGridControl</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="Cell" Id="UIItem0av9Cell" FriendlyName="0 av 9" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Arbeidsplan</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]8[Column]Col_SH</PropertyCondition>
+                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                            <UIObject ControlType="Cell" Id="UIItem0av0Cell" FriendlyName="0 av 0" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Arbeidsplan</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]8[Column]Col_F3</PropertyCondition>
+                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                            <UIObject ControlType="Cell" Id="UIItemCell" FriendlyName="" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Arbeidsplan</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]8[Column]Col_F1F5</PropertyCondition>
+                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                            <UIObject ControlType="Cell" Id="UIItem3av9Cell" FriendlyName="3 av 9" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Arbeidsplan</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]0[Column]Col_SH</PropertyCondition>
+                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                            <UIObject ControlType="Cell" Id="UIItem0av1Cell" FriendlyName="0 av 1" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Arbeidsplan</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]0[Column]Col_F3</PropertyCondition>
+                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                            <UIObject ControlType="Cell" Id="UIItem0av0Cell1" FriendlyName="0 av 0" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Arbeidsplan</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]0[Column]Col_F1F5</PropertyCondition>
+                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                            <UIObject ControlType="Cell" Id="UIItem0av9Cell1" FriendlyName="0 av 9" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Arbeidsplan</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]2[Column]Col_SH</PropertyCondition>
+                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                            <UIObject ControlType="Cell" Id="UIItem0av0Cell2" FriendlyName="0 av 0" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Arbeidsplan</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]2[Column]Col_F3</PropertyCondition>
+                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                            <UIObject ControlType="Cell" Id="UIItem0av0Cell3" FriendlyName="0 av 0" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Arbeidsplan</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]2[Column]Col_F1F5</PropertyCondition>
+                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                            <UIObject ControlType="Cell" Id="UIItem9av9Cell" FriendlyName="9 av 9" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Arbeidsplan</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]4[Column]Col_SH</PropertyCondition>
+                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                            <UIObject ControlType="Cell" Id="UIItem0av5Cell" FriendlyName="0 av 5" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Arbeidsplan</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]4[Column]Col_F3</PropertyCondition>
+                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                            <UIObject ControlType="Cell" Id="UIItem0av0Cell4" FriendlyName="0 av 0" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Arbeidsplan</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]4[Column]Col_F1F5</PropertyCondition>
+                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                            <UIObject ControlType="Cell" Id="UIItem3av9Cell1" FriendlyName="3 av 9" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Arbeidsplan</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]6[Column]Col_SH</PropertyCondition>
+                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                            <UIObject ControlType="Cell" Id="UIItem0av0Cell5" FriendlyName="0 av 0" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Arbeidsplan</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]6[Column]Col_F3</PropertyCondition>
+                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                            <UIObject ControlType="Cell" Id="UIItem0av0Cell6" FriendlyName="0 av 0" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Arbeidsplan</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]6[Column]Col_F1F5</PropertyCondition>
+                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                            <UIObject ControlType="Cell" Id="UIACell" FriendlyName="A" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Arbeidsplan</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]10[Column]Col_F3Calc</PropertyCondition>
+                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                            <UIObject ControlType="Cell" Id="UIItem4av9Cell" FriendlyName="4 av 9" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Arbeidsplan</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]10[Column]Col_SH</PropertyCondition>
+                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                            <UIObject ControlType="Cell" Id="UIItem416Cell" FriendlyName="4,16" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Arbeidsplan</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]10[Column]Col_ColumnA</PropertyCondition>
+                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                            <UIObject ControlType="Cell" Id="UIItem0av1Cell1" FriendlyName="0 av 1" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Arbeidsplan</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]10[Column]Col_F3</PropertyCondition>
+                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                            <UIObject ControlType="Cell" Id="UIItem0av0Cell7" FriendlyName="0 av 0" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Arbeidsplan</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]10[Column]Col_F1F5</PropertyCondition>
+                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                            <UIObject ControlType="Cell" Id="UIACell1" FriendlyName="A" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Arbeidsplan</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]12[Column]Col_F3Calc</PropertyCondition>
+                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                            <UIObject ControlType="Cell" Id="UIItem3519Cell" FriendlyName="35,19" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Arbeidsplan</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]12[Column]Col_ColumnB</PropertyCondition>
+                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                            <UIObject ControlType="Cell" Id="UIItem0av2Cell" FriendlyName="0 av 2" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Arbeidsplan</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]12[Column]Col_F3</PropertyCondition>
+                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                            <UIObject ControlType="Cell" Id="UIItemCell1" FriendlyName="" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Arbeidsplan</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]12[Column]Col_F1F5</PropertyCondition>
+                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                            <UIObject ControlType="Cell" Id="UIGCell" FriendlyName="G" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Arbeidsplan</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]4[Column]Col_F3Calc</PropertyCondition>
+                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                            <UIObject ControlType="Cell" Id="UIItem424Cell" FriendlyName="42,4" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Arbeidsplan</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]4[Column]Col_ColumnA</PropertyCondition>
+                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                            <UIObject ControlType="Cell" Id="UIItem5652Cell" FriendlyName="56,52" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Arbeidsplan</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]4[Column]Col_ColumnB</PropertyCondition>
+                                <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Table" Id="UIGcRosterPlanTable" FriendlyName="gcRosterPlan" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Arbeidsplan</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition>
+                    <PropertyCondition Name="Name">gcRosterPlan</PropertyCondition>
+                    <PropertyCondition Name="ClassName">GSGridControl</PropertyCondition>
+                    <PropertyCondition Name="HierarchyLevel">2</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Cell" Id="UIItemCell" FriendlyName="" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">gcRosterPlanGridControlCell[View]gvRosterPlan[Row]5[Column]RosterCell_5</PropertyCondition>
+                        <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                    <UIObject ControlType="Edit" Id="UIRow5ColumnRosterCellEdit" FriendlyName="[Row]5[Column]RosterCell_5" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">gcRosterPlanTextEdit[View]gvRosterPlan[Row]5[Column]RosterCell_5</PropertyCondition>
+                        <PropertyCondition Name="ClassName">TextEdit</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                    <UIObject ControlType="Cell" Id="UIItemCell1" FriendlyName="" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">gcRosterPlanGridControlCell[View]gvRosterPlan[Row]5[Column]RosterCell_6</PropertyCondition>
+                        <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                    <UIObject ControlType="Edit" Id="UIRow5ColumnRosterCellEdit1" FriendlyName="[Row]5[Column]RosterCell_6" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">gcRosterPlanTextEdit[View]gvRosterPlan[Row]5[Column]RosterCell_6</PropertyCondition>
+                        <PropertyCondition Name="ClassName">TextEdit</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                    <UIObject ControlType="Cell" Id="UIItemCell2" FriendlyName="" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">gcRosterPlanGridControlCell[View]gvRosterPlan[Row]5[Column]RosterCell_20</PropertyCondition>
+                        <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                    <UIObject ControlType="Edit" Id="UIRow5ColumnRosterCellEdit2" FriendlyName="[Row]5[Column]RosterCell_20" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">gcRosterPlanTextEdit[View]gvRosterPlan[Row]5[Column]RosterCell_20</PropertyCondition>
+                        <PropertyCondition Name="ClassName">TextEdit</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                    <UIObject ControlType="Cell" Id="UIItemCell3" FriendlyName="" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">gcRosterPlanGridControlCell[View]gvRosterPlan[Row]5[Column]RosterCell_21</PropertyCondition>
+                        <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                    <UIObject ControlType="Edit" Id="UIRow5ColumnRosterCellEdit3" FriendlyName="[Row]5[Column]RosterCell_21" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">gcRosterPlanTextEdit[View]gvRosterPlan[Row]5[Column]RosterCell_21</PropertyCondition>
+                        <PropertyCondition Name="ClassName">TextEdit</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                    <UIObject ControlType="Cell" Id="UIItemCell4" FriendlyName="" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">gcRosterPlanGridControlCell[View]gvRosterPlan[Row]6[Column]RosterCell_5</PropertyCondition>
+                        <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                    <UIObject ControlType="Edit" Id="UIRow6ColumnRosterCellEdit" FriendlyName="[Row]6[Column]RosterCell_5" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">gcRosterPlanTextEdit[View]gvRosterPlan[Row]6[Column]RosterCell_5</PropertyCondition>
+                        <PropertyCondition Name="ClassName">TextEdit</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                    <UIObject ControlType="Cell" Id="UIItemCell11" FriendlyName="" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">gcRosterPlanGridControlCell[View]gvRosterPlan[Row]6[Column]RosterCell_6</PropertyCondition>
+                        <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                    <UIObject ControlType="Edit" Id="UIRow6ColumnRosterCellEdit1" FriendlyName="[Row]6[Column]RosterCell_6" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">gcRosterPlanTextEdit[View]gvRosterPlan[Row]6[Column]RosterCell_6</PropertyCondition>
+                        <PropertyCondition Name="ClassName">TextEdit</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                    <UIObject ControlType="Cell" Id="UIItemCell21" FriendlyName="" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">gcRosterPlanGridControlCell[View]gvRosterPlan[Row]6[Column]RosterCell_13</PropertyCondition>
+                        <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                    <UIObject ControlType="Edit" Id="UIRow6ColumnRosterCellEdit2" FriendlyName="[Row]6[Column]RosterCell_13" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">gcRosterPlanTextEdit[View]gvRosterPlan[Row]6[Column]RosterCell_13</PropertyCondition>
+                        <PropertyCondition Name="ClassName">TextEdit</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                    <UIObject ControlType="Cell" Id="UIItemCell31" FriendlyName="" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">gcRosterPlanGridControlCell[View]gvRosterPlan[Row]6[Column]RosterCell_17</PropertyCondition>
+                        <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                    <UIObject ControlType="Edit" Id="UIRow6ColumnRosterCellEdit3" FriendlyName="[Row]6[Column]RosterCell_17" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">gcRosterPlanTextEdit[View]gvRosterPlan[Row]6[Column]RosterCell_17</PropertyCondition>
+                        <PropertyCondition Name="ClassName">TextEdit</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                    <UIObject ControlType="Cell" Id="UIItemCell41" FriendlyName="" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">gcRosterPlanGridControlCell[View]gvRosterPlan[Row]6[Column]RosterCell_20</PropertyCondition>
+                        <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                    <UIObject ControlType="Edit" Id="UIRow6ColumnRosterCellEdit4" FriendlyName="[Row]6[Column]RosterCell_20" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">gcRosterPlanTextEdit[View]gvRosterPlan[Row]6[Column]RosterCell_20</PropertyCondition>
+                        <PropertyCondition Name="ClassName">TextEdit</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                    <UIObject ControlType="Cell" Id="UIItemCell5" FriendlyName="" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">gcRosterPlanGridControlCell[View]gvRosterPlan[Row]6[Column]RosterCell_21</PropertyCondition>
+                        <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                    <UIObject ControlType="Edit" Id="UIRow6ColumnRosterCellEdit5" FriendlyName="[Row]6[Column]RosterCell_21" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">gcRosterPlanTextEdit[View]gvRosterPlan[Row]6[Column]RosterCell_21</PropertyCondition>
+                        <PropertyCondition Name="ClassName">TextEdit</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                    <UIObject ControlType="Cell" Id="UIItemCell6" FriendlyName="" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">gcRosterPlanGridControlCell[View]gvRosterPlan[Row]6[Column]RosterCell_27</PropertyCondition>
+                        <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                    <UIObject ControlType="Edit" Id="UIRow6ColumnRosterCellEdit6" FriendlyName="[Row]6[Column]RosterCell_27" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">gcRosterPlanTextEdit[View]gvRosterPlan[Row]6[Column]RosterCell_27</PropertyCondition>
+                        <PropertyCondition Name="ClassName">TextEdit</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                    <UIObject ControlType="Cell" Id="UIItemCell7" FriendlyName="" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">gcRosterPlanGridControlCell[View]gvRosterPlan[Row]6[Column]RosterCell_28</PropertyCondition>
+                        <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                    <UIObject ControlType="Edit" Id="UIRow6ColumnRosterCellEdit7" FriendlyName="[Row]6[Column]RosterCell_28" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">gcRosterPlanTextEdit[View]gvRosterPlan[Row]6[Column]RosterCell_28</PropertyCondition>
+                        <PropertyCondition Name="ClassName">TextEdit</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                    <UIObject ControlType="Cell" Id="UIItemCell8" FriendlyName="" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">gcRosterPlanGridControlCell[View]gvRosterPlan[Row]6[Column]RosterCell_34</PropertyCondition>
+                        <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                    <UIObject ControlType="Edit" Id="UIRow6ColumnRosterCellEdit8" FriendlyName="[Row]6[Column]RosterCell_34" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">gcRosterPlanTextEdit[View]gvRosterPlan[Row]6[Column]RosterCell_34</PropertyCondition>
+                        <PropertyCondition Name="ClassName">TextEdit</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                    <UIObject ControlType="Cell" Id="UIItemCell9" FriendlyName="" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">gcRosterPlanGridControlCell[View]gvRosterPlan[Row]5[Column]RosterCell_0</PropertyCondition>
+                        <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                    <UIObject ControlType="Cell" Id="UIItemCell12" FriendlyName="" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">gcRosterPlanGridControlCell[View]gvRosterPlan[Row]5[Column]RosterCell_13</PropertyCondition>
+                        <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                    <UIObject ControlType="Cell" Id="UIItemCell10" FriendlyName="" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">gcRosterPlanGridControlCell[View]gvRosterPlan[Row]11[Column]RosterCell_20</PropertyCondition>
+                        <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                    <UIObject ControlType="Edit" Id="UIRow11ColumnRosterCelEdit" FriendlyName="[Row]11[Column]RosterCell_20" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">gcRosterPlanTextEdit[View]gvRosterPlan[Row]11[Column]RosterCell_20</PropertyCondition>
+                        <PropertyCondition Name="ClassName">TextEdit</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Custom" Id="UIRosterPlanGrid1Custom" FriendlyName="rosterPlanGrid1" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Arbeidsplan</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition>
+                    <PropertyCondition Name="Name">rosterPlanGrid1</PropertyCondition>
+                    <PropertyCondition Name="ClassName">RosterPlanGrid</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="DockPanel" Id="UIDpnlColumnsDockPanel" FriendlyName="dpnlColumns" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">dpnlColumns</PropertyCondition>
+                        <PropertyCondition Name="ClassName">DockPanel</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Custom" Id="UIDockPanel1_ContainerCustom" FriendlyName="dockPanel1_Container" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v18.2</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Arbeidsplan</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition>
+                            <PropertyCondition Name="Name">dockPanel1_Container</PropertyCondition>
+                            <PropertyCondition Name="ClassName">ControlContainer</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="Table" Id="UIGcExtraGridTable" FriendlyName="gcExtraGrid" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Arbeidsplan</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">gcExtraGrid</PropertyCondition>
+                                <PropertyCondition Name="ClassName">GSGridControl</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants>
+                                <UIObject ControlType="Cell" Id="UIACell" FriendlyName="A" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>Arbeidsplan</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]10[Column]ColumnHandle42</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants />
+                                </UIObject>
+                                <UIObject ControlType="Cell" Id="UIItem4av9Cell" FriendlyName="4 av 9" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>Arbeidsplan</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]10[Column]ColumnHandle43</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants />
+                                </UIObject>
+                                <UIObject ControlType="Cell" Id="UIItem0av1Cell" FriendlyName="0 av 1" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>Arbeidsplan</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]10[Column]ColumnHandle48</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants />
+                                </UIObject>
+                                <UIObject ControlType="Cell" Id="UIItem0av0Cell" FriendlyName="0 av 0" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>Arbeidsplan</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]10[Column]ColumnHandle49</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants />
+                                </UIObject>
+                                <UIObject ControlType="Cell" Id="UIACell1" FriendlyName="A" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>Arbeidsplan</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]12[Column]ColumnHandle42</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants />
+                                </UIObject>
+                                <UIObject ControlType="Cell" Id="UIItem9av9Cell" FriendlyName="9 av 9" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>Arbeidsplan</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]12[Column]ColumnHandle43</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants />
+                                </UIObject>
+                                <UIObject ControlType="Cell" Id="UIItem0av2Cell" FriendlyName="0 av 2" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>Arbeidsplan</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]12[Column]ColumnHandle48</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants />
+                                </UIObject>
+                                <UIObject ControlType="Cell" Id="UIItemCell" FriendlyName="" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>Arbeidsplan</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]12[Column]ColumnHandle49</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants />
+                                </UIObject>
+                                <UIObject ControlType="Cell" Id="UIGCell" FriendlyName="G" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>Arbeidsplan</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]4[Column]ColumnHandle42</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants />
+                                </UIObject>
+                                <UIObject ControlType="Cell" Id="UIItem6av9Cell" FriendlyName="6 av 9" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>Arbeidsplan</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]4[Column]ColumnHandle43</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants />
+                                </UIObject>
+                                <UIObject ControlType="Cell" Id="UIItem0av2Cell1" FriendlyName="0 av 2" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>Arbeidsplan</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]4[Column]ColumnHandle48</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants />
+                                </UIObject>
+                                <UIObject ControlType="Cell" Id="UIItem0av0Cell1" FriendlyName="0 av 0" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>Arbeidsplan</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]4[Column]ColumnHandle49</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants />
+                                </UIObject>
+                                <UIObject ControlType="Cell" Id="UIACell2" FriendlyName="A" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>Arbeidsplan</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]11[Column]ColumnHandle40</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants />
+                                </UIObject>
+                                <UIObject ControlType="Cell" Id="UIItem4av9Cell1" FriendlyName="4 av 9" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>Arbeidsplan</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]10[Column]ColumnHandle41</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants />
+                                </UIObject>
+                                <UIObject ControlType="Cell" Id="UIItem0av1Cell1" FriendlyName="0 av 1" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>Arbeidsplan</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]11[Column]ColumnHandle46</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants />
+                                </UIObject>
+                                <UIObject ControlType="Cell" Id="UIItem0av0Cell2" FriendlyName="0 av 0" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>Arbeidsplan</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]10[Column]ColumnHandle47</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants />
+                                </UIObject>
+                                <UIObject ControlType="Cell" Id="UIACell3" FriendlyName="A" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>Arbeidsplan</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]12[Column]ColumnHandle40</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants />
+                                </UIObject>
+                                <UIObject ControlType="Cell" Id="UIItem9av9Cell1" FriendlyName="9 av 9" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>Arbeidsplan</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]12[Column]ColumnHandle41</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants />
+                                </UIObject>
+                                <UIObject ControlType="Cell" Id="UIItem0av2Cell2" FriendlyName="0 av 2" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>Arbeidsplan</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]12[Column]ColumnHandle46</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants />
+                                </UIObject>
+                                <UIObject ControlType="Cell" Id="UIItemCell1" FriendlyName="" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>Arbeidsplan</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]12[Column]ColumnHandle47</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants />
+                                </UIObject>
+                                <UIObject ControlType="Cell" Id="UIGCell1" FriendlyName="G" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>Arbeidsplan</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]4[Column]ColumnHandle40</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants />
+                                </UIObject>
+                                <UIObject ControlType="Cell" Id="UIItem6av9Cell1" FriendlyName="6 av 9" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>Arbeidsplan</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]4[Column]ColumnHandle41</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants />
+                                </UIObject>
+                                <UIObject ControlType="Cell" Id="UIItem0av2Cell3" FriendlyName="0 av 2" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>Arbeidsplan</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]4[Column]ColumnHandle46</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants />
+                                </UIObject>
+                                <UIObject ControlType="Cell" Id="UIItem0av0Cell3" FriendlyName="0 av 0" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>Arbeidsplan</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]4[Column]ColumnHandle47</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants />
+                                </UIObject>
+                                <UIObject ControlType="Cell" Id="UIItem1av1Cell" FriendlyName="1 av 1" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>Arbeidsplan</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">gcExtraGridGridControlCell[View]gvExtraGrid[Row]10[Column]ColumnHandle46</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants />
+                                </UIObject>
+                              </Descendants>
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                    <UIObject ControlType="Table" Id="UIGcRosterPlanTable" FriendlyName="gcRosterPlan" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">gcRosterPlan</PropertyCondition>
+                        <PropertyCondition Name="ClassName">GSGridControl</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Cell" Id="UIElmanderJohanCell" FriendlyName="Elmander, Johan" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v18.2</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Arbeidsplan</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition>
+                            <PropertyCondition Name="Name">gcRosterPlanGridControlCell[View]gvRosterPlan[Row]5[Column]ColumnHandle1</PropertyCondition>
+                            <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                        <UIObject ControlType="Cell" Id="UILarssonHenrikCell" FriendlyName="Larsson, Henrik" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v18.2</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Arbeidsplan</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition>
+                            <PropertyCondition Name="Name">gcRosterPlanGridControlCell[View]gvRosterPlan[Row]10[Column]ColumnHandle1</PropertyCondition>
+                            <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UILeggtilansatteWindow" FriendlyName="Legg til ansatte" SpecialControlType="None" SessionId="17107556">
+          <TechnologyName>DevExpress.v18.2</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>Legg til ansatte</WindowTitle>
+          </WindowTitles>
+          <AndCondition>
+            <PropertyCondition Name="Name">Legg til ansatte</PropertyCondition>
+            <PropertyCondition Name="ClassName" Operator="Contains">WindowsForms10.Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Custom" Id="UIViewHostCustom" FriendlyName="viewHost" SpecialControlType="None">
+              <TechnologyName>DevExpress.v18.2</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Legg til ansatte</WindowTitle>
+              </WindowTitles>
+              <AndCondition>
+                <PropertyCondition Name="Name">viewHost</PropertyCondition>
+                <PropertyCondition Name="ClassName">ViewHost</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Client" Id="UIPcViewClient" FriendlyName="pcView" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Legg til ansatte</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition>
+                    <PropertyCondition Name="Name">pcView</PropertyCondition>
+                    <PropertyCondition Name="ClassName">PanelControl</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Custom" Id="UISelectDepartmentEmplCustom" FriendlyName="SelectDepartmentEmployeesView" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Legg til ansatte</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">SelectDepartmentEmployeesView</PropertyCondition>
+                        <PropertyCondition Name="ClassName">SelectDepartmentEmployeesView</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Client" Id="UIPcContentContainerClient" FriendlyName="pcContentContainer" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v18.2</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Legg til ansatte</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition>
+                            <PropertyCondition Name="Name">pcContentContainer</PropertyCondition>
+                            <PropertyCondition Name="ClassName">PanelControl</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="Client" Id="UIPcContentClient" FriendlyName="pcContent" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Legg til ansatte</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">pcContent</PropertyCondition>
+                                <PropertyCondition Name="ClassName">PanelControl</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants>
+                                <UIObject ControlType="Table" Id="UIGcDepartmentEmployeeTable" FriendlyName="gcDepartmentEmployees" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                  <WindowTitles>
+                                    <WindowTitle>Legg til ansatte</WindowTitle>
+                                  </WindowTitles>
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">gcDepartmentEmployees</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">GridControl</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants>
+                                    <UIObject ControlType="Cell" Id="UILarssonHenrikCell" FriendlyName="Larsson, Henrik" SpecialControlType="None">
+                                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                      <WindowTitles>
+                                        <WindowTitle>Legg til ansatte</WindowTitle>
+                                      </WindowTitles>
+                                      <AndCondition>
+                                        <PropertyCondition Name="Name">gcDepartmentEmployeesGridControlCell[View]gvDepartmentEmployees[Row]2[Column]colEmployee</PropertyCondition>
+                                        <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                      </AndCondition>
+                                      <SupportLevel>0</SupportLevel>
+                                      <Descendants />
+                                    </UIObject>
+                                    <UIObject ControlType="Cell" Id="UINilssonRolandCell" FriendlyName="Nilsson, Roland" SpecialControlType="None">
+                                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                      <WindowTitles>
+                                        <WindowTitle>Legg til ansatte</WindowTitle>
+                                      </WindowTitles>
+                                      <AndCondition>
+                                        <PropertyCondition Name="Name">gcDepartmentEmployeesGridControlCell[View]gvDepartmentEmployees[Row]4[Column]colEmployee</PropertyCondition>
+                                        <PropertyCondition Name="ClassName">GridControlCell</PropertyCondition>
+                                      </AndCondition>
+                                      <SupportLevel>0</SupportLevel>
+                                      <Descendants />
+                                    </UIObject>
+                                  </Descendants>
+                                </UIObject>
+                              </Descendants>
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UIAnsatteiarbeidsplanWindow" FriendlyName="Ansatte i arbeidsplan" SpecialControlType="None" SessionId="5506618">
+          <TechnologyName>DevExpress.v18.2</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>Ansatte i arbeidsplan</WindowTitle>
+          </WindowTitles>
+          <AndCondition>
+            <PropertyCondition Name="Name">Ansatte i arbeidsplan</PropertyCondition>
+            <PropertyCondition Name="ClassName" Operator="Contains">WindowsForms10.Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Client" Id="UIPanelControlOuterClient" FriendlyName="panelControlOuter" SpecialControlType="None">
+              <TechnologyName>DevExpress.v18.2</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Ansatte i arbeidsplan</WindowTitle>
+              </WindowTitles>
+              <AndCondition>
+                <PropertyCondition Name="Name">panelControlOuter</PropertyCondition>
+                <PropertyCondition Name="ClassName">PanelControl</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Client" Id="UIPanelControlLeftClient" FriendlyName="panelControlLeft" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Ansatte i arbeidsplan</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition>
+                    <PropertyCondition Name="Name">panelControlLeft</PropertyCondition>
+                    <PropertyCondition Name="ClassName">PanelControl</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="TreeList" Id="UITreeListEmployeeTreeList" FriendlyName="treeListEmployee" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Ansatte i arbeidsplan</WindowTitle>
+                      </WindowTitles>
+                      <AndCondition>
+                        <PropertyCondition Name="Name">treeListEmployee</PropertyCondition>
+                        <PropertyCondition Name="ClassName">TreeList</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="TreeListNode" Id="UINode5TreeListNode" FriendlyName="Node5" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v18.2</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Ansatte i arbeidsplan</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition>
+                            <PropertyCondition Name="Name">Node5</PropertyCondition>
+                            <PropertyCondition Name="ClassName">TreeListNode</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="TreeListCell" Id="UIItem6LarssonHenrikTreeListCell" FriendlyName="6. Larsson, Henrik" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Ansatte i arbeidsplan</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">colNameMain</PropertyCondition>
+                                <PropertyCondition Name="ClassName">TreeListCell</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                        <UIObject ControlType="TreeListNode" Id="UINode6TreeListNode" FriendlyName="Node6" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v18.2</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Ansatte i arbeidsplan</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition>
+                            <PropertyCondition Name="Name">Node6</PropertyCondition>
+                            <PropertyCondition Name="ClassName">TreeListNode</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="TreeListCell" Id="UIItem7NilssonRolandTreeListCell" FriendlyName="7. Nilsson, Roland" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Ansatte i arbeidsplan</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">colNameMain</PropertyCondition>
+                                <PropertyCondition Name="ClassName">TreeListCell</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                        <UIObject ControlType="TreeListNode" Id="UINode2TreeListNode" FriendlyName="Node2" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v18.2</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Ansatte i arbeidsplan</WindowTitle>
+                          </WindowTitles>
+                          <AndCondition>
+                            <PropertyCondition Name="Name">Node2</PropertyCondition>
+                            <PropertyCondition Name="ClassName">TreeListNode</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="TreeListCell" Id="UIItem3ElmanderJohanTreeListCell" FriendlyName="3. Elmander, Johan" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                              <WindowTitles>
+                                <WindowTitle>Ansatte i arbeidsplan</WindowTitle>
+                              </WindowTitles>
+                              <AndCondition>
+                                <PropertyCondition Name="Name">colNameMain</PropertyCondition>
+                                <PropertyCondition Name="ClassName">TreeListCell</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Client" Id="UIPanelControlRightClient" FriendlyName="panelControlRight" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                  <WindowTitles />
+                  <AndCondition>
+                    <PropertyCondition Name="Name">panelControlRight</PropertyCondition>
+                    <PropertyCondition Name="ClassName">PanelControl</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Custom" Id="UIViewHostCustom" FriendlyName="ViewHost" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                      <WindowTitles />
+                      <AndCondition>
+                        <PropertyCondition Name="Name">ViewHost</PropertyCondition>
+                        <PropertyCondition Name="ClassName">ViewHost</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Client" Id="UIPcViewClient" FriendlyName="pcView" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v18.2</TechnologyName>
+                          <WindowTitles />
+                          <AndCondition>
+                            <PropertyCondition Name="Name">pcView</PropertyCondition>
+                            <PropertyCondition Name="ClassName">PanelControl</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="Custom" Id="UIEmployeeEditorsViewCustom" FriendlyName="EmployeeEditorsView" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                              <WindowTitles />
+                              <AndCondition>
+                                <PropertyCondition Name="Name">EmployeeEditorsView</PropertyCondition>
+                                <PropertyCondition Name="ClassName">EmployeeEditorsView</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants>
+                                <UIObject ControlType="Client" Id="UIPcContentClient" FriendlyName="pcContent" SpecialControlType="None">
+                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                  <WindowTitles />
+                                  <AndCondition>
+                                    <PropertyCondition Name="Name">pcContent</PropertyCondition>
+                                    <PropertyCondition Name="ClassName">PanelControl</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants>
+                                    <UIObject ControlType="ScrollableControl" Id="UIXscContentScrollableControl" FriendlyName="xscContent" SpecialControlType="None">
+                                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                      <WindowTitles />
+                                      <AndCondition>
+                                        <PropertyCondition Name="Name">xscContent</PropertyCondition>
+                                        <PropertyCondition Name="ClassName">XtraScrollableControl</PropertyCondition>
+                                      </AndCondition>
+                                      <SupportLevel>0</SupportLevel>
+                                      <Descendants>
+                                        <UIObject ControlType="Custom" Id="UIGroupControlViewHostCustom" FriendlyName="groupControlViewHost" SpecialControlType="None">
+                                          <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                          <WindowTitles />
+                                          <AndCondition>
+                                            <PropertyCondition Name="Name">groupControlViewHost</PropertyCondition>
+                                            <PropertyCondition Name="ClassName">GroupControlViewHost</PropertyCondition>
+                                          </AndCondition>
+                                          <SupportLevel>0</SupportLevel>
+                                          <Descendants>
+                                            <UIObject ControlType="Client" Id="UIGroupControlClient" FriendlyName="GroupControl" SpecialControlType="None">
+                                              <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                              <WindowTitles />
+                                              <AndCondition>
+                                                <PropertyCondition Name="Name">groupControlViewHostGroupControl[1]</PropertyCondition>
+                                                <PropertyCondition Name="ClassName">GroupControl</PropertyCondition>
+                                              </AndCondition>
+                                              <SupportLevel>0</SupportLevel>
+                                              <Descendants>
+                                                <UIObject ControlType="Custom" Id="UIEmployeeManagerF3CalCustom" FriendlyName="EmployeeManagerF3CalculationOptionView" SpecialControlType="None">
+                                                  <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                                  <WindowTitles />
+                                                  <AndCondition>
+                                                    <PropertyCondition Name="Name">EmployeeManagerF3CalculationOptionView</PropertyCondition>
+                                                    <PropertyCondition Name="ClassName">EmployeeManagerF3CalculationOptionView</PropertyCondition>
+                                                  </AndCondition>
+                                                  <SupportLevel>0</SupportLevel>
+                                                  <Descendants>
+                                                    <UIObject ControlType="LookUpEdit" Id="UILueF3CalculationOptiLookUpEdit" FriendlyName="lueF3CalculationOption" SpecialControlType="None">
+                                                      <TechnologyName>DevExpress.v18.2</TechnologyName>
+                                                      <WindowTitles />
+                                                      <AndCondition>
+                                                        <PropertyCondition Name="Name">lueF3CalculationOption</PropertyCondition>
+                                                        <PropertyCondition Name="ClassName">LookUpEdit</PropertyCondition>
+                                                      </AndCondition>
+                                                      <SupportLevel>0</SupportLevel>
+                                                      <Descendants />
+                                                    </UIObject>
+                                                  </Descendants>
+                                                </UIObject>
+                                              </Descendants>
+                                            </UIObject>
+                                          </Descendants>
+                                        </UIObject>
+                                      </Descendants>
+                                    </UIObject>
+                                  </Descendants>
+                                </UIObject>
+                              </Descendants>
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+      </TopLevelWindows>
+    </UIMap>
+  </Maps>
+  <ValueMap>
+    <ParameterList />
+  </ValueMap>
+</UITest>
