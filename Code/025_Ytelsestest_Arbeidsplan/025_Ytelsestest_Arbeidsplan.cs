@@ -17,9 +17,7 @@ namespace _025_Ytelsestest_Arbeidsplan
     /// </summary>
     [CodedUITest]
     public class Test_025_Ytelsestest_Arbeidsplan
-    {
-        
-       
+    {       
         [TestMethod, Timeout(6000000)]
         public void SystemTest_025()
         {
