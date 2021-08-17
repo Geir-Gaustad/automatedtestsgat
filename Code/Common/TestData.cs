@@ -143,7 +143,7 @@ namespace CommonTestData
                 if (string.IsNullOrEmpty(GatRunVersion))
                     GetIniFile();
 
-                return Path.Combine(@"\\IPVSLTCTFS001\TeamCity\Gat\" + GatRunVersion, @"Deploy\GatRun.exe");
+                return Path.Combine(@"\\IPVSLTCMAIN001\TeamCity\Gat\" + GatRunVersion, @"Deploy\GatRun.exe");
             }
         }
         public static string GatturnusExePath
