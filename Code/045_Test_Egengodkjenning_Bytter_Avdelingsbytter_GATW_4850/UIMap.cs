@@ -30,7 +30,7 @@
         #region Global Variable Declarations
         //MinGat
 
-        private string TargetAddressZipFiles = @"\\NO-VSW-WS-0030\TeamCity\Gat\";
+        private string TargetAddressZipFiles = @"\\IPVSLTCTFS001\TeamCity\Gat\";
         private static string DestinationAddressZipFiles = Path.Combine(TestData.GetWorkingDirectory, @"ZipFiles");
         private string UIExtractedGatFiles = DestinationAddressZipFiles + @"\Gat_no";
         private string MinGatAppsettingsConfig = DestinationAddressZipFiles + @"\MinGat_no\Template\appSettings.config";

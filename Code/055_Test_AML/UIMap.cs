@@ -310,7 +310,7 @@
         
         public void GetZipFiles()
         {
-            string TargetAddressZipFiles = @"\\NO-VSW-WS-0030\TeamCity\Gat\";
+            string TargetAddressZipFiles = @"\\IPVSLTCTFS001\TeamCity\Gat\";
             var filesToCopy = new List<string>() { "Gat Web Services 1 NOR" };//, "Gat Web Services 2 NOR" };
             UICommon.UIMapVS2017.GetGatZipFiles(filesToCopy, TargetAddressZipFiles + CurrentTargetFilesAddress, DestinationAddressZipFiles, CurrentFileVersion, TestContext);
         }
