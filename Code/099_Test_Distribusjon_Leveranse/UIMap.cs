@@ -518,7 +518,7 @@
                 //CleanupGat
                 if (!SupportFunctions.DirectoryDelete(CommonPathsAndParams.UIExtractedGatFiles, TestContext))
                     errorList.Add("Error deteting Gat directory: " + CommonPathsAndParams.UIExtractedGatFiles);
-                
+
                 //CleanUpMinGat
                 StartProcess(CommonPathsAndParams.IISManager, true);
                 Playback.Wait(2000);
@@ -3573,7 +3573,7 @@
         }
 
         #region Fields
-        public string TargetAddressZipFiles = @"\\NO-VSW-WS-0030\TeamCity\Gat\";
+        public string TargetAddressZipFiles = @"\\IPVSLTCMAIN001\TeamCity\Gat\";
 
         /// <summary>
         /// Type 'ASCL' in text box
